@@ -1,0 +1,13 @@
+sc_node_not_relation -> concept_higher_mathematics;;
+
+concept_higher_mathematics => nrel_main_idtf:
+[Раздел. Высшая математика](*<-lang_ru;;*);;
+
+concept_higher_mathematics <= nrel_section_decomposition:
+...
+(*
+	->section8;;
+     ->section9;;
+     ->section10;;
+    
+*);;

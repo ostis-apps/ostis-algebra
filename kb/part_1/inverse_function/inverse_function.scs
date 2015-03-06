@@ -1,0 +1,87 @@
+sc_node_not_relation -> concept_inverse_function;;
+concept_inverse_function=> nrel_main_idtf :
+[обратная функция] (* <- lang_ru;; *);
+[inverse function] (* <- lang_en;; *);; 
+
+//используемые константы
+concept_inverse_function <= nrel_using_constants: concept_variable ;;
+
+//определение
+concept_inverse_function <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(монотонная функция)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Если функция g в каждой точке x области значений обратимой функции f принимает такое значение y, что f(y) = x, то говорят, что функция g — обратная функция к f.](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+// утверждения
+concept_inverse_function <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(функция)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Если функция f обратима, и функция g обратна к функции f, то функция g также обратима и обратной к ней является функция f.Говорят, что функции f и g взаимно обратны.](* <- lang_ru;; 	*);;
+		*);;
+	*);
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(взаимо обратные функции; координатная плоскость; график)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Теорема. Графики взаимно обратных функций в одной и той же координатной плоскости симметричны относительно биссектрисы первой и третьей четверти.](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+//классы задач и способы решения
+concept_inverse_function <- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Задачи на определение является ли функция обратной.](* <- lang_ru;; *);;
+*);;
+*);;
+
+// конкретные задачи
+concept_inverse_function <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Найти обратную функцию для y=1/x.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+//пример
+concept_inverse_function -> rrel_example :
+...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://concept_inverse_function1.html"   (* <- lang_ru;; 	*);;
+		*);;
+	*);;

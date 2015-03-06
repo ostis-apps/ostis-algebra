@@ -1,0 +1,119 @@
+sc_node_norole_relation->nrel_least_common_multiple;; 
+
+nrel_least_common_multiple=>nrel_main_idtf:
+[наименьшее общее кратное*] (*<-lang_ru;;*);
+[least common multiple*] (*<-lang_en;;*);;
+
+//синонимы
+nrel_least_common_multiple=> nrel_idtf:[НОК*](*<-lang_ru;;*);;
+nrel_least_common_multiple=> nrel_idtf:[каноническое разложение чисел*](*<-lang_ru;;*);;
+
+
+//иерархия
+nrel_least_common_multiple<= nrel_inclusion: nrel_comparison;;
+
+//определение и пояснения
+nrel_least_common_multiple<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(наименьшее общее кратное*)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Наименьшим общим кратным (НОК) двух чисел называется наименьшее натуральное число( обозначается (a,b) или \[a,b \])](* <- lang_ru;; 	*);;
+		*);;
+	*);
+     ...
+    (*
+=> nrel_main_idtf: [Пояснение(наименьшее общее кртаное*)] (* <- lang_ru;; *);;
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://NOK1.html" (*<-lang_ru;;*);;
+*);;
+*);;
+
+//утверждения
+nrel_least_common_multiple<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(равенство*; НОД*)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Если ab>0, то \[ a, b \] ⋅(a, b)=a⋅b, где (a, b) – наибольший общий делитель для a и b]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+//используемые константы
+nrel_least_common_multiple<= nrel_using_constants: concept_divider;  concept_prime_number; concept_the_smallest_natural_number;concept_multiplier;concept_prime_factor ;;
+
+//конкретные задачи
+ nrel_least_common_multiple <- rrel_key_sc_element:
+...
+
+(*
+=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+<- sc_task;;
+<= nrel_sc_text_translation:
+...
+
+(*
+-> rrel_example:
+[Найти наименьшее общее кратное чисел 12 и 36](* <- lang_ru;; *);;
+*);
+...
+
+(*
+-> rrel_example:
+[Найти НОК(14,63)](* <- lang_ru;; *);;
+*);;
+*);;
+
+//классы задач и способы решения
+ nrel_least_common_multiple<- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Задачи на нахождении наименьшего общего кратного (НОК)](* <- lang_ru;; *);;
+*);;
+*);;
+
+//Домены
+nrel_least_common_multiple  <- concept_ternary_relation;;
+
+nrel_least_common_multiple  <= nrel_first_domain:
+concept_natural_number;;
+
+nrel_least_common_multiple  <= nrel_second_domain: 
+concept_natural_number;;
+
+nrel_least_common_multiple   <= nrel_third_domain: 
+concept_natural_number;;
+
+
+//пример
+ nrel_least_common_multiple  -> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[НОК (14, 63) = 126 (126:14=9, 126:63=2)](* <- lang_ru;; 	*);;
+		*);;
+	*);;

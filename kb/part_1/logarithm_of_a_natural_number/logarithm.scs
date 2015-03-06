@@ -1,0 +1,92 @@
+sc_node_norole_relation->nrel_logarithm_of_a_natural_number;;
+
+nrel_logarithm_of_a_natural_number=>nrel_main_idtf:
+[логарифмирование натурального числа*] (*<-lang_ru;;*);
+[logarithm of a natural number*] (*<-lang_en;;*);;
+
+//синонимы
+nrel_logarithm_of_a_natural_number=> nrel_idtf:[нахождение логарифма*](*<-lang_ru;;*);;
+nrel_logarithm_of_a_natural_number=> nrel_idtf:[logarithm*](*<-lang_en;;*);;
+
+//иерархия
+nrel_logarithm_of_a_natural_number<= nrel_strict_inclusion: nrel_logarithm_of_an_integer;;
+
+//определение и пояснения
+nrel_logarithm_of_a_natural_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(логарифмирование натурального числа*)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Логарифмирование – действие, заключающееся в нахождении логарифма числа. ](* <- lang_ru;; *);;
+		*);;
+	*);
+     ...
+    (*
+=> nrel_main_idtf: [Пояснение(логарифмирование натурального числа*)] (* <- lang_ru;; *);;
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Логарифмирование – второе из двух действий, обратных действию возведения в степень](* <- lang_ru;; *);;
+*);;
+*);
+
+     ...
+    (*
+=> nrel_main_idtf: [Пояснение(логарифмирование натурального числа*)] (* <- lang_ru;; *);;
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://logarithm1.html" (*<-lang_ru;;*);;
+*);;
+*);;
+
+//конкретные задачи
+nrel_logarithm_of_a_natural_number <- rrel_key_sc_element:
+...
+
+(*
+=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+<- sc_task;;
+<= nrel_sc_text_translation:
+...
+
+(*
+-> rrel_example:
+"file://logarithm2.html" (*<-lang_ru;;*);;
+*);;
+*);;
+
+//классы задач и способы решения
+nrel_logarithm_of_a_natural_number <- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Задачи на нахождение логарифма числа.](* <- lang_ru;; *);;
+*);;
+*);;
+
+//Домены
+nrel_logarithm_of_a_natural_number <- concept_ternary_relation;;
+
+nrel_logarithm_of_a_natural_number <= nrel_first_domain:
+concept_natural_number;;
+
+nrel_logarithm_of_a_natural_number<= nrel_second_domain: 
+concept_natural_number;;
+
+nrel_logarithm_of_a_natural_number<= nrel_third_domain: 
+concept_natural_number;;

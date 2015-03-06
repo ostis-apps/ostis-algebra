@@ -1,0 +1,65 @@
+sc_node_norole_relation->nrel_less_or_equal;; 
+
+nrel_less_or_equal=>nrel_main_idtf:
+[меньше либо равно*](*<-lang_ru;;*);
+[less or equal*](*<-lang_en;;*);;
+
+//определения и пояснения
+nrel_less_or_equal <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(меньше либо равно*)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Меньше либо равно (⩽) - утверждение об относительной величине или порядке двух объектов.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//пример
+nrel_less_or_equal-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+...
+		(*
+		-> rrel_example: 
+	[y⩽32 - y меньше либо равен 32](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+//классы задач и способы решения
+ nrel_less_or_equal<- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Задачи на нахождение наименьшего числа.](* <- lang_ru;; *);;
+*);;
+*);;
+
+//конкретные задачи
+ nrel_less_or_equal<- rrel_key_sc_element:
+...
+
+(*
+=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+<- sc_task;;
+<= nrel_sc_text_translation:
+...
+
+(*
+-> rrel_example:
+[Найти наименьшее число: (3*7); 21; -21; 0.](* <- lang_ru;; *);;
+*);;
+*);;
+
+ nrel_less_or_equal<= nrel_first_domain:concept_number;;
+ nrel_less_or_equal<= nrel_second_domain: concept_number;;

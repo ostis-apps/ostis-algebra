@@ -1,0 +1,19 @@
+section9
+=> nrel_main_idtf:
+	[Подраздел. Ряды]	(*	<- lang_ru;;	*);
+=> nrel_main_idtf:
+	[Subsection. Series]	(*	<- lang_en;;	*);;
+
+section9<=nrel_inclusion:
+    {
+concept_fourier_series;
+concept_taylor_series;
+concept_functional_series;
+concept_trigonometric_series;
+concept_power_series;
+concept_complex_numerical_series;
+concept_real_numerical_series;
+concept_natural_series;
+concept_numerical_series;
+concept_series
+    };;

@@ -1,0 +1,115 @@
+sc_node_norole_relation->nrel_square_of_the_number;;
+
+nrel_square_of_the_number=>nrel_main_idtf:
+[квадрат числа*](*<-lang_ru;;*);
+[square of the number*](*<-lang_en;;*);;
+
+//определение и пояснения
+nrel_square_of_the_number<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(квадрат числа*)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Квадарт числа n - число, полученное в результате возведения в степень 2 числа n.](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+   
+
+//утверждения
+nrel_square_of_the_number<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(сложение*; нечётное число; натуральное число)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Квадрат натурального числа n можно представить в виде суммы первых n нечётных чисел.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);
+... 
+	(*
+	=> nrel_main_idtf: [Утв.(арифметическая прогрессия)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Четыре различных квадрата не могут образовывать арифметическую прогрессию.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);
+... 
+	(*
+	=> nrel_main_idtf: [Утв.(натуральное число)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Каждое натуральное число может быть представлено как сумма четырёх квадратов ]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+//используемые константы
+ nrel_square_of_the_number<= nrel_using_constants:  concept_natural_number;nrel_addition;;
+
+//конкретные задачи
+ nrel_square_of_the_number<- rrel_key_sc_element:
+...
+
+(*
+=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+<- sc_task;;
+<= nrel_sc_text_translation:
+...
+
+(*
+-> rrel_example:
+"file://square_of_the_number.html"
+(* <- lang_ru;; *);;
+*);;
+*);;
+
+//классы задач и способы решения
+ nrel_square_of_the_number <- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Задачи на нахождение квадрата числа.](* <- lang_ru;; *);;
+*);;
+*);;
+
+//Домены
+nrel_square_of_the_number<- concept_ternary_relation;;
+
+nrel_square_of_the_number<= nrel_first_domain:concept_number;;
+
+nrel_square_of_the_number<= nrel_second_domain: concept_two;;
+
+nrel_square_of_the_number<= nrel_third_domain: concept_number;;
+
+
+//пример
+ nrel_square_of_the_number-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://square_of_the_number1.html"(* <- lang_ru;;*);;
+		*);;
+	*);;
