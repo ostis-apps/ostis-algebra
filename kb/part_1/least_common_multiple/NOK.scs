@@ -54,7 +54,7 @@ nrel_least_common_multiple<- rrel_key_sc_element:
 
 
 //используемые константы
-nrel_least_common_multiple<= nrel_using_constants: concept_divider;  concept_prime_number; concept_the_smallest_natural_number;concept_multiplier;concept_prime_factor ;;
+nrel_least_common_multiple<= nrel_using_constants: concept_divider;  concept_prime_number; smallest_natural_number;concept_multiplier;concept_prime_factor ;;
 
 //конкретные задачи
  nrel_least_common_multiple <- rrel_key_sc_element:

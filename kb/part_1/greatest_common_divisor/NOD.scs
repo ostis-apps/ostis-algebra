@@ -66,7 +66,7 @@ nrel_greatest_common_divisor<- rrel_key_sc_element:
 
 
 //используемые константы
- nrel_greatest_common_divisor <= nrel_using_constants: nrel_divisibility; concept_prime_number; concept_largest_natural_number;;
+ nrel_greatest_common_divisor <= nrel_using_constants: nrel_divisibility; concept_prime_number; largest_natural_number;;
 
 //конкретные задачи
  nrel_greatest_common_divisor <- rrel_key_sc_element:

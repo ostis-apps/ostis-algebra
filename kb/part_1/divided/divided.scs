@@ -5,8 +5,8 @@ nrel_divided=>nrel_main_idtf:
 [разделить*](*<-lang_ru;;*);
 [divided*](*<-lang_en;;*);;
 
-nrel_multiply<= nrel_first_domain:concept_number;;
-nrel_multiply<= nrel_second_domain: concept_number;;
+nrel_divided<= nrel_first_domain:concept_number;;
+nrel_divided<= nrel_second_domain: concept_number;;
 
 //определения и пояснения
 nrel_divided<- rrel_key_sc_element:

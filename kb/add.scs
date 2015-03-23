@@ -41,11 +41,11 @@ concept_positive_double_number => nrel_main_idtf :[положительное д
 sc_node_not_relation -> concept_negative_double_number;;																		
 concept_negative_double_number => nrel_main_idtf :[отрицательное дробное число] (* <- lang_ru;; *);; 	
 
-sc_node_not_relation -> concept_the_smallest_natural_number;; 
-concept_the_smallest_natural_number => nrel_main_idtf :[наименьшее натуральное число] (* <- lang_ru;; *);; 
+sc_node_not_relation -> smallest_natural_number;; 
+smallest_natural_number => nrel_main_idtf :[наименьшее натуральное число] (* <- lang_ru;; *);; 
 
-sc_node_not_relation -> concept_largest_natural_number;; 
-concept_largest_natural_number=> nrel_main_idtf :[наибольшее натуральное число] (* <- lang_ru;; *);; 
+sc_node_not_relation -> largest_natural_number;; 
+largest_natural_number=> nrel_main_idtf :[наибольшее натуральное число] (* <- lang_ru;; *);; 
 
 sc_node_norole_relation -> nrel_divisibility;; 
 nrel_divisibility => nrel_main_idtf :[делимость*] (* <- lang_ru;; *);; 
@@ -335,10 +335,23 @@ nrel_subtraction_of_fractions<= nrel_subdividing:
 //=============================================================================================================================================
 
 //=========================================================================ЗНАКИ===============================================================
-sc_node_not_relation -> concept_sign;; 
-concept_sign => nrel_main_idtf :[знак] (* <- lang_ru;; *);;
 
-concept_sign_operation<- rrel_key_sc_element:
+sc_node_not_relation -> sign_strict_inequality;;
+sign_strict_inequality => nrel_main_idtf :[знак строгого неравенства] (* <- lang_ru;; *);;
+
+sign_strict_inequality -> nrel_more;;
+sign_strict_inequality -> nrel_less;;
+
+sc_node_not_relation -> sign_nonstrict_inequality;;
+sign_nonstrict_inequality => nrel_main_idtf :[знак нестрогого неравенства] (* <- lang_ru;; *);;
+
+sign_nonstrict_inequality -> nrel_more_or_equal;;
+sign_nonstrict_inequality -> nrel_less_or_equal;;
+
+sc_node_not_relation -> sign;; 
+sign => nrel_main_idtf :[знак] (* <- lang_ru;; *);;
+
+sign_operation<- rrel_key_sc_element:
 	... 
 	(*
 	=> nrel_main_idtf: [Опр.(знак операции)]  (* <- lang_ru;; *);;
@@ -351,7 +364,7 @@ concept_sign_operation<- rrel_key_sc_element:
 		*);;
 	*);;
 
-concept_comparison_sign<- rrel_key_sc_element:
+comparison_sign<- rrel_key_sc_element:
 	... 
 	(*
 	=> nrel_main_idtf: [Опр.(знак сравнения)]  (* <- lang_ru;; *);;
@@ -364,7 +377,7 @@ concept_comparison_sign<- rrel_key_sc_element:
 		*);;
 	*);;
 
-concept_sign<- rrel_key_sc_element:
+sign<- rrel_key_sc_element:
 	... 
 	(*
 	=> nrel_main_idtf: [Опр.(знак)]  (* <- lang_ru;; *);;
@@ -377,17 +390,17 @@ concept_sign<- rrel_key_sc_element:
 		*);;
 	*);;
 
-sc_node_not_relation -> concept_sign_operation;; 
-concept_sign_operation => nrel_main_idtf :[знак операции] (* <- lang_ru;; *);;
+sc_node_not_relation -> sign_operation;; 
+sign_operation => nrel_main_idtf :[знак операции] (* <- lang_ru;; *);;
 
-concept_sign<= nrel_subdividing:
+sign<= nrel_subdividing:
 	...
   (* 
-	-> concept_comparison_sign;; 
-	-> concept_sign_operation;;
+	-> comparison_sign;; 
+	-> sign_operation;;
 *);;
 
-concept_sign_operation<= nrel_subdividing:
+sign_operation<= nrel_subdividing:
 	...
   (* 
 	-> nrel_plus;; 
@@ -397,10 +410,10 @@ concept_sign_operation<= nrel_subdividing:
 *);;
 
 
-sc_node_not_relation -> concept_comparison_sign;; 
-concept_comparison_sign => nrel_main_idtf :[знак сравнения] (* <- lang_ru;; *);;
+sc_node_not_relation -> comparison_sign;; 
+comparison_sign => nrel_main_idtf :[знак сравнения] (* <- lang_ru;; *);;
 
-concept_comparison_sign<= nrel_subdividing:
+comparison_sign<= nrel_subdividing:
 	...
   (* 
     -> nrel_more;;
@@ -414,7 +427,6 @@ concept_comparison_sign<= nrel_subdividing:
 	*);;
 
 sc_node_norole_relation->nrel_derivative;;
-
 nrel_derivative=>nrel_main_idtf:
 [производная*](*<-lang_ru;;*);
 [derivative*](*<-lang_en;;*);;
