@@ -1,0 +1,35 @@
+subsection_functions
+=> nrel_main_idtf:
+	[Подраздел. Функции]	(*	<- lang_ru;;	*);
+=> nrel_main_idtf:
+	[Subsection. Functions]	(*	<- lang_en;;	*);;
+
+subsection_functions<=nrel_inclusion:
+    {
+concept_graph_of_the_function;
+nrel_infimum;
+nrel_supremum;
+concept_function_module;
+concept_root_function;
+concept_directly_proportional_function; 
+concept_inversely_proportional_function;
+concept_monotone_function;
+concept_trigonometric_function;
+concept_power_function_with_positive_fractional_exponent;
+concept_power_function_with_negative_fractional_exponent;
+concept_power_function;
+concept_point_gap_function;
+concept_point_gap_function_of_the_first_kind;
+concept_point_gap_function_of_the_second_kind;
+concept_linear_function;
+nrel_limit_of_a_function;
+nrel_the_domain_of_the_function;
+nrel_range_of_the_function;
+concept_constant_function;
+concept_periodic_function;
+concept_infinitesimal_function;
+concept_infinitely_large_function;
+concept_inverse_function;
+concept_invertible_function;
+concept_function
+    };;

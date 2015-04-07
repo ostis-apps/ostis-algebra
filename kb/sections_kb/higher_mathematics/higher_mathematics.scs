@@ -1,0 +1,13 @@
+sc_node_not_relation -> higher_mathematics;;
+
+higher_mathematics => nrel_main_idtf:
+[Раздел. Высшая математика](*<-lang_ru;;*);;
+
+higher_mathematics <= nrel_section_decomposition:
+...
+(*
+	->subsection_integrals;;
+	->subsection_series;;
+	->subsection_vectors;;
+    
+*);;

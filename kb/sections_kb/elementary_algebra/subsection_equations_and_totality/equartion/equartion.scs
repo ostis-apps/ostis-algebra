@@ -1,0 +1,105 @@
+sc_node_not_relation->concept_equartion;;
+concept_equartion => nrel_main_idtf :
+[уравнение](*<-lang_ru;;*);
+[equartion](*<-lang_en;;*);;
+
+concept_equartion <= nrel_inclusion: concept_mathematical_object;;
+
+//определение
+concept_equartion <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(уравнение)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+					"file://equartion1.html"   (* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//разбиение
+concept_equartion<= nrel_subdividing:
+    ... 
+(*
+	-> concept_transcendental_equartion;;
+	-> concept_equivalent_to_the_equation;;
+	-> concept_linear_equation;;
+	-> concept_logarithmic_equartion;;
+	-> concept_exponential_equartion;;
+	-> concept_equation_with_a_parameter;;
+	-> concept_quadratic_equation;;
+	-> concept_differential_equation;;
+	-> concept_algebraic_equation;; 
+	-> concept_functional_equation;;
+	-> concept_cubic_equation;; 
+*);;
+
+// утверждения
+concept_equartion <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(корень уравнения)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Решить уравнение означает найти множество всех его решений (корней) или доказать, что корней нет.](* <- lang_ru;; *);;
+		*);;
+	*);
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(корень уравнения)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+					"file://equartion2.html"   (* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+//классы задач и способы решения
+concept_equartion <- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Задачи на нахождение корней уравнения](* <- lang_ru;; *);;
+*);;
+*);;
+
+// конкретные задачи
+concept_equartion <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://equartion3.html"   (* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+concept_equartion <= nrel_using_constants: concept_number;;
+
+//пример
+concept_equartion -> rrel_example :
+...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+[Уравнение (х-1)(х-2)=0; корни данного уравнения: 1 и 2.](* <- lang_ru;; *);;
+		*);;
+	*);;

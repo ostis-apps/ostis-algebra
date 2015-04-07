@@ -1,0 +1,67 @@
+sc_node_not_relation->concept_fourier_series;; 
+
+concept_fourier_series=>nrel_main_idtf:
+[ряд Фурье](*<-lang_ru;;*);
+[fourier series](*<-lang_en;;*);;
+
+//определения и пояснения
+concept_fourier_series <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(ряд фурье)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: 
+			[Ряд Фурье — тригонометрический ряд, служащий для разложения периодической функции на гармонические компоненты.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//утверждения
+
+//используемые константы
+ concept_fourier_series<= nrel_using_constants: concept_periodic_function;;
+
+//пример
+ concept_fourier_series-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+	"file://fourier_series.png"(* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+//классы задач и методы решения
+concept_fourier_series<- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Разложение функции в ряд Фурье.](* <- lang_ru;; *);;
+*);;
+*);;
+
+//конкретные задачи
+concept_fourier_series<- rrel_key_sc_element:
+...
+
+(*
+=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+<- sc_task;;
+<= nrel_sc_text_translation:
+...
+
+(*
+-> rrel_example:
+"file://fourier_series2.jpg"(* <- lang_ru;; *);;
+*);;
+*);;
