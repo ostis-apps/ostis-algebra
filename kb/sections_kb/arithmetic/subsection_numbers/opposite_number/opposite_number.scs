@@ -1,0 +1,76 @@
+sc_node_norole_relation -> nrel_opposite_number;; 
+nrel_opposite_number => nrel_main_idtf :
+[противоположное число*] (* <- lang_ru;; *);
+[opposite number*](* <-lang_en;; *);;
+
+//определение и пояснения
+nrel_opposite_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(противоположное число*)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Числа, которые отличаются друг от друга только знаком, называются противоположными.](* <- lang_ru;; 	*);;
+		*);;
+	*);
+    ...
+    (*
+	=> nrel_main_idtf: [Пояснение(противоположное число*)](* <- lang_ru;; *);;
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+	...
+	(*
+	-> rrel_example:
+	[Отношение, связывающее два числа, сумма которых равна нулю.](* <- lang_ru;; 	*);;
+	*);;
+	*);;
+
+//используемые константы
+nrel_opposite_number <= nrel_using_constants: concept_positive_number; concept_negative_number;;
+
+// конкретные задачи
+nrel_opposite_number  <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Найти противоположное число для: 2; -5; 19; -4,7.]	(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+// классы задач и способы решения
+nrel_opposite_number  <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+			-> rrel_example: 
+			[Задачи на нахождение противоположного числа.]	(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+//Домены
+nrel_opposite_number <= nrel_first_domain: concept_number;;
+nrel_opposite_number <= nrel_second_domain: concept_number;;
+
+//пример
+nrel_opposite_number -> rrel_example :
+...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Для 2 противоположное число -2.](* <- lang_ru;; 	*);;
+		*);;
+	*);;

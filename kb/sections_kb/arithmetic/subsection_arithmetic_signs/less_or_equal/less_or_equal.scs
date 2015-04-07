@@ -1,0 +1,30 @@
+less_or_equal=>nrel_main_idtf:
+[меньше либо равно](*<-lang_ru;;*);
+[less or equal](*<-lang_en;;*);;
+
+//определения и пояснения
+less_or_equal <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(меньше либо равно)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Меньше либо равно (⩽) - утверждение об относительной величине или порядке двух объектов.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//пример
+less_or_equal-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+...
+		(*
+		-> rrel_example: 
+	[y⩽32 - y меньше либо равен 32](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+

@@ -1,0 +1,47 @@
+subsection_numbers
+=> nrel_main_idtf:
+	[Подраздел. Числа]	(*	<- lang_ru;;	*);
+=> nrel_main_idtf:
+	[Subsection. Numbers]	(*	<- lang_en;;	*);;
+
+subsection_numbers<=nrel_inclusion:
+    {
+concept_progression;
+concept_numerical_sequence;
+nrel_limit_of_the_sequence;
+concept_equality;
+concept_complex_number;
+concept_numerical_ray;
+concept_number_system;
+concept_binary_number_system;
+concept_octal_notation;
+concept_hexadecimal_notation;
+concept_decimal_number_system;
+concept_perfect_number;
+concept_real_number;
+concept_algebraic_number;
+concept_double_number;
+concept_integer;
+nrel_opposite_number;
+concept_negative_number;
+concept_positive_number;
+concept_composite_number;
+concept_prime_number;
+concept_odd_number;
+concept_even_number;
+nrel_proportion;
+concept_natural_number;
+concept_number;
+nrel_indentity;
+concept_amicable_numbers;
+concept_common_fraction;
+concept_decimal;
+concept_finite_decimal;
+concept_infinite_decimal;
+concept_mixed_fraction;
+concept_periodic_decimal;
+concept_proper_fraction;
+concept_non_periodic_decimal;
+concept_improper_fraction;
+concept_digit
+    };;

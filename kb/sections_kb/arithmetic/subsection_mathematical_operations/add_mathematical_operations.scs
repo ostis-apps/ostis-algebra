@@ -1,0 +1,53 @@
+sc_node_not_relation->nrel_division_of_fractions;; 
+nrel_division_of_fractions=>nrel_main_idtf:[деление дробей*] (*<-lang_ru;;*);;
+
+//разбиение
+nrel_division_of_fractions<= nrel_subdividing:
+	...
+	(* 
+	-> nrel_division_of_common_fractions;;
+	-> nrel_division_of_decimal_fraction;;
+	-> nrel_division_of_common_fraction_by_a_number;;
+     ->  nrel_division_of_mixed_fractions;;
+	*);;
+
+sc_node_not_relation->nrel_multiplying_fractions;; 
+nrel_multiplying_fractions=>nrel_main_idtf:[умножение дробей*] (*<-lang_ru;;*);;
+
+//разбиение
+nrel_multiplying_fractions<= nrel_subdividing:
+	...
+	(* 
+	-> nrel_common_fraction_multiplication_by_a_natural_number;;
+	-> nrel_mixed_fraction_multiplication_by_a_natural_number;;
+	-> nrel_multiplication_of_common_fractions;;
+     -> nrel_multiplcation_of_mixed_fractions;;
+     -> nrel_multiplication_of_decimal_fraction;;
+	*);;
+
+sc_node_not_relation->nrel_addition_of_fractions;; 
+nrel_addition_of_fractions=>nrel_main_idtf:[сложение дробей*] (*<-lang_ru;;*);;
+
+//разбиение
+nrel_addition_of_fractions<= nrel_subdividing:
+	...
+	(* 
+	-> nrel_addition_of_fractions_with_the_same_denominator;;
+	-> nrel_addition_of_common_fractions;;
+	-> nrel_addition_of_mixed_fractions;;
+     -> nrel_addition_of_decimal_fraction;;
+	*);;
+
+
+sc_node_not_relation->nrel_subtraction_of_fractions;; 
+nrel_subtraction_of_fractions=>nrel_main_idtf:[разность дробей*] (*<-lang_ru;;*);;
+
+//разбиение
+nrel_subtraction_of_fractions<= nrel_subdividing:
+	...
+	(* 
+	-> nrel_subtraction_of_fractions_with_the_same_denominator;;
+	-> nrel_subtraction_of_common_fractions;;
+	-> nrel_subtraction_of_mixed_fractions;;
+     -> nrel_subtract_of_decimal_fraction;;
+	*);;

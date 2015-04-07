@@ -1,0 +1,14 @@
+sc_node_not_relation->formula_equivalent_infinitesimal_function;; 
+formula_equivalent_infinitesimal_function=>nrel_main_idtf:[формулы эквивалентности бесконечно малой функции](*<-lang_ru;;*);;
+
+sc_node_not_relation->trigonometric_formulas_sum_and_difference;; 
+trigonometric_formulas_sum_and_difference=>nrel_main_idtf:[тригонометрические формулы суммы и разности](*<-lang_ru;;*);;
+
+sc_node_norole_relation->nrel_seek;; 
+nrel_seek=>nrel_main_idtf:[стремиться*](*<-lang_ru;;*);;
+
+sc_node_norole_relation->nrel_arcsin;; 
+nrel_arcsin=>nrel_main_idtf:[арксинус*](*<-lang_ru;;*);;
+
+sc_node_norole_relation->nrel_arctg;; 
+nrel_arctg=>nrel_main_idtf:[арктангенс*](*<-lang_ru;;*);;

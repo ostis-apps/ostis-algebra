@@ -1,0 +1,31 @@
+more_or_equal=>nrel_main_idtf:
+[больше либо равно](*<-lang_ru;;*);
+[more or equal](*<-lang_en;;*);;
+
+
+//определения и пояснения
+more_or_equal <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(больше либо равно)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Больше либо равно (⩾) - утверждение об относительной величине или порядке двух объектов.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//пример
+more_or_equal-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+...
+		(*
+		-> rrel_example: 
+	[x⩾1 - x больше либо равен 1](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+

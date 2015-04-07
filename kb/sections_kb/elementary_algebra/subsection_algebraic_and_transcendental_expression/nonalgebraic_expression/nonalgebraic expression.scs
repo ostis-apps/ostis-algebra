@@ -1,0 +1,51 @@
+sc_node_not_relation->concept_nonalgebraic_expression;; 
+
+concept_nonalgebraic_expression=>nrel_main_idtf:
+[неалгебраическое выражение](*<-lang_ru;;*);
+[nonalgebraic expression](*<-lang_en;;*);;
+
+concept_nonalgebraic_expression <= nrel_inclusion: concept_expression;;
+
+//используемые константы
+concept_nonalgebraic_expression <= nrel_using_constants: concept_algebraic_expession;;
+
+// синонимы
+concept_nonalgebraic_expression => nrel_idtf:[трансцендентное выражение](*<-lang_ru;;*);;
+concept_nonalgebraic_expression => nrel_idtf:[буквенное выражение](*<-lang_ru;;*);;
+
+//пример
+concept_nonalgebraic_expression -> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+		"file://nonalgebraic_expression1.html"(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+//определения и пояснения
+concept_nonalgebraic_expression  <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(неалгебраическое выражение)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Неалгебраическим (или трансцендентным) называется буквенное выражение, содержащее, помимо указанных алгебраических операций, операции логарифмирования, взятия синуса, косинуса, тангенса, котангенса, арксинуса и т.п.](* <- lang_ru;; *);;
+		*);;
+	*);
+ ...
+    (*
+=> nrel_main_idtf: [Пояснение (неалгебраическое выражение)] (* <- lang_ru;; *);;
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+			[Трансцендентные выражения содержат переменные под знаками логарифмической, показательной, тригонометрических функций.](* <- lang_ru;; *);;
+*);;
+*);;

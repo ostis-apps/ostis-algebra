@@ -1,0 +1,62 @@
+sc_node_not_relation -> concept_joint_set_of_algebraic_equations;;
+
+//рус.-англ.
+concept_joint_set_of_algebraic_equations => nrel_main_idtf:
+[совместная система алгебраических уравнений](*<-lang_ru;;*);
+[joint set of algebraic equations](*<-lang_en;;*);;
+
+
+//определение и пояснения
+concept_joint_set_of_algebraic_equations <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf: [Опр.(совместная система алгебраических уравнений)]  (* <- lang_ru;; *);;
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Совместная система алгебраических уравнений - система уравнений, которая имеет хотя бы одно решение.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//пример
+concept_joint_set_of_algebraic_equations -> rrel_example:
+	...
+	(*
+<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+	"file://joint_set_of_algebraic_equations.png"(* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+//классы задач и методы решения
+concept_joint_set_of_algebraic_equations <- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Исследование системы алгебраических уравнений на совместность.](* <- lang_ru;; *);;
+*);;
+*);;
+
+//конкретные задачи
+concept_joint_set_of_algebraic_equations <- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+<- sc_task;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://joint_set_of_algebraic_equations2.jpg"(* <- lang_ru;; *);;
+*);;
+*);;

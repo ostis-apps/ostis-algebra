@@ -6,6 +6,6 @@ section7
 
 section7<=nrel_inclusion:
     {
-concept_comparison_sign;
-concept_sign_operation
+comparison_sign;
+sign_operation
     };;
