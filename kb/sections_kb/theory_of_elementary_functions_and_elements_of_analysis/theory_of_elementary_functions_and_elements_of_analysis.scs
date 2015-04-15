@@ -1,0 +1,9 @@
+theory_of_elementary_functions_and_elements_of_analysis => nrel_main_idtf:
+[Раздел. Теория элементарных функций и элементы анализа](*<-lang_ru;;*);;
+
+theory_of_elementary_functions_and_elements_of_analysis <= nrel_section_decomposition:
+...
+(*
+	->subsection_functions;;
+    
+*);;

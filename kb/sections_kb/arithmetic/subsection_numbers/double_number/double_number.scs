@@ -1,0 +1,164 @@
+sc_node_not_relation->concept_double_number;; 
+
+concept_double_number=>nrel_main_idtf:
+[дробное число](*<-lang_ru;;*);
+[double number](*<-lang_en;;*);;
+
+// синонимы
+concept_double_number=> nrel_idtf:[рациональная дробь](*<-lang_ru;;*);;
+concept_double_number=> nrel_idtf:[дробь](*<-lang_ru;;*);;
+concept_double_number=> nrel_idtf:[рациональное дробное число](*<-lang_ru;;*);;
+concept_double_number=> nrel_idtf:[broken number](*<-lang_en;;*);;
+
+//иерархия
+concept_double_number <= nrel_inclusion: concept_rational_number;;
+
+//разбиение
+concept_double_number <= nrel_subdividing:
+	...
+	(* 
+	-> concept_proper_fraction;;
+	-> concept_mixed_fraction;;
+	-> concept_improper_fraction;;
+	*);;
+
+concept_double_number <= nrel_subdividing:
+	...
+	(* 
+	-> concept_positive_double_number;;
+	-> concept_negative_double_number;;
+	*);;
+
+concept_double_number <= nrel_subdividing:
+	...
+	(* 
+	-> concept_decimal;;
+	-> concept_common_fraction;;
+	*);;
+
+
+// классы задач и способы решения
+concept_double_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+			-> rrel_example: 
+			[Задачи на нахождение суммы дробей.](* <- lang_ru;; *);;
+		*);
+		...
+		(*
+			-> rrel_example: 
+			[Задачи на нахождение разности дробей.](* <- lang_ru;; *);;
+		*);
+
+		...
+		(*
+			-> rrel_example: 
+			[Задачи на нахождение произведения дробей.](* <- lang_ru;; *);;
+		*);
+		...
+		(*
+			-> rrel_example: 
+			[Задачи на деление дробей.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+//пример
+concept_double_number -> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+"file://double_number_5.html"(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+//определение
+concept_double_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(дробное число)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://double_number_2.html"(* <- lang_ru;; 	*);;
+		*);;
+	*);
+...
+(*
+	=> nrel_main_idtf: [Пояснение(дробное число)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Если а – целое положительное число, дробь называется положительной, если а – отрицательное целое число, дробь называется отрицательной.](* <- lang_ru;; *);;
+		*);;
+	*);
+...
+(*
+	=> nrel_main_idtf: [Пояснение(дробное число)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+"file://double_number7.png"(* <- lang_ru;; 	*);;
+		*);;
+	*);
+...
+(*
+	=> nrel_main_idtf: [Пояснение(дробное число)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Правильной называется дробь, у которой модуль числителя меньше модуля знаменателя. В противном случае дробь называется неправильной.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+//утверждения
+concept_double_number<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(целое число; дробь)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+	"file://double_number_3.html"(* <- lang_ru;; *);;
+		*);;
+*);
+...
+	(*
+	=> nrel_main_idtf: [Утв.(числитель; знаменатель; дробь; умножить*; число; простое число)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+"file://double_number6.png"(* <- lang_ru;; 	*);;
+		*);;
+*);
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(равенство; дробь)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+	"file://double_number_4.html"(* <- lang_ru;; *);;
+		*);;
+*);;

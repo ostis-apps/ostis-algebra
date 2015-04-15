@@ -1,0 +1,31 @@
+much_less=>nrel_main_idtf:
+[намного меньше](*<-lang_ru;;*);
+[much less](*<-lang_en;;*);;
+
+//определения и пояснения
+much_less <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(намного меньше)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Намного меньше (<<) - утверждение об относительной величине или порядке двух объектов.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//пример
+much_less-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+...
+		(*
+		-> rrel_example: 
+	[k<<x - k намного меньше x](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+

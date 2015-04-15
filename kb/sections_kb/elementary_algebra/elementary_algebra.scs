@@ -1,0 +1,11 @@
+elementary_algebra => nrel_main_idtf:
+[Раздел. Элементарная алгебра](*<-lang_ru;;*);;
+
+elementary_algebra <= nrel_section_decomposition:
+...
+(*
+	->subsection_algebraic_and_transcendental_expression;;
+	->subsection_equations_and_totality;;
+	->subsection_system_of_equations;;
+	->subsection_inequality;;
+*);;
