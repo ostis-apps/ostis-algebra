@@ -1,0 +1,30 @@
+much_more=>nrel_main_idtf:
+[намного больше](*<-lang_ru;;*);
+[much more](*<-lang_en;;*);;
+
+//определения и пояснения
+much_more <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(намного больше)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Намного больше (>>) - утверждение об относительной величине или порядке двух объектов.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//пример
+much_more-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+...
+		(*
+		-> rrel_example: 
+	[z>>y - z намного больше y](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+

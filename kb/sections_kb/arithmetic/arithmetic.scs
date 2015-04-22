@@ -1,0 +1,10 @@
+arithmetic => nrel_main_idtf:
+[Раздел. Арифметика](*<-lang_ru;;*);;
+
+arithmetic <= nrel_section_decomposition:
+...
+(*
+	->subsection_numbers;;
+     ->subsection_arithmetic_signs;;
+->subsection_mathematical_operations;;
+*);;

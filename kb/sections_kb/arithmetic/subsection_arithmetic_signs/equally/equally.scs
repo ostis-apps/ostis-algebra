@@ -1,0 +1,37 @@
+equally=>nrel_main_idtf:
+[равно](*<-lang_ru;;*);
+[equally](*<-lang_en;;*);;
+
+
+//определения и пояснения
+equally <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(равно)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Равно (=) - знак, который ставят между двумя идентичными по своему значению выражениями.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//пример
+equally-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+...
+		(*
+		-> rrel_example: 
+	[а=3 - а равно 3.](* <- lang_ru;; 	*);;
+		*);
+...
+		(*
+		-> rrel_example: 
+	[5/25=1/5 - 5/25 равно 1/5](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+
