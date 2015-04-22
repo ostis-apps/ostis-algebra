@@ -1,0 +1,38 @@
+formula_equivalent_infinitesimal_function=>nrel_main_idtf:[формула эквивалентности бесконечно малой функции](*<-lang_ru;;*);;
+
+formulas=>nrel_main_idtf:[формулы](*<-lang_ru;;*);;
+
+trigonometric_formulas_sum_and_difference=>nrel_main_idtf:[тригонометрическая формула суммы и разности](*<-lang_ru;;*);;
+
+trigonometric_formulas_half_angle_tg=>nrel_main_idtf:[формула, связывающая тригонометрическую функцию с тангенсом половинного угла](*<-lang_ru;;*);;
+ 
+trigonometric_formulas_half_angle=>nrel_main_idtf:[тригонометрическая формула половинного угла](*<-lang_ru;;*);;
+
+derivative_formula=>nrel_main_idtf:[формула дифференцирования](*<-lang_ru;;*);;
+
+formula_eilera=>nrel_main_idtf:[формулы Эйлера](*<-lang_ru;;*);;
+
+lows=>nrel_main_idtf:[законы](*<-lang_ru;;*);;
+
+commutative_law_of_addition=>nrel_main_idtf:[переместительный закон сложения](*<-lang_ru;;*);;
+commutative_law_of_multiplication=>nrel_main_idtf:[переместительный закон умножения](*<-lang_ru;;*);;
+associative_law_of_addition=>nrel_main_idtf:[сочетательный закон сложения](*<-lang_ru;;*);;
+associative_law_of_multiplication=>nrel_main_idtf:[сочетательный закон умножения](*<-lang_ru;;*);;
+distributive_law_of_multiplication_over_addition=>nrel_main_idtf:[распределительный закон умножения относительно сложения](*<-lang_ru;;*);;
+distributive_law_of_multiplication_relative_difference=>nrel_main_idtf:[распределительный закон умножения относительно разности](*<-lang_ru;;*);;
+
+
+formula_exponentiation=>nrel_main_idtf:[формылы возведения в степень](*<-lang_ru;;*);;
+
+formula_multiplication_powers_with_the_same_base=>nrel_main_idtf:[формула произведения степеней с одинаковым основанием](*<-lang_ru;;*);;
+multiplication_in_the_degree=>nrel_main_idtf:[произведение в степени](*<-lang_ru;;*);;
+dividing_a_degree=>nrel_main_idtf:[деление в степени](*<-lang_ru;;*);;
+
+
+
+sc_node_norole_relation->nrel_equality;; 
+nrel_equality=>nrel_main_idtf:[равенство*](*<-lang_ru;;*);;
+
+sc_node_norole_relation->nrel_pow;; 
+nrel_pow=>nrel_main_idtf:[возведение в степень*](*<-lang_ru;;*);;
+

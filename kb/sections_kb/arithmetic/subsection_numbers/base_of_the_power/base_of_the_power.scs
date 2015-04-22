@@ -1,0 +1,20 @@
+sc_node_role_relation->rrel_base_of_the_power;; //концепция
+
+rrel_base_of_the_power=>nrel_main_idtf:
+[основание степени'](*<-lang_ru;;*);
+[base of the power'](*<-lang_en;;*);;
+
+
+//определения и пояснения
+rrel_base_of_the_power <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(основание степени')]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Основание степени - число, которое возводят в степень и то, которое перемножают на само себя определенное количество раз.](* <- lang_ru;; 	*);;
+		*);;
+*);;
