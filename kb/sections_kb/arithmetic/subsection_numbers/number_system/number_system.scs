@@ -1,12 +1,15 @@
 sc_node_not_relation -> concept_number_system;; 
 concept_number_system => nrel_main_idtf :
 [система счисления] (* <- lang_ru;; *);
+[санау жүйесі] (* <- lang_kz;; *);
 [number system](*<-lang_en;;*);;
 
 // синонимы
 concept_number_system=> nrel_idtf:[представление числа](*<-lang_ru;;*);;
 concept_number_system=> nrel_idtf:[notation](*<-lang_en;;*);;
-concept_number_system=> nrel_idtf:[озиционная система счисления](*<-lang_ru;;*);;
+concept_number_system=> nrel_idtf:[позиционная система счисления](*<-lang_ru;;*);;
+concept_number_system=> nrel_idtf:[позициялық санау жүйесі](*<-lang_kz;;*);;
+concept_number_system=> nrel_idtf:[сандарды ондық санау жүйесінде көрсету](*<-lang_kz;;*);;
 
 //определение
 concept_number_system <- rrel_key_sc_element:

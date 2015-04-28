@@ -1,6 +1,7 @@
 sc_node_not_relation -> concept_number;;																	
 concept_number => nrel_main_idtf :
 [число] (* <- lang_ru;; *);
+[сан] (* <- lang_kz;; *);
 [number](*<-lang_en;;*);;
 
 // синонимы
@@ -44,7 +45,7 @@ concept_number <= nrel_using_constants: nrel_addition; nrel_multiplication; nrel
 concept_number <= nrel_subdividing:
 ...
 (*
-	-> concept_natural_number; concept_complex_number; concept_transcendental_number; concept_fibonacci_number; concept_perfect_number; concept_imaginary_number; concept_algebraic_number; concept_real_number ;;
+	-> concept_natural_number; concept_complex_number;  concept_perfect_number; concept_algebraic_number; concept_real_number ;;
 *);;
 
 concept_number <= nrel_subdividing:

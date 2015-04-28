@@ -53,16 +53,7 @@ concept_algebraic_number <- rrel_key_sc_element:
 	*);;
 
 //пример
- concept_algebraic_number-> rrel_example :
-	...
-	(* 
-<= nrel_sc_text_translation: 
-...
-		(*
-		-> rrel_example: 
-	[i; -15; 19.](* <- lang_en;; 	*);;
-		*);;
-	*);;
+ concept_algebraic_number-> rrel_example : i; 19;;
 
 // конкретные задачи
 concept_algebraic_number <- rrel_key_sc_element:

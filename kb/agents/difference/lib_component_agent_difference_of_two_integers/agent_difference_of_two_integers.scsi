@@ -126,9 +126,204 @@ scp_program -> agent_difference_of_two_integers
                        (*
                         <- printEl;;
                         -> rrel_1: rrel_fixed: rrel_scp_var: _answer1;;
-                        =>nrel_goto: .agent_difference_of_two_integers_operator_gen_answer;;
+                        =>nrel_goto: .agent_difference_of_two_integers_operator001;;
                         *);;
 	
+
+
+
+
+
+
+
+
+
+			->.agent_difference_of_two_integers_operator001
+                        (*
+                         <-genElStr5;;
+                          -> rrel_1: rrel_fixed: rrel_scp_const: rrel_node: ..difference;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc15;;
+                          -> rrel_3: rrel_fixed: rrel_scp_var: _number;;
+			  -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc30;;
+			  -> rrel_5: rrel_fixed: rrel_scp_const: rrel_minuend;;
+ 
+                        =>nrel_goto: .agent_difference_of_two_integers_operator002;;
+                        *);;
+                           
+                   ->.agent_difference_of_two_integers_operator002
+                        (*
+                         <-genElStr5;;
+                          -> rrel_1: rrel_fixed: rrel_scp_const: rrel_node: ..difference;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc16;;
+                          -> rrel_3: rrel_fixed: rrel_scp_var: _number1;;
+			  -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc30;;
+			  -> rrel_5: rrel_fixed: rrel_scp_const: rrel_subtrahend;;
+ 
+                        =>nrel_goto: .agent_difference_of_two_integers_operator003;;
+                        *);;
+
+                     ->.agent_difference_of_two_integers_operator003
+                        (*
+                         <-searchElStr5;;
+                          -> rrel_1: rrel_fixed: rrel_scp_const: rrel_node: ..difference;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc30;;
+                          -> rrel_3: rrel_assign: rrel_scp_var: _last;;
+                          -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc31;; 
+                          -> rrel_5: rrel_fixed: rrel_scp_const: rrel_result;;
+ 
+                        =>nrel_then: .agent_difference_of_two_integers_operator004;;
+                        =>nrel_else: .agent_difference_of_two_integers_operator005;;
+                        *);;
+
+                    ->  .agent_difference_of_two_integers_operator004
+                        (*
+                         <- eraseEl;;
+                         -> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _last;;
+
+                        => nrel_goto: .agent_difference_of_two_integers_operator005;;
+                         *);;
+
+                    ->.agent_difference_of_two_integers_operator005
+                        (*
+                         <-genElStr5;;
+                          -> rrel_1: rrel_fixed: rrel_scp_const: rrel_node: ..difference;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc17;;
+                          -> rrel_3: rrel_fixed: rrel_scp_var: _answer1;;
+                          -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc18;; 
+                          -> rrel_5: rrel_fixed: rrel_scp_const: rrel_result;;
+ 
+                        =>nrel_goto: .agent_difference_of_two_integers_operator006;;
+                        *);;
+                   
+                      ->.agent_difference_of_two_integers_operator006
+                        (*
+                         <-genElStr3;;
+                          -> rrel_1: rrel_fixed: rrel_scp_const: rrel_node: nrel_difference;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc19;;
+                          -> rrel_3: rrel_fixed: rrel_scp_const: ..difference;;
+ 
+                        =>nrel_goto: .agent_difference_of_two_integers_operator007;;
+                        *);;
+                      
+                       ->.agent_difference_of_two_integers_operator007
+                       (*
+                         <-genElStr3;;
+                          -> rrel_1: rrel_fixed: rrel_scp_var: rrel_node: _answer;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc20;;
+                          -> rrel_3: rrel_fixed: rrel_scp_const: rrel_node: ..difference;;
+             		
+                        =>nrel_goto: .agent_difference_of_two_integers_operator008;;
+                        *);;
+                             
+
+                       ->.agent_difference_of_two_integers_operator008
+                       (*
+                         <-searchSetStr5;;
+                          -> rrel_1: rrel_fixed: rrel_scp_const: rrel_node: ..difference;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc22;;
+                          -> rrel_3: rrel_assign: rrel_scp_var: _smth;;
+			  -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc22;;
+			  -> rrel_5: rrel_fixed: rrel_scp_const: rrel_minuend;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+                          
+                        =>nrel_goto: .agent_difference_of_two_integers_operator009;;
+                        *);;
+
+			-> .agent_difference_of_two_integers_operator009
+				(*
+				<- genElStr3;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc35;;
+				-> rrel_3: rrel_fixed: rrel_scp_const: rrel_minuend;;
+
+				=> nrel_goto: .agent_difference_of_two_integers_operator010;;
+				*);;
+			 
+                    
+                        ->.agent_difference_of_two_integers_operator010
+                       (*
+                         <-searchSetStr5;;
+                          -> rrel_1: rrel_fixed: rrel_scp_const: rrel_node: ..difference;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc22;;
+                          -> rrel_3: rrel_assign: rrel_scp_var: _smth;;
+			  -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc22;;
+			  -> rrel_5: rrel_fixed: rrel_scp_const: rrel_subtrahend;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+                          
+                        =>nrel_goto: .agent_difference_of_two_integers_operator011;;
+                        *);;
+
+			-> .agent_difference_of_two_integers_operator011
+				(*
+				<- genElStr3;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc35;;
+				-> rrel_3: rrel_fixed: rrel_scp_const: rrel_subtrahend;;
+
+				=> nrel_goto: .agent_difference_of_two_integers_operator012;;
+				*);;
+                    
+                      
+                       ->.agent_difference_of_two_integers_operator012
+                        (*
+                         <-searchSetStr5;;
+                          -> rrel_1: rrel_fixed: rrel_scp_const: rrel_node: ..difference;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc17;;
+                          -> rrel_3: rrel_assign: rrel_scp_var: _smth;;
+                          -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc18;; 
+                          -> rrel_5: rrel_fixed: rrel_scp_const: rrel_result;;
+ 
+                          ->rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+                          ->rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+                          ->rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+                        =>nrel_goto: .agent_difference_of_two_integers_operator013;;
+                        *);;
+
+                         ->.agent_difference_of_two_integers_operator013
+                       (*
+                         <-genElStr3;;
+                          -> rrel_1: rrel_fixed: rrel_scp_var: rrel_node: _answer;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc25;;
+                          -> rrel_3: rrel_fixed: rrel_scp_const: rrel_result;;
+
+                        =>nrel_goto: .agent_difference_of_two_integers_operator014;;
+                        *);;
+
+                       ->.agent_difference_of_two_integers_operator014
+                       (*
+                         <-genElStr3;;
+                          -> rrel_1: rrel_fixed: rrel_scp_var: rrel_node: _answer;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc26;;
+                          -> rrel_3: rrel_fixed: rrel_pos_const_perm: rrel_scp_var: _arc19;;
+                          
+                        =>nrel_goto: .agent_difference_of_two_integers_operator015;;
+                        *);; 
+                    
+                      ->.agent_difference_of_two_integers_operator015
+                       (*
+                         <-genElStr3;;
+                          -> rrel_1: rrel_fixed: rrel_scp_var: rrel_node: _answer;;
+                          -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc27;;
+                          -> rrel_3: rrel_fixed: rrel_scp_const: nrel_difference;;
+
+                        =>nrel_goto: .agent_difference_of_two_integers_operator_gen_answer;;
+                        *);;
+
+
+
+
+
+
+
+
+
+
 
 		-> .agent_difference_of_two_integers_operator_gen_answer 
 			(*

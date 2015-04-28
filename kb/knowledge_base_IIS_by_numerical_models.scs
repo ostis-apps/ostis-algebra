@@ -12,7 +12,9 @@ knowledge_base_ISS_by_numerical_models <= nrel_decomposition_bz:
 	elementary_algebra;
 	theory_of_elementary_functions_and_elements_of_analysis;
 	higher_mathematics;
-	documentation_ISS_by_numerical_models
+	documentation_ISS_by_numerical_models;
+	requests_to_the_system;
+	formulas
 };; 
 
 documentation_ISS_by_numerical_models <= nrel_section_decomposition:

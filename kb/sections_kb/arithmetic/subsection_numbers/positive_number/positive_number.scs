@@ -57,7 +57,7 @@ concept_positive_number <- rrel_key_sc_element:
 	*);;
 
 //используемые константы
-concept_positive_number <= nrel_using_constants: concept_set_numbers;nrel_multiplication;nrel_division; nrel_comparison;nrel_addition;;
+concept_positive_number <= nrel_using_constants: nrel_multiplication;nrel_division; nrel_comparison;nrel_addition;;
 
 //разбиение
 concept_positive_number <= nrel_subdividing:

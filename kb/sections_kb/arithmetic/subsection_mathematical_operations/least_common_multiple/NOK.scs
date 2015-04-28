@@ -2,10 +2,12 @@ sc_node_norole_relation->nrel_least_common_multiple;;
 
 nrel_least_common_multiple=>nrel_main_idtf:
 [наименьшее общее кратное*] (*<-lang_ru;;*);
+[ең кіші ортақ еселік*] (*<-lang_kz;;*);
 [least common multiple*] (*<-lang_en;;*);;
 
 //синонимы
 nrel_least_common_multiple=> nrel_idtf:[НОК*](*<-lang_ru;;*);;
+nrel_least_common_multiple=> nrel_idtf:[ЕКОЕ*](*<-lang_kz;;*);;
 nrel_least_common_multiple=> nrel_idtf:[каноническое разложение чисел*](*<-lang_ru;;*);;
 
 

@@ -1,115 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GWF version="2.0">
     <staticSector>
-        <node type="node/const/general_node" idtf="theory_of_elementary_functions_and_elements_of_analysis" shapeColor="0" id="162309720" parent="162324024" left="0" top="0" right="337.969" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="41.5" y="1230.41" haveBus="false" idtf_pos="0">
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="172666664" parent="174234936" x="404.5" y="461.408" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="166079152" parent="162324024" left="0" top="0" right="162" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="128.5" y="1128.41" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="172652824" parent="174234936" left="0" top="0" right="162" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="180.5" y="360.408" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="162308696" parent="162324024" x="248.5" y="1229.41" haveBus="false" idtf_pos="0">
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="174117224" parent="174234936" x="300.5" y="461.408" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="166074248" parent="162324024" x="352.5" y="1229.41" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="arithmetic" shapeColor="0" id="172666872" parent="174234936" left="0" top="0" right="65.1562" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="93.5" y="462.408" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="162323336" parent="162324024" id_b="162308696" id_e="162309720" b_x="248.5" b_y="1229.41" e_x="41.5" e_y="1230.41" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="170087312" parent="174234936" id_b="174117224" id_e="172666872" b_x="300.5" b_y="461.408" e_x="93.5" e_y="462.408" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="162322584" parent="162324024" id_b="166079152" id_e="162323336" b_x="128.5" b_y="1128.41" e_x="-1" e_y="226" dotBBalance="0" dotEBalance="0.599432">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174013816" parent="174234936" id_b="174117224" id_e="172666664" b_x="300.5" b_y="461.408" e_x="404.5" e_y="461.408" dotBBalance="0" dotEBalance="0">
             <points/>
         </arc>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="162320240" parent="162324024" id_b="162308696" id_e="166074248" b_x="248.5" b_y="1229.41" e_x="352.5" e_y="1229.41" dotBBalance="0" dotEBalance="0">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174014552" parent="174234936" id_b="172652824" id_e="170087312" b_x="180.5" b_y="360.408" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.599432">
             <points/>
         </arc>
-        <contour type="" idtf="какие подразделы включает в себя раздел теория элементарных функций и элементы анализа?" shapeColor="0" id="162324024" parent="0" left="0" top="0" right="579.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
-            <points>
-                <point x="-25.5" y="1102.41"/>
-                <point x="-25.5" y="1264.41"/>
-                <point x="410.5" y="1264.41"/>
-                <point x="410.5" y="1100.41"/>
-            </points>
-        </contour>
-        <node type="node/const/general_node" idtf="elementary_algebra" shapeColor="0" id="164067288" parent="162343344" left="0" top="0" right="117.641" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="42.5" y="1004.41" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="161839480" parent="162343344" left="0" top="0" right="162" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="129.5" y="902.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="161838736" parent="162343344" x="249.5" y="1003.41" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="159904808" parent="162343344" x="353.5" y="1003.41" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="162123944" parent="162343344" id_b="161838736" id_e="159904808" b_x="249.5" b_y="1003.41" e_x="353.5" e_y="1003.41" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="162342656" parent="162343344" id_b="161838736" id_e="164067288" b_x="249.5" b_y="1003.41" e_x="42.5" e_y="1004.41" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="162341864" parent="162343344" id_b="161839480" id_e="162342656" b_x="129.5" b_y="902.408" e_x="-19" e_y="285" dotBBalance="0" dotEBalance="0.599432">
-            <points/>
-        </arc>
-        <contour type="" idtf="какие подразделы включает в себя раздел элементарная алгебра?" shapeColor="0" id="162343344" parent="0" left="0" top="0" right="397.953" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
-            <points>
-                <point x="-24.5" y="876.408"/>
-                <point x="-24.5" y="1038.41"/>
-                <point x="411.5" y="1038.41"/>
-                <point x="411.5" y="874.408"/>
-            </points>
-        </contour>
-        <node type="node/const/general_node" idtf="higher_mathematics" shapeColor="0" id="158974384" parent="164062600" left="0" top="0" right="121.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="61.5" y="719.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="163339208" parent="164062600" x="268.5" y="718.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="163339736" parent="164062600" left="0" top="0" right="162" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="148.5" y="617.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="162315584" parent="164062600" x="372.5" y="718.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="165487208" parent="164062600" id_b="163339208" id_e="162315584" b_x="268.5" b_y="718.408" e_x="372.5" e_y="718.408" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="165485320" parent="164062600" id_b="163339208" id_e="158974384" b_x="268.5" b_y="718.408" e_x="61.5" e_y="719.408" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="165004760" parent="164062600" id_b="163339736" id_e="165485320" b_x="148.5" b_y="617.408" e_x="-32" e_y="257" dotBBalance="0" dotEBalance="0.599432">
-            <points/>
-        </arc>
-        <contour type="" idtf="какие подразделы включает в себя раздел высшая математика?" shapeColor="0" id="164062600" parent="0" left="0" top="0" right="393.141" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
-            <points>
-                <point x="-5.5" y="591.408"/>
-                <point x="-5.5" y="753.408"/>
-                <point x="430.5" y="753.408"/>
-                <point x="430.5" y="589.408"/>
-            </points>
-        </contour>
-        <node type="node/const/general_node" idtf="arithmetic" shapeColor="0" id="158667504" parent="165046408" left="0" top="0" right="65.1562" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="93.5" y="462.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="164102800" parent="165046408" x="300.5" y="461.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="161715136" parent="165046408" left="0" top="0" right="162" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="180.5" y="360.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="159324456" parent="165046408" x="404.5" y="461.408" haveBus="false" idtf_pos="0">
-            <content type="0" mime_type="" content_visibility="false" file_name=""/>
-        </node>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="159323784" parent="165046408" id_b="161715136" id_e="160186184" b_x="180.5" b_y="360.408" e_x="-3.5" e_y="259.408" dotBBalance="0" dotEBalance="0.599432">
-            <points/>
-        </arc>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="160186184" parent="165046408" id_b="164102800" id_e="158667504" b_x="300.5" b_y="461.408" e_x="93.5" e_y="462.408" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </pair>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="161930712" parent="165046408" id_b="164102800" id_e="159324456" b_x="300.5" b_y="461.408" e_x="404.5" e_y="461.408" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <contour type="" idtf="какие подразделы включает в себя раздел арифметика?" shapeColor="0" id="165046408" parent="0" left="0" top="0" right="341.562" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+        <contour type="" idtf="Какие подразделы содержит Раздел. Арифметика?" shapeColor="0" id="174234936" parent="0" left="0" top="0" right="315.984" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
             <points>
                 <point x="26.5" y="334.408"/>
                 <point x="26.5" y="496.408"/>
@@ -117,28 +30,115 @@
                 <point x="462.5" y="332.408"/>
             </points>
         </contour>
-        <node type="node/const/general_node" idtf="knowledge_base_ISS_by_numerical_models" shapeColor="0" id="159539072" parent="159567096" left="0" top="0" right="252.25" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="97" y="203" haveBus="false" idtf_pos="0">
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="173604752" parent="174148352" x="372.5" y="718.408" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/symmetry" idtf="" shapeColor="0" id="159754632" parent="159567096" x="304" y="202" haveBus="false" idtf_pos="0">
+        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="171063496" parent="174148352" left="0" top="0" right="162" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="148.5" y="617.408" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/var/general_node" idtf="" shapeColor="0" id="165488864" parent="159567096" x="408" y="202" haveBus="false" idtf_pos="0">
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="173602688" parent="174148352" x="268.5" y="718.408" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <node type="node/const/relation" idtf="nrel_decomposition_bz" shapeColor="0" id="159754504" parent="159567096" left="0" top="0" right="136.406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="184" y="101" haveBus="false" idtf_pos="0">
+        <node type="node/const/general_node" idtf="higher_mathematics" shapeColor="0" id="172673696" parent="174148352" left="0" top="0" right="121.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="61.5" y="719.408" haveBus="false" idtf_pos="0">
             <content type="0" mime_type="" content_visibility="false" file_name=""/>
         </node>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="159058312" parent="159567096" id_b="159754632" id_e="165488864" b_x="304" b_y="202" e_x="408" e_y="202" dotBBalance="0" dotEBalance="0">
-            <points/>
-        </arc>
-        <pair type="pair/var/orient" idtf="" shapeColor="0" id="159114024" parent="159567096" id_b="159754632" id_e="159539072" b_x="304" b_y="202" e_x="97" e_y="203" dotBBalance="0" dotEBalance="0">
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="170086576" parent="174148352" id_b="173602688" id_e="172673696" b_x="268.5" b_y="718.408" e_x="61.5" e_y="719.408" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <arc type="arc/var/pos" idtf="" shapeColor="0" id="162970440" parent="159567096" id_b="159754504" id_e="159114024" b_x="184" b_y="101" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.599432">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174013080" parent="174148352" id_b="171063496" id_e="170086576" b_x="148.5" b_y="617.408" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.599432">
             <points/>
         </arc>
-        <contour type="" idtf="какие разделы включает в себя ИСС по числовым моделям?" shapeColor="0" id="159567096" parent="0" left="0" top="0" right="364.625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174012344" parent="174148352" id_b="173602688" id_e="173604752" b_x="268.5" b_y="718.408" e_x="372.5" e_y="718.408" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="Какие подразделы включает в себя Раздел. Высшая математика?" shapeColor="0" id="174148352" parent="0" left="0" top="0" right="403.156" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="-5.5" y="591.408"/>
+                <point x="-5.5" y="753.408"/>
+                <point x="430.5" y="753.408"/>
+                <point x="430.5" y="589.408"/>
+            </points>
+        </contour>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="171062856" parent="173605376" x="353.5" y="1003.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="171060328" parent="173605376" x="249.5" y="1003.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="172554640" parent="173605376" left="0" top="0" right="162" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="129.5" y="902.408" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="elementary_algebra" shapeColor="0" id="170961560" parent="173605376" left="0" top="0" right="117.641" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="42.5" y="1004.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="170085840" parent="173605376" id_b="171060328" id_e="170961560" b_x="249.5" b_y="1003.41" e_x="42.5" e_y="1004.41" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174010872" parent="173605376" id_b="172554640" id_e="170085840" b_x="129.5" b_y="902.408" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.599432">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174011608" parent="173605376" id_b="171060328" id_e="171062856" b_x="249.5" b_y="1003.41" e_x="353.5" e_y="1003.41" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="Какие подразделы включает в себя Раздел. Элементарная алгебра?" shapeColor="0" id="173605376" parent="0" left="0" top="0" right="408.188" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="-24.5" y="876.408"/>
+                <point x="-24.5" y="1038.41"/>
+                <point x="411.5" y="1038.41"/>
+                <point x="411.5" y="874.408"/>
+            </points>
+        </contour>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="174117360" parent="170832712" x="352.5" y="1229.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="174035016" parent="170832712" x="248.5" y="1229.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="172673832" parent="170832712" left="0" top="0" right="162" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="128.5" y="1128.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="theory_of_elementary_functions_and_elements_of_analysis" shapeColor="0" id="174028688" parent="170832712" left="0" top="0" right="337.969" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="41.5" y="1230.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="170085104" parent="170832712" id_b="174035016" id_e="174028688" b_x="248.5" b_y="1229.41" e_x="41.5" e_y="1230.41" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174010136" parent="170832712" id_b="174035016" id_e="174117360" b_x="248.5" b_y="1229.41" e_x="352.5" e_y="1229.41" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174009400" parent="170832712" id_b="172673832" id_e="170085104" b_x="128.5" b_y="1128.41" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.599432">
+            <points/>
+        </arc>
+        <contour type="" idtf="Какие подразделы включает в себя Раздел. Теория элементарных функций и элементы анализа?" shapeColor="0" id="170832712" parent="0" left="0" top="0" right="584.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="-25.5" y="1102.41"/>
+                <point x="-25.5" y="1264.41"/>
+                <point x="410.5" y="1264.41"/>
+                <point x="410.5" y="1100.41"/>
+            </points>
+        </contour>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="173845232" parent="170104312" x="408" y="202" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="knowledge_base_ISS_by_numerical_models" shapeColor="0" id="174286424" parent="170104312" left="0" top="0" right="252.25" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="97" y="203" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_decomposition_bz" shapeColor="0" id="173846480" parent="170104312" left="0" top="0" right="136.406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="184" y="101" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/symmetry" idtf="" shapeColor="0" id="173845888" parent="170104312" x="304" y="202" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="170084368" parent="170104312" id_b="173845888" id_e="174286424" b_x="304" b_y="202" e_x="97" e_y="203" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174007664" parent="170104312" id_b="173846480" id_e="170084368" b_x="184" b_y="101" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.599432">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174008400" parent="170104312" id_b="173845888" id_e="173845232" b_x="304" b_y="202" e_x="408" e_y="202" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="Какова структура базы знаний Интеллектуальной справочной системы по числовым моделям?" shapeColor="0" id="170104312" parent="0" left="0" top="0" right="584.016" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
             <points>
                 <point x="30" y="75"/>
                 <point x="30" y="237"/>
@@ -146,5 +146,55 @@
                 <point x="466" y="73"/>
             </points>
         </contour>
+        <node type="node/var/symmetry" idtf="" shapeColor="0" id="173844456" parent="170088048" x="262.5" y="1445.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="175226680" parent="170088048" x="366.5" y="1445.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subsection_numbers" shapeColor="0" id="175227480" parent="170088048" left="0" top="0" right="121.391" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="55.5" y="1446.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_inclusion" shapeColor="0" id="171022416" parent="170088048" left="0" top="0" right="88.8438" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="142.5" y="1344.41" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="170083688" parent="170088048" id_b="173844456" id_e="175227480" b_x="262.5" b_y="1445.41" e_x="55.5" e_y="1446.41" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174006184" parent="170088048" id_b="171022416" id_e="170083688" b_x="142.5" b_y="1344.41" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.599432">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="174006952" parent="170088048" id_b="173844456" id_e="175226680" b_x="262.5" b_y="1445.41" e_x="366.5" e_y="1445.41" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="Какова структура Подраздела Числа?" shapeColor="0" id="170088048" parent="0" left="0" top="0" right="237.391" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="-11.5" y="1318.41"/>
+                <point x="-11.5" y="1480.41"/>
+                <point x="424.5" y="1480.41"/>
+                <point x="424.5" y="1316.41"/>
+            </points>
+        </contour>
+        <node type="node/const/general_node" idtf="requests_to_the_system" shapeColor="193" id="171370880" parent="0" left="0" top="0" right="137.594" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="863.5" y="423.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="166735360" parent="0" id_b="171370880" id_e="170088048" b_x="863.5" b_y="423.5" e_x="206.5" e_y="1398.41" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="176415320" parent="0" id_b="171370880" id_e="170832712" b_x="863.5" b_y="423.5" e_x="192.5" e_y="1182.41" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="176418176" parent="0" id_b="171370880" id_e="173605376" b_x="863.5" b_y="423.5" e_x="193.5" e_y="956.409" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="170394640" parent="0" id_b="171370880" id_e="174148352" b_x="863.5" b_y="423.5" e_x="212.5" e_y="671.408" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="176352232" parent="0" id_b="171370880" id_e="174234936" b_x="863.5" b_y="423.5" e_x="244.5" e_y="414.408" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="176682840" parent="0" id_b="171370880" id_e="170104312" b_x="863.5" b_y="423.5" e_x="248" e_y="155" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
     </staticSector>
 </GWF>

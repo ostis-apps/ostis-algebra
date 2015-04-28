@@ -1,7 +1,7 @@
 ui_menu_file_for_parity_check <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
 
 ui_menu_file_for_parity_check => nrel_main_idtf: 
-	[Запрос проверки чётности/нечётности числа] 
+	[Запрос проверки принадлежности числа к множеству чётных/нечётных чисел] 
 	(* <- lang_ru;; *);;
 
 ui_menu_file_for_parity_check => nrel_main_idtf: 
@@ -19,7 +19,7 @@ ui_menu_file_for_parity_check => ui_nrel_command_template:
 	*];;
 
 ui_menu_file_for_parity_check => ui_nrel_command_lang_template: 
-	[Запрос проверки чётности/нечётности числа: $ui_arg_1 ] 
+	[Запрос проверки принадлежности числа к множеству чётных/нечётных чисел: $ui_arg_1 ] 
 	(* <- lang_ru;; *);;
 
 ui_menu_file_for_parity_check => ui_nrel_command_lang_template: 

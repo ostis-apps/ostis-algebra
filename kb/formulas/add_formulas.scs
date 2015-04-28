@@ -1,5 +1,7 @@
 formula_equivalent_infinitesimal_function=>nrel_main_idtf:[формула эквивалентности бесконечно малой функции](*<-lang_ru;;*);;
 
+formulas=>nrel_main_idtf:[формулы](*<-lang_ru;;*);;
+
 trigonometric_formulas_sum_and_difference=>nrel_main_idtf:[тригонометрическая формула суммы и разности](*<-lang_ru;;*);;
 
 trigonometric_formulas_half_angle_tg=>nrel_main_idtf:[формула, связывающая тригонометрическую функцию с тангенсом половинного угла](*<-lang_ru;;*);;
@@ -34,3 +36,4 @@ nrel_equality=>nrel_main_idtf:[равенство*](*<-lang_ru;;*);;
 sc_node_norole_relation->nrel_pow;; 
 nrel_pow=>nrel_main_idtf:[возведение в степень*](*<-lang_ru;;*);;
 
+trigonometric_formulas=>nrel_main_idtf:[тригонометрчиеские формулы](*<-lang_ru;;*);;

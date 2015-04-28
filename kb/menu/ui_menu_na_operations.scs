@@ -15,7 +15,8 @@ ui_menu_na_operations<= nrel_ui_commands_decomposition:
         ui_menu_file_for_parity_check;
 	ui_menu_file_for_exponentiation;
 	ui_menu_file_for_factorization;
-        ui_menu_file_for_check_for_a_prime_number
+        ui_menu_file_for_check_for_a_prime_number;
+	ui_menu_file_for_extraction_of_root
 };;
 
 

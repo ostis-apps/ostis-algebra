@@ -1,0 +1,5 @@
+requests_to_the_system => nrel_main_idtf:
+[Раздел. Запросы к ИСС по числовым моделям](*<-lang_ru;;*);;
+
+formulas => nrel_main_idtf:
+[Раздел. Формулы и законы](*<-lang_ru;;*);;

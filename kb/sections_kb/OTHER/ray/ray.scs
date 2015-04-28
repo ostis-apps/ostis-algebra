@@ -4,7 +4,7 @@ concept_ray=>nrel_main_idtf:
 [луч](*<-lang_ru;;*);
 [ray](*<-lang_en;;*);;
 
-concept_ray<= nrel_using_constants: concept_number;concept_numerical_sequence;;
+concept_ray <= nrel_using_constants: concept_numerical_sequence;;
 
 concept_ray <- rrel_key_sc_element:
 	... 
