@@ -2,7 +2,8 @@ sc_node_not_relation->concept_natural_number;;
 
 concept_natural_number=>nrel_main_idtf:
 [натуральное число](*<-lang_ru;;*);
-[natural number](*<-lang_en;;*);;
+[natural number](*<-lang_en;;*);
+[натурал сан](*<-lang_kz;;*);;
 
 // синонимы
 concept_natural_number=> nrel_idtf:[Класс натуральных чисел](*<-lang_ru;;*);;

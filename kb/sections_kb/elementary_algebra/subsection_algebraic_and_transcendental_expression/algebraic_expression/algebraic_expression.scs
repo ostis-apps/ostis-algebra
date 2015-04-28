@@ -2,6 +2,7 @@ sc_node_not_relation->concept_algebraic_expession;;
 
 concept_algebraic_expession=>nrel_main_idtf:
 [алгебраическое выражение](*<-lang_ru;;*);
+[алгебралық өрнек](*<-lang_kz;;*);
 [algebraic expession](*<-lang_en;;*);;
 
 //синонимы

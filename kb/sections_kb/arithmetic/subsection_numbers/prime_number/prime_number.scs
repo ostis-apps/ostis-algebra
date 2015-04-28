@@ -2,6 +2,7 @@ sc_node_not_relation->concept_prime_number;;
 
 concept_prime_number=>nrel_main_idtf:
 [простое число](*<-lang_ru;;*);
+[жай сан](*<-lang_kz;;*);
 [prime number](*<-lang_en;;*);;
 
 // синонимы

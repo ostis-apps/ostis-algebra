@@ -2,6 +2,7 @@ sc_node_not_relation->concept_composite_number;;
 
 concept_composite_number=>nrel_main_idtf:
 [составное число](*<-lang_ru;;*);
+[құрама сан](*<-lang_kz;;*);
 [composite number](*<-lang_en;;*);;
 
 // синонимы

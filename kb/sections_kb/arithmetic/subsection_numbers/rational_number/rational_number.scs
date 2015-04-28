@@ -47,13 +47,4 @@ concept_rational_number<- rrel_key_sc_element:
 concept_rational_number<= nrel_using_constants: concept_number;;
 
 //пример
-concept_rational_number-> rrel_example :
-	...
-	(* 
-<= nrel_sc_text_translation: 
-...
-		(*
-		-> rrel_example: 
-	[-65, 0, 1, 53, 832.](* <- lang_en;; 	*);;
-		*);;
-	*);;
+concept_rational_number-> rrel_example : null; one; 53; 832;;

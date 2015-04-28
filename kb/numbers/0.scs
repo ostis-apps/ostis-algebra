@@ -1,11 +1,14 @@
 null=>nrel_main_idtf:
 [0](*<-lang_ru;;*);
-[0](*<-lang_en;;*);;
+[0](*<-lang_en;;*);
+[0](*<-lang_kz;;*);;
+
 
 // синонимы
 null=> nrel_idtf:[ноль](*<-lang_ru;;*);;
 null=> nrel_idtf:[нуль](*<-lang_ru;;*);;
 null=> nrel_idtf:[null](*<-lang_en;;*);;
+null=> nrel_idtf:[нөл](*<-lang_kz;;*);;
 
 //определение
 null <- rrel_key_sc_element:

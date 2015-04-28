@@ -2,6 +2,7 @@ sc_node_not_relation->concept_double_number;;
 
 concept_double_number=>nrel_main_idtf:
 [дробное число](*<-lang_ru;;*);
+[бөлшек сан](*<-lang_kz;;*);
 [double number](*<-lang_en;;*);;
 
 // синонимы
