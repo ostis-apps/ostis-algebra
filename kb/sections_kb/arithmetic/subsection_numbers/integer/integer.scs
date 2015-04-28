@@ -2,6 +2,7 @@ sc_node_not_relation->concept_integer;;
 
 concept_integer=>nrel_main_idtf:
 [целое число](*<-lang_ru;;*);
+[бүтін сан](*<-lang_kz;;*);
 [integer number](*<-lang_en;;*);;
 
 // синонимы
@@ -62,15 +63,5 @@ concept_integer <- rrel_key_sc_element:
 concept_integer <= nrel_using_constants: concept_natural_number;null;;
 
 //пример
-concept_integer -> rrel_example :
-	...
-	(* 
-<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-			[..., -2, -1, 0, 1, 2, ...](* <- lang_ru;; 	*);;
-
-		*);;
-	*);;
+concept_integer -> rrel_example : minus_two; one; eight; minus_five;;
 

@@ -4,6 +4,7 @@ one=>nrel_main_idtf:
 
 one=> nrel_idtf:[единица](*<-lang_ru;;*);;
 one=> nrel_idtf:[one](*<-lang_en;;*);;
+one=> nrel_idtf:[бірлік](*<-lang_kz;;*);;
 
 //определение
 one <- rrel_key_sc_element:

@@ -2,11 +2,14 @@ sc_node_not_relation->concept_decimal_number_system;;
 
 concept_decimal_number_system=>nrel_main_idtf:
 [десятичная система счисления](*<-lang_ru;;*);
+[ондық санау жүйесі](*<-lang_kz;;*);
 [decimal number system](*<-lang_en;;*);;
 
 // синонимы
 concept_decimal_number_system=> nrel_idtf:[десятичное представление числа](*<-lang_ru;;*);;
 concept_decimal_number_system=> nrel_idtf:[десятичная запись числа](*<-lang_ru;;*);;
+concept_decimal_number_system=> nrel_idtf:[ондық санды жазу](*<-lang_kz;;*);;
+concept_decimal_number_system=> nrel_idtf:[ондық санды атау](*<-lang_kz;;*);;
 
 //определение
 concept_decimal_number_system <- rrel_key_sc_element:

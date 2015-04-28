@@ -55,7 +55,7 @@ concept_real_number<- rrel_key_sc_element:
 	*);;
 
 //пример
- concept_real_number-> rrel_example :e; 28;3; 573;;
+ concept_real_number-> rrel_example: number_e; 28; 3; 573;;
 	
 
 // конкретные задачи
