@@ -1,6 +1,7 @@
 sc_node_not_relation -> concept_numerical_sequence;;
 concept_numerical_sequence => nrel_main_idtf :
 [числовая последовательность] (* <- lang_ru;; *);
+[сандық дәйектілігі] (* <- lang_kz;; *);
 [numerical sequence] (* <- lang_en;; *);;
 
 //используемые константы

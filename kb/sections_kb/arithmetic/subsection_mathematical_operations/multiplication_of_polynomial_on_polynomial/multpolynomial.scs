@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_multiplication_of_polynomial_on_polynomial;;
 
 nrel_multiplication_of_polynomial_on_polynomial=>nrel_main_idtf:
 [умножение многочлена на многчлен*](*<-lang_ru;;*);
+[көбейту полинома бойынша полином*](*<-lang_kz;;*);
 [multiplication of polynomial on polynomial*](*<-lang_en;;*);;
 
 // синонимы
@@ -9,12 +10,11 @@ nrel_multiplication_of_polynomial_on_polynomial=> nrel_idtf:[произведе�
 nrel_multiplication_of_polynomial_on_polynomial=> nrel_idtf:[multiplication of polynomial on polynomial*](*<-lang_ru;;*);;
 
 nrel_multiplication_of_polynomial_on_polynomial  <- ternary_relation;;
-nrel_multiplication_of_polynomial_on_polynomial  <= nrel_first_domain: concept_polynomial;;
-nrel_multiplication_of_polynomial_on_polynomial  <= nrel_second_domain: concept_polynomial;;
-nrel_multiplication_of_polynomial_on_polynomial   <= nrel_third_domain: concept_polynomial;;
+nrel_multiplication_of_polynomial_on_polynomial => nrel_first_domain: concept_polynomial;;
+nrel_multiplication_of_polynomial_on_polynomial => nrel_second_domain: concept_polynomial;;
+nrel_multiplication_of_polynomial_on_polynomial => nrel_third_domain: concept_polynomial;;
 
-nrel_multiplication_of_polynomial_on_polynomial<= nrel_using_constants:concept_polynomial; concept_monomial;;
-//определение
+
 nrel_multiplication_of_polynomial_on_polynomial <- rrel_key_sc_element:
 	... 
 	(*
@@ -48,7 +48,7 @@ a*m+b*m=a*(c+d)+b*(c+d)=a*c+a*d+b*c+b*d, следовательно, (a+b)*(c+d)
 		...
 		(*
 		-> rrel_example: 
-			"file://multpolynomial1.jpg"(* <- lang_ru;; *);;
+			"file://multpolynomial1.jpg";;
 		*);;
 	*);;
 

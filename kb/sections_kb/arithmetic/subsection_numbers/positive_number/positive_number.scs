@@ -2,6 +2,7 @@ sc_node_not_relation -> concept_positive_number;;
 
 concept_positive_number => nrel_main_idtf :
 [положительное число] (* <- lang_ru;; *);
+[жағымды сан] (* <- lang_kz;; *);
 [positive number](* <-lang_en;; *);;
 
 // синонимы

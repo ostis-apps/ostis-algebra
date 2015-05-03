@@ -5,6 +5,5 @@ arithmetic <= nrel_section_decomposition:
 ...
 (*
 	->subsection_numbers;;
-     ->subsection_arithmetic_signs;;
 ->subsection_mathematical_operations;;
 *);;

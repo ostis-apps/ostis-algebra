@@ -3,10 +3,10 @@ nrel_the_definite_integral=>nrel_main_idtf:
 [определённый интеграл*](*<-lang_ru;;*);
 [definite integral*](*<-lang_en;;*);;
  
-nrel_the_definite_integral<= nrel_first_domain:concept_function;;
-nrel_the_definite_integral <= nrel_second_domain: concept_number;;
+nrel_the_definite_integral => nrel_first_domain:concept_function;;
+nrel_the_definite_integral => nrel_second_domain: concept_number;;
 
-nrel_the_definite_integral <= nrel_using_constants: concept_interval; nrel_integral;nrel_limit_of_integration; nrel_integration;;
+nrel_the_definite_integral => nrel_using_constants: concept_interval; nrel_integral;nrel_limit_of_integration; nrel_integration;;
 
 nrel_the_definite_integral<- rrel_key_sc_element:
 	... 

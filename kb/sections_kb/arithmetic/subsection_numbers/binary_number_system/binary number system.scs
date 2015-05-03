@@ -2,6 +2,7 @@ sc_node_not_relation->concept_binary_number_system;;
 
 concept_binary_number_system=>nrel_main_idtf:
 [двоичная система счисления](*<-lang_ru;;*);
+[екілік жүйесі](*<-lang_kz;;*);
 [binary number system](*<-lang_en;;*);;
 
 // синонимы

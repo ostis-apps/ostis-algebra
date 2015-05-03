@@ -1,6 +1,7 @@
 sc_node_not_relation -> concept_progression;;
 concept_progression => nrel_main_idtf :
 [прогрессия] (* <- lang_ru;; *);
+[прогрессияның] (* <- lang_kz;; *);
 [progression] (* <- lang_en;; *);;
 
 concept_progression <- rrel_key_sc_element:

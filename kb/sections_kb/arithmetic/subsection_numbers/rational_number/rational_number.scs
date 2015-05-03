@@ -1,7 +1,8 @@
-sc_node_not_relation->concept_rational_number;; //концепция
+sc_node_not_relation->concept_rational_number;;
 
 concept_rational_number=>nrel_main_idtf:
 [рациональное число](*<-lang_ru;;*);
+[рационал сандар](*<-lang_kz;;*);
 [rational number](*<-lang_en;;*);;
 
 //определения и пояснения
@@ -47,4 +48,4 @@ concept_rational_number<- rrel_key_sc_element:
 concept_rational_number<= nrel_using_constants: concept_number;;
 
 //пример
-concept_rational_number-> rrel_example : null; one; 53; 832;;
+concept_rational_number-> rrel_example : null; one; fifty_three; 832;;

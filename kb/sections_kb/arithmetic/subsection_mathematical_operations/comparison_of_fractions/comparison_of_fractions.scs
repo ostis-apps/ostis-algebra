@@ -1,16 +1,15 @@
 sc_node_norole_relation->nrel_comparison_of_fractions;;
 nrel_comparison_of_fractions=>nrel_main_idtf:
 [сравнение дробей*] (*<-lang_ru;;*);
+[салыстыру фракциялары*] (*<-lang_kz;;*);
 [comparison of fractions*] (*<-lang_en;;*);;
 
-//используемые константы
-nrel_comparison_of_fractions <= nrel_using_constants: rrel_numerator; rrel_denominator;;
 
 nrel_comparison_of_fractions <- ternary_relation;;
 
-nrel_comparison_of_fractions <= nrel_first_domain: concept_double_number;;
-nrel_comparison_of_fractions <= nrel_second_domain: concept_double_number;;
-nrel_comparison_of_fractions <= nrel_third_domain: concept_double_number;;
+nrel_comparison_of_fractions => nrel_first_domain: concept_double_number;;
+nrel_comparison_of_fractions => nrel_second_domain: concept_double_number;;
+nrel_comparison_of_fractions => nrel_third_domain: concept_double_number;;
 
 // конкретные задачи
 nrel_comparison_of_fractions <- rrel_key_sc_element:

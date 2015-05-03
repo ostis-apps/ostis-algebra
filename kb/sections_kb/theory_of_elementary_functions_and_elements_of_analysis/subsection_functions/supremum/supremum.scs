@@ -68,5 +68,5 @@ nrel_supremum  -> rrel_example :
 
 
 
-nrel_supremum  <= nrel_first_domain: concept_numerical_series;;
-nrel_supremum  <= nrel_second_domain: concept_number;;
+nrel_supremum => nrel_first_domain: concept_numerical_series;;
+nrel_supremum => nrel_second_domain: concept_number;;

@@ -2,6 +2,7 @@ sc_node_not_relation->concept_periodic_decimal;;
 
 concept_periodic_decimal=>nrel_main_idtf:
 [периодическая десятичная дробь](*<-lang_ru;;*);
+[қайталанатын ондық](*<-lang_kz;;*);
 [periodic decimal](*<-lang_en;;*);;
 
 

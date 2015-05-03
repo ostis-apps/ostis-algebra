@@ -5,13 +5,13 @@ nrel_limit_of_a_function=> nrel_main_idtf :
 
 nrel_limit_of_a_function <= nrel_using_constants: concept_number;concept_interval;concept_function;;
 
-nrel_limit_of_a_function<= nrel_first_domain:
+nrel_limit_of_a_function => nrel_first_domain:
 concept_function;;
 
-nrel_limit_of_a_function <= nrel_second_domain: 
+nrel_limit_of_a_function => nrel_second_domain: 
 concept_number;;
 
-nrel_limit_of_a_function <= nrel_third_domain: 
+nrel_limit_of_a_function => nrel_third_domain: 
 concept_number;;
 
 nrel_limit_of_a_function <- rrel_key_sc_element:
@@ -47,7 +47,7 @@ nrel_limit_of_a_function <- rrel_key_sc_element:
 		...
 		(*
 		-> rrel_example: 
-			"file://limit_of_a_function.png"   (* <- lang_ru;; 	*);;
+			"file://limit_of_a_function.png" ;;
 		*);;
 	*);;
 
@@ -59,7 +59,7 @@ nrel_limit_of_a_function -> rrel_example :
 		...
 		(*
 		-> rrel_example: 
-"file://limit_of_a_function1.png"   (* <- lang_ru;; 	*);;
+"file://limit_of_a_function1.png";;
 		*);;
 	*);;
 

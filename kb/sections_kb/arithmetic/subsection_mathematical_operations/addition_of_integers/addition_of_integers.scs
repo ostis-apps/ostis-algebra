@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_addition_of_integers;;
 
 nrel_addition_of_integers=>nrel_main_idtf:
 [сложение целых чисел*](*<-lang_ru;;*);
+[бүтін қосу*](*<-lang_ru;;*);
 [addition of integers*](*<-lang_en;;*);;
 
 nrel_addition_of_integers=> nrel_idtf:[addition of whole number*](*<-lang_en;;*);;
@@ -33,7 +34,6 @@ nrel_addition_of_integers <- rrel_key_sc_element:
 		*);;
 	*);;
 
-nrel_addition_of_integers <= nrel_using_constants: nrel_module_number; concept_integer;;
 
 // классы задач и способы решения
 nrel_addition_of_integers  <- rrel_key_sc_element:

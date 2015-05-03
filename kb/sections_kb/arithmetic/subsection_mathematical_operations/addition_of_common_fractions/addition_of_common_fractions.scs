@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_addition_of_common_fractions;;
 
 nrel_addition_of_common_fractions=>nrel_main_idtf:
 [сложение обыкновенных дробей*] (*<-lang_ru;;*);
+[фракциялардың қосу*] (*<-lang_kz;;*);
 [addition_of_common_fractions*] (*<-lang_en;;*);;
 
 //синонимы
@@ -54,8 +55,8 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_addition_of_common_fractions<= nrel_first_domain:concept_common_fraction;;
-nrel_addition_of_common_fractions<= nrel_second_domain: concept_common_fraction;;
+nrel_addition_of_common_fractions => nrel_first_domain:concept_common_fraction;;
+nrel_addition_of_common_fractions => nrel_second_domain: concept_common_fraction;;
 
 //пример
  nrel_addition_of_common_fractions-> rrel_example :

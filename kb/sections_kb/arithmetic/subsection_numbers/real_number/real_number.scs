@@ -2,6 +2,7 @@ sc_node_not_relation->concept_real_number;;
 
 concept_real_number=>nrel_main_idtf:
 [вещественное число](*<-lang_ru;;*);
+[нақты сан](*<-lang_kz;;*);
 [real number](*<-lang_en;;*);;
 
 //синонимы

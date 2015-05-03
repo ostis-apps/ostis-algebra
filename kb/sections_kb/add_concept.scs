@@ -17,6 +17,12 @@ sc_node_not_relation -> concept_fraction;;
 concept_fraction => nrel_main_idtf :
 [дробь] (* <- lang_ru;; *);
 [fraction] (* <- lang_en;; *);;
+
+
+sc_node_not_relation -> concept_neutral_number;; 
+concept_neutral_number => nrel_main_idtf :
+[нейтральное число] (* <- lang_ru;; *);
+[neutral number] (* <- lang_en;; *);;
  
 sc_node_not_relation -> concept_negative_integer;;																		
 concept_negative_integer => nrel_main_idtf :[отрицательное целое число] (* <- lang_ru;; *);; 	

@@ -1,6 +1,3 @@
-sc_node_role_relation -> rrel_basis;; 
-rrel_basis => nrel_main_idtf :[основание'] (* <- lang_ru;; *);; 
-
 sc_node_norole_relation -> nrel_exponentiation_of_integer_numbers;; 
 nrel_exponentiation_of_integer_numbers => nrel_main_idtf :[возведение в степень на множестве целых чисел*] (* <- lang_ru;; *);; 
 
@@ -116,23 +113,29 @@ nrel_exponentiation=>nrel_main_idtf:
 
 sc_node_norole_relation-> nrel_multiplication;;
 nrel_multiplication=>nrel_main_idtf:
-[произведение*](*<-lang_ru;;*);
+[умножение*](*<-lang_ru;;*);
 [multiplication*](*<-lang_en;;*);;
+nrel_multiplication=>nrel_mathem_idtf: [⋅] (*<-lang_en;;*);;
+nrel_multiplication=>nrel_mathem_idtf: [×] (*<-lang_en;;*);;
 
 sc_node_norole_relation-> nrel_division;;
 nrel_division=>nrel_main_idtf:
 [деление*](*<-lang_ru;;*);
 [division*](*<-lang_en;;*);;
+nrel_division=>nrel_mathem_idtf: [/] (*<-lang_en;;*);;
+nrel_division=>nrel_mathem_idtf: [:] (*<-lang_en;;*);;
 
 sc_node_norole_relation-> nrel_addition;;
 nrel_addition=>nrel_main_idtf:
 [сложение*](*<-lang_ru;;*);
 [addition*](*<-lang_en;;*);;
+nrel_addition=>nrel_mathem_idtf: [+] (*<-lang_en;;*);;
 
 sc_node_norole_relation-> nrel_subtraction;;
 nrel_subtraction=>nrel_main_idtf:
 [вычитание*](*<-lang_ru;;*);
 [subtraction*](*<-lang_en;;*);;
+nrel_subtraction=>nrel_mathem_idtf: [-] (*<-lang_en;;*);;
 
 sc_node_norole_relation-> nrel_root_extract;;
 nrel_root_extract=>nrel_main_idtf:

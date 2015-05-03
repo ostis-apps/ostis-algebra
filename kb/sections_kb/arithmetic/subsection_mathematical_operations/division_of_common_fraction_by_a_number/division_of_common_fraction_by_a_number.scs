@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_division_of_common_fraction_by_a_number;;
 
 nrel_division_of_common_fraction_by_a_number=>nrel_main_idtf:
 [деление обыкновенной дроби на число*] (*<-lang_ru;;*);
+[ортақ фракциясының саны бойынша бөлу*] (*<-lang_kz;;*);
 [division of common fraction by a number*] (*<-lang_en;;*);;
 
 //определение и пояснения
@@ -51,9 +52,9 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_division_of_common_fraction_by_a_number<= nrel_first_domain:concept_common_fraction;;
-nrel_division_of_common_fraction_by_a_number<= nrel_second_domain: concept_number;;
-nrel_division_of_common_fraction_by_a_number<= nrel_third_domain: concept_common_fraction;;
+nrel_division_of_common_fraction_by_a_number => nrel_first_domain:concept_common_fraction;;
+nrel_division_of_common_fraction_by_a_number => nrel_second_domain: concept_number;;
+nrel_division_of_common_fraction_by_a_number => nrel_third_domain: concept_common_fraction;;
 
 //пример
  nrel_division_of_common_fraction_by_a_number -> rrel_example :

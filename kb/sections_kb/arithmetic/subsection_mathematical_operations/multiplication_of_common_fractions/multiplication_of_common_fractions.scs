@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_multiplication_of_common_fractions;;
 
 nrel_multiplication_of_common_fractions=>nrel_main_idtf:
 [умножение обыкновенных дробей*] (*<-lang_ru;;*);
+[фракцияларын көбейту*] (*<-lang_kz;;*);
 [multiplication of common fractions*] (*<-lang_en;;*);;
 // синонимы
 nrel_multiplication_of_common_fractions=>nrel_idtf:[произведение обыкновенных дробей*] (*<-lang_ru;;*);;
@@ -76,9 +77,9 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_multiplication_of_common_fractions<= nrel_first_domain:concept_common_fraction;;
-nrel_multiplication_of_common_fractions<= nrel_second_domain: concept_common_fraction;;
-nrel_multiplication_of_common_fractions<= nrel_third_domain: concept_common_fraction;;
+nrel_multiplication_of_common_fractions => nrel_first_domain:concept_common_fraction;;
+nrel_multiplication_of_common_fractions => nrel_second_domain: concept_common_fraction;;
+nrel_multiplication_of_common_fractions => nrel_third_domain: concept_common_fraction;;
 
 //пример
  nrel_multiplication_of_common_fractions -> rrel_example :

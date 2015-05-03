@@ -2,10 +2,11 @@ sc_node_norole_relation->nrel_subtraction_of_mixed_fractions;;
 
 nrel_subtraction_of_mixed_fractions=>nrel_main_idtf:
 [разность смешанных дробей*] (*<-lang_ru;;*);
+[аралас фракциялар арасындағы айырмашылық*] (*<-lang_kz;;*);
 [subtraction of mixed fractions*] (*<-lang_en;;*);;
 
 //синонимы
-nrel_subtraction_of_mixed_fractions=> nrel_idtf:[вычитание  смешанных дробей*](*<-lang_ru;;*);;
+nrel_subtraction_of_mixed_fractions=> nrel_idtf:[вычитание смешанных дробей*](*<-lang_ru;;*);;
 
 
 //определение и пояснения
@@ -55,8 +56,8 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_subtraction_of_mixed_fractions<= nrel_first_domain:concept_mixed_fraction;;
-nrel_subtraction_of_mixed_fractions <= nrel_second_domain: concept_mixed_fraction;;
+nrel_subtraction_of_mixed_fractions => nrel_first_domain:concept_mixed_fraction;;
+nrel_subtraction_of_mixed_fractions => nrel_second_domain: concept_mixed_fraction;;
 
 //пример
  nrel_subtraction_of_mixed_fractions-> rrel_example :

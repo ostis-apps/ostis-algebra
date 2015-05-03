@@ -2,6 +2,7 @@ sc_node_not_relation -> concept_negative_number;;
 
 concept_negative_number=> nrel_main_idtf :
 [отрицательное число] (* <- lang_ru;; *);
+[жағымсыз сан] (* <- lang_kz;; *);
 [negative number](* <-lang_en;; *);;
 
 // синонимы

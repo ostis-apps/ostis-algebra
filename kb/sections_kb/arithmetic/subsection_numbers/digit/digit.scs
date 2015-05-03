@@ -2,6 +2,7 @@ sc_node_not_relation -> concept_digit;;
 
 concept_digit=> nrel_main_idtf :
 [цифра] (* <- lang_ru;; *);
+[көрсеткіш] (* <- lang_kz;; *);
 [digit](*<-lang_en;;*);;
 
 concept_digit => nrel_idtf:[число](*<-lang_ru;;*);;
@@ -43,7 +44,7 @@ concept_digit <- rrel_key_sc_element:
 	*);;
 
 //используемые константы
-concept_digit <= nrel_using_constants: concept_number;;
+concept_digit => nrel_using_constants: concept_number;;
 
 //разбиение
 concept_digit <= nrel_subdividing:
@@ -53,13 +54,4 @@ concept_digit <= nrel_subdividing:
 	*);;
 
 //пример
-concept_digit -> rrel_example :
-	...
-	(* 
-<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-		[1; 2; 3; 4; 5; 6; 7; 8; 9; 0.](* <- lang_ru;; *);;
-*);;
-*);;
+concept_digit -> one; two; three; four; five; six; seven; eight; nine; null;;

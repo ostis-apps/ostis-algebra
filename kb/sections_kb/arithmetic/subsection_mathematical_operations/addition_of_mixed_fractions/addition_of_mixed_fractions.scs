@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_addition_of_mixed_fractions;;
 
 nrel_addition_of_mixed_fractions=>nrel_main_idtf:
 [сложение смешанных дробей*] (*<-lang_ru;;*);
+[аралас фракцияларын толықтыру*] (*<-lang_kz;;*);
 [addition of mixed fractions*] (*<-lang_en;;*);;
 
 //синонимы
@@ -54,8 +55,8 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_addition_of_mixed_fractions<= nrel_first_domain:concept_mixed_fraction;;
-nrel_addition_of_mixed_fractions <= nrel_second_domain: concept_mixed_fraction;;
+nrel_addition_of_mixed_fractions => nrel_first_domain:concept_mixed_fraction;;
+nrel_addition_of_mixed_fractions => nrel_second_domain: concept_mixed_fraction;;
 
 //пример
  nrel_addition_of_mixed_fractions-> rrel_example :

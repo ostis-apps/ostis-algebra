@@ -2,7 +2,8 @@ sc_node_norole_relation->nrel_division_of_monomialsl;;
 
 nrel_division_of_monomialsl=>nrel_main_idtf:
 [деление одночленов*] (*<-lang_ru;;*);
-[division of monomialsl*] (*<-lang_en;;*);;
+[бөлімі мономиален*] (*<-lang_kz;;*);
+[division of monomials*] (*<-lang_en;;*);;
 
 //синонимы
 nrel_division_of_monomialsl=> nrel_idtf:[деление*](*<-lang_ru;;*);;
@@ -57,9 +58,6 @@ nrel_division_of_monomialsl<- rrel_key_sc_element:
 		*);;
 	*);;
 
-
-//используемые константы
- nrel_division_of_monomialsl<= nrel_using_constants: rrel_monomial; concept_multiplier;rrel_private;rrel_divider;rrel_dividend;;
 //конкретные задачи
  nrel_division_of_monomialsl<- rrel_key_sc_element:
 ...
@@ -92,6 +90,6 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_division_of_monomialsl<= nrel_first_domain:concept_monomial;;
-nrel_division_of_monomialsl <= nrel_second_domain: concept_monomial;;
-nrel_division_of_monomialsl<= nrel_third_domain: concept_polynomial;;
+nrel_division_of_monomialsl => nrel_first_domain:concept_monomial;;
+nrel_division_of_monomialsl => nrel_second_domain: concept_monomial;;
+nrel_division_of_monomialsl => nrel_third_domain: concept_polynomial;;

@@ -10,5 +10,7 @@ concept_numerical_expression;
 concept_nonalgebraic_expression;
 concept_algebraic_expession;
 concept_polynomial;
+concept_binomial;
+concept_trinomial;
 concept_monomial
     };;

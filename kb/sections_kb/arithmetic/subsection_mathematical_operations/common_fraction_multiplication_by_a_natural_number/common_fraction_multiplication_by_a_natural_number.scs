@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_common_fraction_multiplication_by_a_natural_number
 
 nrel_common_fraction_multiplication_by_a_natural_number=>nrel_main_idtf:
 [умножение дроби на натуральное число*] (*<-lang_ru;;*);
+[табиғи саны бойынша фракциясы көбейту*] (*<-lang_kz;;*);
 [common fraction multiplication by a natural number*] (*<-lang_en;;*);;
 // синонимы
 nrel_common_fraction_multiplication_by_a_natural_number=>nrel_idtf:[произведение дроби и натурального числа*] (*<-lang_ru;;*);;
@@ -54,9 +55,9 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_common_fraction_multiplication_by_a_natural_number<= nrel_first_domain:concept_number;;
-nrel_common_fraction_multiplication_by_a_natural_number<= nrel_second_domain: concept_common_fraction;;
-nrel_common_fraction_multiplication_by_a_natural_number<= nrel_third_domain: concept_mixed_fraction;;
+nrel_common_fraction_multiplication_by_a_natural_number => nrel_first_domain:concept_number;;
+nrel_common_fraction_multiplication_by_a_natural_number => nrel_second_domain: concept_common_fraction;;
+nrel_common_fraction_multiplication_by_a_natural_number => nrel_third_domain: concept_mixed_fraction;;
 
 //пример
  nrel_common_fraction_multiplication_by_a_natural_number -> rrel_example :

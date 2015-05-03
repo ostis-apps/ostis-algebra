@@ -5,8 +5,8 @@ nrel_integral=>nrel_main_idtf:
 [integral*](*<-lang_en;;*);;
 nrel_integral=>nrel_idtf:[первообразная*](*<-lang_ru;;*);;
 
-nrel_integral<= nrel_first_domain:concept_function;;
-nrel_integral <= nrel_second_domain: concept_expression;;
+nrel_integral => nrel_first_domain:concept_function;;
+nrel_integral => nrel_second_domain: concept_expression;;
 
 nrel_integral <= nrel_using_constants: nrel_integration;;
 

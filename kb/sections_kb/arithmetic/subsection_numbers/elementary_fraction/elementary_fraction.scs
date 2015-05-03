@@ -2,6 +2,7 @@ sc_node_not_relation->concept_elementary_fraction;;
 
 concept_elementary_fraction=>nrel_main_idtf:
 [элементарная дробь](*<-lang_ru;;*);
+[бастауыш фракциясын](*<-lang_kz;;*);
 [elementary fraction](*<-lang_en;;*);;
 
 concept_elementary_fraction=> nrel_idtf:[простейшая дробь](*<-lang_ru;;*);;

@@ -1,6 +1,7 @@
 sc_node_norole_relation->nrel_multiplying_fractions;; 
 nrel_multiplying_fractions=>nrel_main_idtf:
 [умножение дробей*] (*<-lang_ru;;*);
+[көбейту фракциялары*] (*<-lang_ru;;*);
 [multiplying fractions*] (*<-lang_en;;*);;
 
 //разбиение
@@ -14,14 +15,11 @@ nrel_multiplying_fractions<= nrel_subdividing:
 	-> nrel_multiplication_of_decimal_fraction;;
 	*);;
 
-//используемые константы
-nrel_multiplying_fractions<= nrel_using_constants: rrel_numerator; rrel_denominator;;
-
 nrel_multiplying_fractions <- ternary_relation;;
 
-nrel_multiplying_fractions <= nrel_first_domain: concept_double_number;;
-nrel_multiplying_fractions <= nrel_second_domain: concept_double_number;;
-nrel_multiplying_fractions <= nrel_third_domain: concept_double_number;;
+nrel_multiplying_fractions => nrel_first_domain: concept_double_number;;
+nrel_multiplying_fractions => nrel_second_domain: concept_double_number;;
+nrel_multiplying_fractions => nrel_third_domain: concept_double_number;;
 
 nrel_multiplying_fractions <- rrel_key_sc_element:
 	... 

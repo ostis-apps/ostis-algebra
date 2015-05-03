@@ -1,7 +1,7 @@
 sc_node_not_relation->concept_irrational_number;; //концепция
 
 concept_irrational_number=>nrel_main_idtf:
-[иррациональное число](*<-lang_ru;;*);
+[иррационалдық сан](*<-lang_ru;;*);
 [irrational number](*<-lang_en;;*);;
 
 //определения и пояснения

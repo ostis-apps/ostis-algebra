@@ -2,15 +2,16 @@ sc_node_norole_relation->nrel_multiplication_of_complex_numbers;;
 
 nrel_multiplication_of_complex_numbers=>nrel_main_idtf:
 [умножение комплексных чисел*](*<-lang_ru;;*);
+[кешенді сандар көбейту*](*<-lang_kz;;*);
 [multiplication of complex numbers*](*<-lang_en;;*);;
 
 // синонимы
 nrel_multiplication_of_complex_numbers=> nrel_idtf:[произведение комплексного числа на комплексное число*](*<-lang_ru;;*);;
 
 nrel_multiplication_of_complex_numbers<- ternary_relation;;
-nrel_multiplication_of_complex_numbers  <= nrel_first_domain:concept_complex_number;;
-nrel_multiplication_of_complex_numbers <= nrel_second_domain: concept_complex_number;;
-nrel_multiplication_of_complex_numbers  <= nrel_third_domain: concept_complex_number;;
+nrel_multiplication_of_complex_numbers => nrel_first_domain:concept_complex_number;;
+nrel_multiplication_of_complex_numbers => nrel_second_domain: concept_complex_number;;
+nrel_multiplication_of_complex_numbers => nrel_third_domain: concept_complex_number;;
 
 //определение
 nrel_multiplication_of_complex_numbers<- rrel_key_sc_element:

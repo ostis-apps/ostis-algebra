@@ -65,7 +65,7 @@ nrel_module_number<- rrel_key_sc_element:
 	*);;
 
 //используемые константы
-nrel_module_number <= nrel_using_constants: concept_negative_number; concept_positive_number;;
+nrel_module_number => nrel_using_constants: concept_negative_number; concept_positive_number;;
 
 //пример
 nrel_module_number -> rrel_example :
@@ -117,5 +117,5 @@ nrel_module_number  <- rrel_key_sc_element:
 		*);;
 	*);;
 
-nrel_module_number  <= nrel_first_domain:concept_number;;
-nrel_module_number  <= nrel_second_domain: concept_number;;
+nrel_module_number => nrel_first_domain:concept_number;;
+nrel_module_number => nrel_second_domain: concept_number;;

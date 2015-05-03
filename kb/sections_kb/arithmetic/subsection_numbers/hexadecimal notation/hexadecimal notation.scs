@@ -2,6 +2,7 @@ sc_node_not_relation->concept_hexadecimal_notation;;
 
 concept_hexadecimal_notation=>nrel_main_idtf:
 [шестнадцатеричная система счисления](*<-lang_ru;;*);
+[оналтылық жүйе](*<-lang_kz;;*);
 [hexadecimal notation](*<-lang_en;;*);;
 
 // синонимы

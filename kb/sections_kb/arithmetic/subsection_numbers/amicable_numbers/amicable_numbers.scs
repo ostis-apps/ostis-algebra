@@ -2,6 +2,7 @@ sc_node_not_relation->concept_amicable_numbers;;
 
 concept_amicable_numbers=>nrel_main_idtf:
 [дружественные числа](*<-lang_ru;;*);
+[достық нөмірлері](*<-lang_kz;;*);
 [amicable numbers](*<-lang_en;;*);;
 
 concept_amicable_numbers<= nrel_using_constants: concept_number;concept_perfect_number;;

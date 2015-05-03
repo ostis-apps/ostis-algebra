@@ -2,6 +2,7 @@ sc_node_not_relation->concept_mixed_fraction;;
 
 concept_mixed_fraction=>nrel_main_idtf:
 [смешанная дробь](*<-lang_ru;;*);
+[аралас фракциясын](*<-lang_kz;;*);
 [mixed fraction](*<-lang_en;;*);;
 
 //определение

@@ -2,6 +2,7 @@ sc_node_not_relation->concept_noequality;;
 
 concept_noequality=>nrel_main_idtf:
 [неравенство](*<-lang_ru;;*);
+[теңсіздік](*<-lang_kz;;*);
 [noequality](*<-lang_en;;*);;
 
 //разбиение

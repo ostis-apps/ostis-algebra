@@ -2,6 +2,7 @@ sc_node_not_relation->concept_common_fraction;;
 
 concept_common_fraction=>nrel_main_idtf:
 [обыкновенная дробь](*<-lang_ru;;*);
+[ортақ фракциясын](*<-lang_kz;;*);
 [common fraction](*<-lang_en;;*);;
 
 //определение

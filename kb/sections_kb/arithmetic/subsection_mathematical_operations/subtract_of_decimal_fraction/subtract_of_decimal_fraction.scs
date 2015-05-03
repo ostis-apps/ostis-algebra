@@ -1,8 +1,8 @@
-sc_node_norole_relation->nrel_subtract_of_decimal_fraction;; // концепция чего (на англ.)
+sc_node_norole_relation->nrel_subtract_of_decimal_fraction;; 
 
-//понятие на русском и английском
 nrel_subtract_of_decimal_fraction=>nrel_main_idtf:
 [разность десятичных дробей*](*<-lang_ru;;*);
+[онды арасындағы айырмашылық*](*<-lang_kz;;*);
 [subtract of decimal fraction*](*<-lang_en;;*);;
 
 //синонимы
@@ -87,9 +87,9 @@ nrel_sc_text_translation:
 //Домены
 
 
-nrel_subtract_of_decimal_fraction<= nrel_first_domain:concept_decimal;;
-nrel_subtract_of_decimal_fraction <= nrel_second_domain: concept_decimal;;
-nrel_subtract_of_decimal_fraction <= nrel_third_domain: concept_decimal;;
+nrel_subtract_of_decimal_fraction => nrel_first_domain:concept_decimal;;
+nrel_subtract_of_decimal_fraction => nrel_second_domain: concept_decimal;;
+nrel_subtract_of_decimal_fraction => nrel_third_domain: concept_decimal;;
 
 
 //пример
