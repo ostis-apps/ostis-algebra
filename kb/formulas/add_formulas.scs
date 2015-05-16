@@ -1,16 +1,34 @@
-formula_equivalent_infinitesimal_function=>nrel_main_idtf:[формула эквивалентности бесконечно малой функции](*<-lang_ru;;*);;
-
 formulas=>nrel_main_idtf:[формулы](*<-lang_ru;;*);;
 
+trigonometric_formulas=>nrel_main_idtf:[тригонометрические формулы](*<-lang_ru;;*);;
+
+trigonometric_formulas_liwering_of_powers=>nrel_main_idtf:[тригонометрические формулы понижения степени](*<-lang_ru;;*);;
 trigonometric_formulas_sum_and_difference=>nrel_main_idtf:[тригонометрическая формула суммы и разности](*<-lang_ru;;*);;
-
 trigonometric_formulas_half_angle_tg=>nrel_main_idtf:[формула, связывающая тригонометрическую функцию с тангенсом половинного угла](*<-lang_ru;;*);;
- 
 trigonometric_formulas_half_angle=>nrel_main_idtf:[тригонометрическая формула половинного угла](*<-lang_ru;;*);;
+trigonometric_formulas_linking_function_of_one_argument=>nrel_main_idtf:[тригонометрические формулы, связывающие функции одного аргумента](*<-lang_ru;;*);;
+formulas_multiplication_of_the_trigonometric_function=>nrel_main_idtf:[формулы произведения тригонометрических функций](*<-lang_ru;;*);;
 
-derivative_formula=>nrel_main_idtf:[формула дифференцирования](*<-lang_ru;;*);;
 
+formula_equivalent_infinitesimal_function=>nrel_main_idtf:[формула эквивалентности бесконечно малой функции](*<-lang_ru;;*);;
+
+
+formula_complex_numbers=>nrel_main_idtf:[формулы комплексных чисел](*<-lang_ru;;*);;
 formula_eilera=>nrel_main_idtf:[формулы Эйлера](*<-lang_ru;;*);;
+formula_muavra=>nrel_main_idtf:[формула Муавра](*<-lang_ru;;*);;
+
+derivative_formula=>nrel_main_idtf:[формулы дифференцирования](*<-lang_ru;;*);;
+general_formula_of_differentiation=>nrel_main_idtf:[общие формулы дифференцирования](*<-lang_ru;;*);;
+derivatives_of_basic_elementary_functions=>nrel_main_idtf:[производные основных элементарных функций](*<-lang_ru;;*);;
+
+formulas_of_abridged_multiplication=>nrel_main_idtf:[формулы сокращенного умножения](*<-lang_ru;;*);;
+square_of_the_sum=>nrel_main_idtf:[квадрат суммы](*<-lang_ru;;*);;
+squared_difference=>nrel_main_idtf:[квадрат разности](*<-lang_ru;;*);;
+cube_of_the_difference=>nrel_main_idtf:[куб разности](*<-lang_ru;;*);;
+cube_of_the_sum=>nrel_main_idtf:[куб суммы](*<-lang_ru;;*);;
+sum_of_the_cubes=>nrel_main_idtf:[сумма кубов](*<-lang_ru;;*);;
+difference_of_the_cubes=>nrel_main_idtf:[разность кубов](*<-lang_ru;;*);;
+difference_of_the_squares=>nrel_main_idtf:[разность квадратов](*<-lang_ru;;*);;
 
 lows=>nrel_main_idtf:[законы](*<-lang_ru;;*);;
 
@@ -27,7 +45,7 @@ formula_exponentiation=>nrel_main_idtf:[формылы возведения в �
 formula_multiplication_powers_with_the_same_base=>nrel_main_idtf:[формула произведения степеней с одинаковым основанием](*<-lang_ru;;*);;
 multiplication_in_the_degree=>nrel_main_idtf:[произведение в степени](*<-lang_ru;;*);;
 dividing_a_degree=>nrel_main_idtf:[деление в степени](*<-lang_ru;;*);;
-
+erection_extent_degree=>nrel_main_idtf:[возведение степени в степень](*<-lang_ru;;*);;
 
 
 sc_node_norole_relation->nrel_equality;; 
@@ -36,4 +54,27 @@ nrel_equality=>nrel_main_idtf:[равенство*](*<-lang_ru;;*);;
 sc_node_norole_relation->nrel_pow;; 
 nrel_pow=>nrel_main_idtf:[возведение в степень*](*<-lang_ru;;*);;
 
-trigonometric_formulas=>nrel_main_idtf:[тригонометрчиеские формулы](*<-lang_ru;;*);;
+sc_node_norole_relation->nrel_cosec;;
+nrel_cosec=>nrel_main_idtf:[косеканс*](*<-lang_ru;;*);;
+sc_node_norole_relation->nrel_sec;; 
+nrel_sec=>nrel_main_idtf:[секанс*](*<-lang_ru;;*);;
+
+sc_node_not_relation->complex_number;; 
+complex_number=>nrel_main_idtf:[комплексное число](*<-lang_ru;;*);;
+
+
+sc_node_norole_relation->nrel_sh;; 
+nrel_sh=>nrel_main_idtf:[гиперболический синус*](*<-lang_ru;;*);;
+sc_node_norole_relation->nrel_ch;; 
+nrel_ch=>nrel_main_idtf:[гиперболический косинус*](*<-lang_ru;;*);;
+sc_node_norole_relation->nrel_th;; 
+nrel_th=>nrel_main_idtf:[гиперболический тангентс*](*<-lang_ru;;*);;
+sc_node_norole_relation->nrel_cth;; 
+nrel_cth=>nrel_main_idtf:[гиперболический сонангентс*](*<-lang_ru;;*);;
+
+
+sc_node_norole_relation->nrel_arccos;; 
+nrel_arccos=>nrel_main_idtf:[арккосинус*](*<-lang_ru;;*);;
+
+sc_node_norole_relation->nrel_arcctg;; 
+nrel_arcctg=>nrel_main_idtf:[арккотангентс*](*<-lang_ru;;*);;

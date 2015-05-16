@@ -117,6 +117,12 @@ concept_period=>nrel_main_idtf:[период](*<-lang_ru;;*);;
 sc_node_not_relation->concept_accuracy;;
 concept_accuracy=>nrel_main_idtf:[точность](*<-lang_ru;;*);;
 
+sc_node_not_relation->concept_point;;
+concept_point=>nrel_main_idtf:[точка](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_matrix;;
+concept_matrix=>nrel_main_idtf:[матрицы](*<-lang_ru;;*);;
+
 sc_node_not_relation->concept_first_order_differential_equation_with_multiple_variables;;
 concept_first_order_differential_equation_with_multiple_variables=>nrel_main_idtf:[диффенциальные уравнения первого порядка с разделяющимися переменными](*<-lang_ru;;*);;
 

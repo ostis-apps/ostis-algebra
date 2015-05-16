@@ -1,3 +1,6 @@
+sc_node_norole_relation -> nrel_fourth_domain;; 
+nrel_fourth_domain => nrel_main_idtf :[четвертый домен*] (* <- lang_ru;; *);; 
+
 sc_node_norole_relation -> nrel_exponentiation_of_integer_numbers;; 
 nrel_exponentiation_of_integer_numbers => nrel_main_idtf :[возведение в степень на множестве целых чисел*] (* <- lang_ru;; *);; 
 
@@ -146,3 +149,27 @@ sc_node_norole_relation-> nrel_factorization;;
 nrel_factorization=>nrel_main_idtf:
 [разложения числа на простые множители*](*<-lang_ru;;*);
 [factorization*](*<-lang_en;;*);;
+
+nrel_sum_geometric_progresi
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[сумма геометрической прогрессии*]
+	(* <- lang_ru;; *);
+	[sum geometric progression*]
+	(* <- lang_en;; *);;
+
+nrel_denominator_geometric_progresi
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[знаменатель геометрической прогрессии*]
+	(* <- lang_ru;; *);
+	[denominator geometric progression*]
+	(* <- lang_en;; *);;
+
+nrel_n_member_geometric_progresi
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[n-ный член геометрической прогрессии*]
+	(* <- lang_ru;; *);
+	[n member geometric progression*]
+	(* <- lang_en;; *);;

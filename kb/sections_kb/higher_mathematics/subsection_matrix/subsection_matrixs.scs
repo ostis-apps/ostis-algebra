@@ -1,0 +1,20 @@
+subsection_matrixs
+=> nrel_main_idtf:
+	[Подраздел. Матрицы]	(*	<- lang_ru;;	*);
+=> nrel_main_idtf:
+	[Subsection. Matrixs]	(*	<- lang_en;;	*);;
+
+subsection_matrixs<=nrel_inclusion:
+    {
+rrel_element_of_the_matrix;
+nrel_main_diagonal_of_the_matrix;
+nrel_secondary_diagonal_matrix;
+concept_square_matrix;
+concept_unit_matrix;
+concept_symmetric_matrix;
+concept_diagonal_matrix;
+concept_zero_matrix;
+nrel_inverse_matrix;
+concept_matrix;
+nrel_trace_of_the_matrix
+    };;

@@ -67,14 +67,3 @@ concept_ordinary_differential_equation <- rrel_key_sc_element:
 			"file://ordinary_differential_equation4.html"   (* <- lang_ru;; 	*);;
 		*);;
 	*);;
-
-concept_ordinary_differential_equation -> rrel_example :
-...
-	(* 
-<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-[x*y'=x+y](* <- lang_ru;; *);;
-		*);;
-	*);;

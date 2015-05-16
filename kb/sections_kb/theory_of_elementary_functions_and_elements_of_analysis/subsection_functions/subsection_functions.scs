@@ -9,7 +9,9 @@ subsection_functions<=nrel_inclusion:
 concept_graph_of_the_function;
 nrel_infimum;
 nrel_supremum;
+nrel_inflection_point_of_the_graph_of_function;
 concept_function_module;
+nrel_derivative_of_function;
 concept_root_function;
 concept_directly_proportional_function; 
 concept_inversely_proportional_function;

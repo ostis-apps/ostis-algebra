@@ -32,7 +32,7 @@ concept_vector <- rrel_key_sc_element:
 concept_vector <- rrel_key_sc_element:
 	... 
 	(*
-	=> nrel_main_idtf: [Утв.(вектор, элемент)] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Утв.(вектор; элемент)] (* <- lang_ru;; *);;
 	<- sc_statement;;
 	<= nrel_sc_text_translation: 
 		...

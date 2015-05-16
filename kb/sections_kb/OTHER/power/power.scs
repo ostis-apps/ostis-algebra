@@ -16,28 +16,45 @@ rrel_power <- rrel_key_sc_element:
 		-> rrel_example: 
 			[Степень - число, которое является результатом возведения в степень какого-либо числа.](* <- lang_ru;; 	*);;
 		*);;
-*);
-     ...
-    (*
-=> nrel_main_idtf: [Пояснение(степень')] (* <- lang_ru;; *);;
-<- sc_explanation;;
-<= nrel_sc_text_translation:
-...
-(*
--> rrel_example:
-	[У степени есть основание и показатель.] (* <- lang_ru;; *);;
-*);;
 *);;
 
 
-//пример
-rrel_power-> rrel_example :
-	...
-	(* 
-<= nrel_sc_text_translation: 
-...
+rrel_power <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(число; число в квадрате; два)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
 		(*
 		-> rrel_example: 
-	"file://power.html"(* <- lang_ru;; 	*);;
+			[Число во второй степени называют число в квадрате.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+rrel_power <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(число; число в кубе; три)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Число в третьей степени называют число в кубе.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+rrel_power <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(число; числовое выражение)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Степени чисел входящие в числовые выражения выполняются 
+в первую очередь.](* <- lang_ru;; *);;
 		*);;
 	*);;

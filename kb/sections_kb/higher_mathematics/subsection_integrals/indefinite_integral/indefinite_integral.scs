@@ -3,8 +3,8 @@ sc_node_norole_relation->  nrel_indefinite_integral;;
 [неопределённый интеграл*](*<-lang_ru;;*);
 [indefinite integral*](*<-lang_en;;*);;
  
-nrel_indefinite_integral<= nrel_first_domain:concept_function;;
-nrel_indefinite_integral<= nrel_second_domain: concept_function;;
+nrel_indefinite_integral=> nrel_first_domain:concept_function;;
+nrel_indefinite_integral=> nrel_second_domain: concept_function;;
 
 nrel_indefinite_integral<= nrel_using_constants: concept_interval; nrel_integral; nrel_integration;;
 
