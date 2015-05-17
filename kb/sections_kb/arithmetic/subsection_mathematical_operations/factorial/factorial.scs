@@ -2,7 +2,10 @@ sc_node_norole_relation->nrel_factorial;;
 
 nrel_factorial=>nrel_main_idtf:
 [факториал*] (*<-lang_ru;;*);
+[факторлық*] (*<-lang_kz;;*);
 [factorial*] (*<-lang_en;;*);;
+
+nrel_factorial=>nrel_mathem_idtf: [!] (*<-lang_en;;*);;
 
 //синонимы
 nrel_factorial=> nrel_idtf:[антилогарифм*](*<-lang_ru;;*);;
@@ -50,10 +53,9 @@ nrel_factorial<- rrel_key_sc_element:
 
 
 //Домены
-nrel_factorial=> nrel_first_domain:concept_set_numbers;;
+nrel_factorial => nrel_first_domain:concept_set_numbers;;
 nrel_factorial => nrel_second_domain: concept_number;; 
 
-nrel_factorial<= nrel_using_constants:  nrel_multiplication_of_natural_numbers;;
 //конкретные задачи
  nrel_factorial<- rrel_key_sc_element:
 ...

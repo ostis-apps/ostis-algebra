@@ -3,10 +3,10 @@ sc_node_norole_relation-> nrel_the_line_integral;;
 [криволинейный интеграл*](*<-lang_ru;;*);
 [the line integral*](*<-lang_en;;*);;
 
-nrel_the_line_integral<= nrel_first_domain:
+nrel_the_line_integral => nrel_first_domain:
 concept_function;;
 
-nrel_the_line_integral <= nrel_second_domain: 
+nrel_the_line_integral => nrel_second_domain: 
 concept_number;;
 
 nrel_the_line_integral<= nrel_subdividing:

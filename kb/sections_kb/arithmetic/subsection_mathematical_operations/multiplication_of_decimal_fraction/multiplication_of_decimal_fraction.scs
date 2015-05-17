@@ -2,14 +2,15 @@ sc_node_norole_relation->nrel_multiplication_of_decimal_fraction;;
 
 nrel_multiplication_of_decimal_fraction=>nrel_main_idtf:
 [умножение десятичных дробей*](*<-lang_ru;;*);
+[онды көбейту*](*<-lang_kz;;*);
 [multiplication of decimal fraction*](*<-lang_en;;*);;
 
 // синонимы
 nrel_multiplication_of_decimal_fraction=> nrel_idtf:[произведение десятичных дробей*](*<-lang_ru;;*);;
 
-nrel_multiplication_of_decimal_fraction <= nrel_first_domain:concept_decimal;;
-nrel_multiplication_of_decimal_fraction<= nrel_second_domain: concept_decimal;;
-nrel_multiplication_of_decimal_fraction <= nrel_third_domain: concept_decimal;;
+nrel_multiplication_of_decimal_fraction => nrel_first_domain:concept_decimal;;
+nrel_multiplication_of_decimal_fraction => nrel_second_domain: concept_decimal;;
+nrel_multiplication_of_decimal_fraction => nrel_third_domain: concept_decimal;;
 
 //определение
 nrel_multiplication_of_decimal_fraction<- rrel_key_sc_element:

@@ -3,6 +3,7 @@ sc_node_norole_relation->nrel_division_of_a_polynomial_by_a_polynomial;;
 //понятие на русском и английском
 nrel_division_of_a_polynomial_by_a_polynomial=>nrel_main_idtf:
 [деление многочлена на многочлен*] (*<-lang_ru;;*);
+[арқылы многочлена бөлімшесі*] (*<-lang_kz;;*);
 [division of a polynomial by a polynomial*] (*<-lang_en;;*);;
 
 //синонимы
@@ -47,8 +48,6 @@ nrel_division_of_a_polynomial_by_a_polynomial<- rrel_key_sc_element:
 		*);;
 	*);;
 
-//используемые константы
- nrel_division_of_a_polynomial_by_a_polynomial<= nrel_using_constants: concept_polynomial; concept_formulas_of_abridged_multiplication;;
 
 //конкретные задачи
  nrel_division_of_a_polynomial_by_a_polynomial<- rrel_key_sc_element:
@@ -84,9 +83,9 @@ nrel_sc_text_translation:
 *);;
 
 //домены
-nrel_division_of_a_polynomial_by_a_polynomial<= nrel_first_domain:concept_polynomial;;
-nrel_division_of_a_polynomial_by_a_polynomial<= nrel_second_domain: concept_polynomial;;
-nrel_division_of_a_polynomial_by_a_polynomial<= nrel_third_domain: concept_polynomial;;
+nrel_division_of_a_polynomial_by_a_polynomial => nrel_first_domain:concept_polynomial;;
+nrel_division_of_a_polynomial_by_a_polynomial => nrel_second_domain: concept_polynomial;;
+nrel_division_of_a_polynomial_by_a_polynomial => nrel_third_domain: concept_polynomial;;
 
 //пример
  nrel_division_of_a_polynomial_by_a_polynomial-> rrel_example :
@@ -96,6 +95,6 @@ nrel_division_of_a_polynomial_by_a_polynomial<= nrel_third_domain: concept_polyn
 		...
 		(*
 		-> rrel_example: 
-	"file://11.png"(* <- lang_ru;; 	*);;
+	"file://11.png";;
 		*);;
 	*);;

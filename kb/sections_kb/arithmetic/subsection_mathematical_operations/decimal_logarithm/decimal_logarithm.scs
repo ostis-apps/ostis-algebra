@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_decimal_logarithm;;
 
 nrel_decimal_logarithm=>nrel_main_idtf:
 [десятичный логарифм*](*<-lang_ru;;*);
+[үтірден кейін логарифмін*](*<-lang_kz;;*);
 [decimal logarithm*](*<-lang_en;;*);;
 
 //определение и пояснения
@@ -57,9 +58,6 @@ nrel_decimal_logarithm<- rrel_key_sc_element:
 			(* <- lang_ru;; *);;
 		*);;
 	*);;
-
-//используемые константы
- nrel_decimal_logarithm<= nrel_using_constants:  nrel_division;nrel_multiplication;;
 
 //конкретные задачи
  nrel_decimal_logarithm<- rrel_key_sc_element:

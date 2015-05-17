@@ -4,10 +4,8 @@ nrel_root_of_the_equation=>nrel_main_idtf:
 [корень уравнения*](*<-lang_ru;;*);
 [root of the equation*](*<-lang_en;;*);;
 
-nrel_root_of_the_equation<= nrel_using_constants: concept_number;concept_equartion;concept_variable;;
-
-nrel_root_of_the_equation<= nrel_first_domain:concept_equartion;;
-nrel_root_of_the_equation <= nrel_second_domain: concept_number;;
+nrel_root_of_the_equation =>nrel_first_domain:concept_equartion;;
+nrel_root_of_the_equation => nrel_second_domain: concept_number;;
 
 nrel_root_of_the_equation<- rrel_key_sc_element:
 	... 
@@ -70,14 +68,3 @@ nrel_sc_text_translation:
 [Нахождение корней уравнения](* <- lang_ru;; *);;
 *);;
 *);;
-
-nrel_root_of_the_equation-> rrel_example :
-	...
-	(* 
-<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-		[10/х=5. Корень уравнения х=2.](* <- lang_ru;;*);;
-		*);;
-	*);;

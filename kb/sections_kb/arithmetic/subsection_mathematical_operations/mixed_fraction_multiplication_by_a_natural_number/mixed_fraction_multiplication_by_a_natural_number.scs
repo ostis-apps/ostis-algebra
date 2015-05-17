@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_mixed_fraction_multiplication_by_a_natural_number;
 
 nrel_mixed_fraction_multiplication_by_a_natural_number=>nrel_main_idtf:
 [умножение смешанной дроби на натуральное число*] (*<-lang_ru;;*);
+[бүтін фракциясының аралас көбейту*] (*<-lang_kz;;*);
 [mixed fraction multiplication by a natural number*] (*<-lang_en;;*);;
 // синонимы
 nrel_mixed_fraction_multiplication_by_a_natural_number=>nrel_idtf:[произведение смешанной дроби и натурального числа*] (*<-lang_ru;;*);;
@@ -53,9 +54,9 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_mixed_fraction_multiplication_by_a_natural_number<= nrel_first_domain:concept_number;;
-nrel_mixed_fraction_multiplication_by_a_natural_number<= nrel_second_domain: concept_mixed_fraction;;
-nrel_mixed_fraction_multiplication_by_a_natural_number<= nrel_second_domain: concept_mixed_fraction;;
+nrel_mixed_fraction_multiplication_by_a_natural_number => nrel_first_domain:concept_number;;
+nrel_mixed_fraction_multiplication_by_a_natural_number => nrel_second_domain: concept_mixed_fraction;;
+nrel_mixed_fraction_multiplication_by_a_natural_number => nrel_second_domain: concept_mixed_fraction;;
 
 //пример
  nrel_mixed_fraction_multiplication_by_a_natural_number-> rrel_example :

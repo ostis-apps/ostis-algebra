@@ -3,13 +3,15 @@ sc_node_not_relation->concept_rational_equation;;
 concept_rational_equation=>nrel_main_idtf:
 [рациональное уравнение](*<-lang_ru;;*);
 [rational equation](*<-lang_en;;*);;
+
 concept_rational_equation<= nrel_subdividing:
 	...
 	(* 
 	-> concept_rational_integral_equation;;
 	-> concept_rational_fractional_equation;;
 	*);;
-concept_rational_equation <= nrel_using_constants: concept_number;concept_equartion;concept_variable;concept_rational_number;;
+
+
 concept_rational_equation<- rrel_key_sc_element:
 	... 
 	(*
@@ -62,14 +64,3 @@ nrel_sc_text_translation:
 [Нахождение корней рационального уравнения.](* <- lang_ru;; *);;
 *);;
 *);;
-
-concept_rational_equation-> rrel_example :
-	...
-	(* 
-<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-		[x*(х- 1)*(x-2)*(x-3) = 24. Ответ: 4,-1. ](* <- lang_ru;;*);;
-		*);;
-	*);;

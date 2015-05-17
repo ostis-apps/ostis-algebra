@@ -1,6 +1,7 @@
 sc_node_norole_relation -> nrel_subtraction_of_polynomials ;; 
 nrel_subtraction_of_polynomials => nrel_main_idtf :
 [вычитание многочленов*] (* <- lang_ru;; *);
+[субтракцион полиномов*] (* <- lang_kz;; *);
 [substraction of polynomials*] (*<-lang_en;;*);;
 
 //определение и пояснения
@@ -28,13 +29,11 @@ nrel_subtraction_of_polynomials <- rrel_key_sc_element:
 *);;
 *);;
 
-//используемые константы
-nrel_subtraction_of_polynomials<= nrel_using_constants: nrel_subtraction;;
 
 //домены
-nrel_subtraction_of_polynomials<= nrel_first_domain:concept_polynomial;;
-nrel_subtraction_of_polynomials<= nrel_second_domain: concept_polynomial;;
-nrel_subtraction_of_polynomials<= nrel_third_domain: concept_polynomial;;
+nrel_subtraction_of_polynomials => nrel_first_domain:concept_polynomial;;
+nrel_subtraction_of_polynomials => nrel_second_domain: concept_polynomial;;
+nrel_subtraction_of_polynomials => nrel_third_domain: concept_polynomial;;
 
 //пример
 nrel_subtraction_of_polynomials -> rrel_example :

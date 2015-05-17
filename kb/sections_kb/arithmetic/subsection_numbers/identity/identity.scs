@@ -31,8 +31,8 @@ nrel_identity <- rrel_key_sc_element:
 	*);;
 
 //Домены
-nrel_indentity<= nrel_first_domain:concept_variable;;
-nrel_indentity<= nrel_second_domain: concept_number;;
+nrel_indentity => nrel_first_domain:concept_variable;;
+nrel_indentity => nrel_second_domain: concept_number;;
 
 // конкретные задачи
 nrel_indentity <- rrel_key_sc_element:

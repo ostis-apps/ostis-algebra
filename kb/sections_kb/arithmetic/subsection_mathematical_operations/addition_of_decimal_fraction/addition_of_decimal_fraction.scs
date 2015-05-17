@@ -3,6 +3,7 @@ sc_node_norole_relation->nrel_addition_of_decimal_fraction;; // концепци
 //понятие на русском и английском
 nrel_addition_of_decimal_fraction=>nrel_main_idtf:
 [сложение десятичных дробей*](*<-lang_ru;;*);
+[ондық қосу*](*<-lang_kz;;*);
 [addition of decimal fraction*](*<-lang_en;;*);;
 
 //синонимы
@@ -84,13 +85,13 @@ nrel_sc_text_translation:
 
 //Домены
 
-nrel_addition_of_decimal_fraction<= nrel_first_domain:
+nrel_addition_of_decimal_fraction => nrel_first_domain:
 concept_decimal;;
 
-nrel_addition_of_decimal_fraction <= nrel_second_domain: 
+nrel_addition_of_decimal_fraction => nrel_second_domain: 
 concept_decimal;;
 
-nrel_addition_of_decimal_fraction <= nrel_third_domain: 
+nrel_addition_of_decimal_fraction => nrel_third_domain: 
 concept_decimal;;
 
 

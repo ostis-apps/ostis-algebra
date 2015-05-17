@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_division_of_mixed_fractions;;
 
 nrel_division_of_mixed_fractions=>nrel_main_idtf:
 [деление смешанных дробей*] (*<-lang_ru;;*);
+[аралас фракцияларын бөлімшесі*] (*<-lang_kz;;*);
 [division of mixed fractions*] (*<-lang_en;;*);;
 
 //определение и пояснения
@@ -51,9 +52,9 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_division_of_mixed_fractions<= nrel_first_domain:concept_mixed_fraction;;
-nrel_division_of_mixed_fractions<= nrel_second_domain: concept_mixed_fraction;;
-nrel_division_of_mixed_fractions<= nrel_third_domain: concept_mixed_fraction;;
+nrel_division_of_mixed_fractions => nrel_first_domain:concept_mixed_fraction;;
+nrel_division_of_mixed_fractions => nrel_second_domain: concept_mixed_fraction;;
+nrel_division_of_mixed_fractions => nrel_third_domain: concept_mixed_fraction;;
 
 //пример
  nrel_division_of_mixed_fractions -> rrel_example :

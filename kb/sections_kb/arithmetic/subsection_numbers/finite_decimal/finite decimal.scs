@@ -2,6 +2,7 @@ sc_node_not_relation->concept_finite_decimal;;
 
 concept_finite_decimal=>nrel_main_idtf:
 [конечная десятичная дробь](*<-lang_ru;;*);
+[соңғы ондық](*<-lang_kz;;*);
 [finite decimal](*<-lang_en;;*);;
 
 

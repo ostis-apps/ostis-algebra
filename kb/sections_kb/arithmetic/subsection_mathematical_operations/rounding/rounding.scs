@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_rounding;;
 
 nrel_rounding=>nrel_main_idtf:
 [округление*](*<-lang_ru;;*);
+[дөңгелектеу*](*<-lang_kz;;*);
 [rounding*](*<-lang_en;;*);;
 
 //определение
@@ -58,10 +59,10 @@ nrel_rounding<- rrel_key_sc_element:
 	*);;
 
 //используемые константы
-nrel_rounding<= nrel_using_constants:concept_accuracy;;
+nrel_rounding => nrel_using_constants:concept_accuracy;;
 
 //Домены
-nrel_rounding=> nrel_first_domain:concept_number;;
+nrel_rounding => nrel_first_domain:concept_number;;
 nrel_rounding => nrel_second_domain: concept_number;;
 
 

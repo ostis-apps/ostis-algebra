@@ -37,3 +37,5 @@ nrel_decomposition_bz
 	(*	<- lang_ru;;	*);
 	[decomposition of knowledge Base*]
 	(*	<- lang_en;;	*);;
+
+//documentation_ISS_by_numerical_models -> "file://documentation2015.pdf";;

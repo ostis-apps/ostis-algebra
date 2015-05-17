@@ -4,7 +4,6 @@ concept_rational_fractional_equation=>nrel_main_idtf:
 [рациональное дробное уравнение](*<-lang_ru;;*);
 [rational fractional equation](*<-lang_en;;*);;
 
-concept_rational_fractional_equation <= nrel_using_constants: concept_number;concept_equartion;concept_variable;concept_rational_number;;
 concept_rational_fractional_equation<- rrel_key_sc_element:
 	... 
 	(*
@@ -17,6 +16,7 @@ concept_rational_fractional_equation<- rrel_key_sc_element:
 			[Если в рациональном уравнении есть деление на выражение, содержащее переменную (x), то уравнение называется дробно-рациональным.](* <- lang_ru;; *);;
 		*);;
 	*);;
+
 concept_rational_fractional_equation<- rrel_key_sc_element:
 	... 
 	(*
@@ -56,14 +56,3 @@ nrel_sc_text_translation:
 [Нахождение корней рационального  дробного уравнения](* <- lang_ru;; *);;
 *);;
 *);;
-
-concept_rational_fractional_equation-> rrel_example :
-	...
-	(* 
-<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-		[(x-3)/(x-5 )+1/x=(x+5)/x*(x-5). Ответ: х= -2. ](* <- lang_ru;;*);;
-		*);;
-	*);;

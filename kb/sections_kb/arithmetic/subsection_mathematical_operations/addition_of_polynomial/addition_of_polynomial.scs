@@ -3,6 +3,7 @@ sc_node_norole_relation->nrel_addition_of_polynomial;;
 //понятие на русском и английском
 nrel_addition_of_polynomial=>nrel_main_idtf:
 [сложение многочленов*] (*<-lang_ru;;*);
+[полином толықтыру*] (*<-lang_kz;;*);
 [addition of polynomial*] (*<-lang_en;;*);;
 
 //синонимы
@@ -37,7 +38,7 @@ nrel_addition_of_polynomial <- rrel_key_sc_element:
 *);;
 
 //используемые константы
- nrel_addition_of_polynomial<= nrel_using_constants: concept_polynomial;;
+ nrel_addition_of_polynomial => nrel_using_constants: concept_polynomial;;
 
 //конкретные задачи
  nrel_addition_of_polynomial <- rrel_key_sc_element:
@@ -70,9 +71,9 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_addition_of_polynomial<= nrel_first_domain: concept_polynomial;;
-nrel_addition_of_polynomial <= nrel_second_domain: concept_polynomial;;
-nrel_addition_of_polynomial <= nrel_third_domain: concept_polynomial;;
+nrel_addition_of_polynomial => nrel_first_domain: concept_polynomial;;
+nrel_addition_of_polynomial => nrel_second_domain: concept_polynomial;;
+nrel_addition_of_polynomial => nrel_third_domain: concept_polynomial;;
 
 //пример
  nrel_addition_of_polynomial -> rrel_example :

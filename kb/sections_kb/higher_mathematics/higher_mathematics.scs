@@ -7,5 +7,6 @@ higher_mathematics <= nrel_section_decomposition:
 	->subsection_integrals;;
 	->subsection_series;;
 	->subsection_vectors;;
+	->subsection_matrixs;;
     
 *);;

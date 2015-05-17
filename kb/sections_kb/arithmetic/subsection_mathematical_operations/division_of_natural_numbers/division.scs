@@ -2,21 +2,19 @@ sc_node_norole_relation -> nrel_division_of_natural_numbers;;
 
 nrel_division_of_natural_numbers=> nrel_main_idtf:
 [деление натуральных чисел*](*<-lang_ru;;*);
+[табиғи сандар бөлімшесі*](*<-lang_kz;;*);
 [division of natural numbers*](*<-lang_en;;*);;
 
 nrel_division_of_natural_numbers<- ternary_relation;;
 
 //домены
-nrel_division_of_natural_numbers<= nrel_first_domain:	concept_natural_number;;
+nrel_division_of_natural_numbers => nrel_first_domain:	concept_natural_number;;
 			
-nrel_division_of_natural_numbers <= nrel_second_domain: concept_natural_number;;
+nrel_division_of_natural_numbers => nrel_second_domain: concept_natural_number;;
  
-nrel_division_of_natural_numbers <= nrel_third_domain: concept_natural_number;;
+nrel_division_of_natural_numbers => nrel_third_domain: concept_natural_number;;
  
-nrel_division_of_natural_numbers<= nrel_using_constants:  nrel_multiplication;;
-
-//иерархия
-nrel_division_of_natural_numbers<= nrel_inclusion: nrel_division_of_integer_numbers;;
+nrel_division_of_natural_numbers <= nrel_using_constants:  nrel_multiplication;;
 
 nrel_division_of_natural_numbers<- rrel_key_sc_element:
 	...
@@ -39,17 +37,6 @@ nrel_division_of_natural_numbers<- rrel_key_sc_element:
 		(*
 		-> rrel_example: 
 			[Разделить число а на число b – значит, найти такое число х, что bx=a или xb=a. Число, которое делят (число а) называется делимым, число, на которое делят (число b) – делителем, результат деления (число х) – частным. Деление обозначают знаком «:», горизонтальной или наклонной чертой.](* 	<- lang_ru;; 	*);;
-		*);;
-	*);
-...
-	(*
-	=> nrel_main_idtf:[Пояснение(деление натуральных чисел*)](*<-lang_ru;;*);;  
-	<- sc_definition;;   
-	<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-			[Любое натуральное число а можно представить в виде a=bq+r, где b,q,r – натуральные числа и 0r<b. Тогда число а называется делимым, b – делителем, q – частным, r – остатком .](* 	<- lang_ru;; 	*);;
 		*);;
 	*);
 ...
@@ -84,7 +71,7 @@ nrel_division_of_natural_numbers<= rrel_key_sc_element:
 		...
 		(*
 		-> rrel_example: 
-                [Любое натуральное число а можно представить в виде a=bq+r, где b, q, r – натуральные числа и 0 r <b. Тогда число а называется делимым, b – делителем, q – частным, r – остатком.]
+                [Любое натуральное число а можно представить в виде a=bq+r, где b, q, r – натуральные числа и 0<=r<b. Тогда число а называется делимым, b – делителем, q – частным, r – остатком.]
                (* <- lang_ru;; *);;
 		*);;
 

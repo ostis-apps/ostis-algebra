@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_multiplication_of_monomialsl;;
 
 nrel_multiplication_of_monomialsl=>nrel_main_idtf:
 [умножение одночленов*] (*<-lang_ru;;*);
+[оның көбейту*] (*<-lang_kz;;*);
 [multiplication of monomialsl*] (*<-lang_en;;*);;
 
 //синонимы
@@ -78,9 +79,9 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_multiplication_of_monomialsl<= nrel_first_domain:concept_monomial;;
-nrel_multiplication_of_monomialsl <= nrel_second_domain: concept_monomial;;
-nrel_multiplication_of_monomialsl<= nrel_third_domain: concept_monomial;;
+nrel_multiplication_of_monomialsl => nrel_first_domain:concept_monomial;;
+nrel_multiplication_of_monomialsl => nrel_second_domain: concept_monomial;;
+nrel_multiplication_of_monomialsl => nrel_third_domain: concept_monomial;;
 
 
 //пример

@@ -2,6 +2,7 @@ sc_node_not_relation->concept_improper_fraction;;
 
 concept_improper_fraction=>nrel_main_idtf:
 [неправильная дробь](*<-lang_ru;;*);
+[дұрыс фракциясын](*<-lang_kz;;*);
 [improper fraction](*<-lang_en;;*);;
 
 //определение

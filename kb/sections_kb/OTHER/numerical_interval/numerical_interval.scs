@@ -3,7 +3,8 @@ sc_node_not_relation->concept_numerical_interval;;
 concept_numerical_interval=>nrel_main_idtf:
 [числовой промежуток](*<-lang_ru;;*);
 [numerical interval](*<-lang_en;;*);;
-concept_numerical_interval<= nrel_using_constants: concept_number;concept_numerical_sequence;;
+
+concept_numerical_interval=> nrel_using_constants: concept_number;concept_numerical_sequence;;
 
 concept_numerical_interval<- rrel_key_sc_element:
 	... 
@@ -17,6 +18,7 @@ concept_numerical_interval<- rrel_key_sc_element:
 			[Числовой промежуток - общее название для основных числовых множеств действительных чисел на числовых прямых интервала, отрезка, полуинтервала, луча.](* <- lang_ru;; *);;
 		*);;
 	*);;
+
 sc_node_not_relation->concept_infinite_number_interval;; 
 concept_infinite_number_interval=>nrel_main_idtf:
 [бесконечный числовой промежуток](*<-lang_ru;;*);

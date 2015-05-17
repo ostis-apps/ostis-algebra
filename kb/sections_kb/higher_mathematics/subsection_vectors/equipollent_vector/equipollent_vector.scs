@@ -1,0 +1,70 @@
+sc_node_not_relation->concept_equipollent_vector;;
+
+concept_equipollent_vector=>nrel_main_idtf:
+[равные векторы](*<-lang_ru;;*);
+[equipollent vector](*<-lang_en;;*);;
+
+concept_equipollent_vector <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(равные векторы)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Два вектора называются равными, если они сонаправленные и их длины равны.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+concept_equipollent_vector <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Пояснение(равные векторы)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Вектора a и b называются равными, если они имеют одинаковую длину, лежат на параллельных прямых или на одной прямой, и направлены в одном направлении.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+concept_equipollent_vector <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(вектор, абсолютная величина*; равенство*)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Если векторы одинаково направлены и равны по абсолютной величине, то они равны. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+concept_equipollent_vector <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(нулевой вектор; равенство*)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Все нулевые векторы считаются равными друг другу.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+concept_equipollent_vector <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(вектор; равенство*)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Вектора равны, если их координаты равны](* <- lang_ru;; *);;
+		*);;
+	*);;

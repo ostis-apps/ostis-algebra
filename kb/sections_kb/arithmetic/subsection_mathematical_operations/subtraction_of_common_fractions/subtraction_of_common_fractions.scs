@@ -2,6 +2,7 @@ sc_node_norole_relation->nrel_subtraction_of_common_fractions;;
 
 nrel_subtraction_of_common_fractions=>nrel_main_idtf:
 [разность обыкновенных дробей*] (*<-lang_ru;;*);
+[фракцияларын айырмашылық*] (*<-lang_kz;;*);
 [subtraction of common fractions*] (*<-lang_en;;*);;
 
 //синонимы
@@ -55,8 +56,8 @@ nrel_sc_text_translation:
 *);;
 
 //Домены
-nrel_subtraction_of_common_fractions<= nrel_first_domain:concept_common_fraction;;
-nrel_subtraction_of_common_fractions <= nrel_second_domain: concept_common_fraction;;
+nrel_subtraction_of_common_fractions => nrel_first_domain:concept_common_fraction;;
+nrel_subtraction_of_common_fractions => nrel_second_domain: concept_common_fraction;;
 
 //пример
  nrel_subtraction_of_common_fractions -> rrel_example :
