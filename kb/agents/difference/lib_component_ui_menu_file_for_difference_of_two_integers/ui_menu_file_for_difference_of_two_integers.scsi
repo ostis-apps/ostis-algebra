@@ -12,8 +12,8 @@ ui_menu_file_for_difference_of_two_integers => ui_nrel_command_template:
 	[*
 		question_difference_of_two_integers _-> ._question_difference_of_two_integers_instance
 			(*
-			_-> ui_arg_1;;
-                        _-> ui_arg_2;;
+			_-> rrel_minuend:: ui_arg_1;;
+                        _-> rrel_subtrahend:: ui_arg_2;;
 
 			*);;
 		._question_difference_of_two_integers_instance _<- question;;

@@ -1,0 +1,58 @@
+sc_node_not_relation->concept_coplanar_vectors;;
+
+concept_coplanar_vectors=>nrel_main_idtf:
+[компланарные векторы](*<-lang_ru;;*);
+[coplanar vectors](*<-lang_en;;*);;
+
+concept_coplanar_vectors <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(компланарные векторы)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Векторы называются компланарными, если они принадлежат одной или параллельным плоскостям.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+//утверждения
+concept_coplanar_vectors <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(вектор)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Два вектора a и b трехмерного пространства всегда компланарны.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+concept_coplanar_vectors <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(вектор; нуль; произведение')] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Для компланарности трех векторов a, b и d трехмерного пространства необходимо и достаточно, чтобы их смешанное произведение равнялось нулю.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+concept_coplanar_vectors <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(вектор; некомпланарный вектор)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Любой вектор можно разложить по трем данным некомпланарным векторам, причем коэффициенты разложения определяются единственным образом.](* <- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,74 @@
+sc_node_not_relation->concept_amicable_numbers;; 
+
+concept_amicable_numbers=>nrel_main_idtf:
+[дружественные числа](*<-lang_ru;;*);
+[достық нөмірлері](*<-lang_kz;;*);
+[amicable numbers](*<-lang_en;;*);;
+
+concept_amicable_numbers<= nrel_using_constants: concept_number;concept_perfect_number;;
+
+concept_amicable_numbers<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(дружественные числа)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Дружественные числа - два различных натуральных числа, для которых сумма всех собственных делителей первого числа равна второму числу и наоборот, сумма всех собственных делителей второго числа равна первому числу.](* <- lang_ru;; *);;
+		*);;
+	*);;
+concept_amicable_numbers<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(совершенное число)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Частным случаем дружественных чисел считаются совершенные числа: каждое совершенное число дружественно себе. ] (* <- lang_ru;; *);;
+		*);;
+	*);;
+
+concept_amicable_numbers<- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+<- sc_task;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Являются ли 1184 и 1210 числа дружественными?](* <- lang_ru;; *);;
+*);;
+*);;
+
+concept_amicable_numbers<- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Доказать, что числа являются дружественными.](* <- lang_ru;; *);;
+*);;
+*);;
+
+concept_amicable_numbers-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+		[220 и 284.
+Суммы их делителей соответственно равны
+1+2+4+5+10+11+20+22+44+55+110 = 284 
+1+2+4+71+142 = 220.](* <- lang_ru;;*);;
+		*);;
+	*);;

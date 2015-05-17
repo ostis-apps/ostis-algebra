@@ -1,0 +1,34 @@
+subsection_equations_and_totality
+=> nrel_main_idtf:
+	[Подраздел. Уравнения и совокупности]	(*	<- lang_ru;;	*);
+=> nrel_main_idtf:
+	[Subsection. Equations and totality]	(*	<- lang_en;;	*);;
+
+subsection_equations_and_totality<=nrel_inclusion:
+    {
+concept_first_order_differential_equations;
+concept_differential_equation;
+concept_exponential_equartion;
+concept_logarithmic_equartion;
+nrel_root_of_the_equation;
+nrel_discriminant;
+nrel_the_domain_of_the_equation;
+nrel_general_solution_of_the_differential_equation;
+nrel_particular_solution_of_the_differential_equation;
+nrel_special_solution_of_the_differential_equation;
+concept_linear_equation;
+nrel_order_differential_equation;
+nrel_partial_integral_differential_equation;
+nrel_general_integral_the_differential_equation;
+concept_equivalent_to_the_equation;
+concept_transcendental_equartion;
+concept_cubic_equation;
+concept_quadratic_equation;
+concept_functional_equation;
+concept_rational_integral_equation;
+concept_rational_fractional_equation;
+concept_rational_equation;
+concept_algebraic_equation;
+concept_equation_with_a_parameter;
+concept_equartion
+    };;

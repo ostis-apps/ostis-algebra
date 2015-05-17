@@ -12,8 +12,8 @@ ui_menu_file_for_division_of_two_numbers => ui_nrel_command_template:
 	[*
 		question_division_of_two_numbers _-> ._question_division_of_two_numbers_instance
 			(*
-			_-> ui_arg_1;;
-                        _-> ui_arg_2;;
+			_-> rrel_dividend:: ui_arg_1;;
+                        _-> rrel_divider:: ui_arg_2;;
 
 			*);;
 		._question_division_of_two_numbers_instance _<- question;;

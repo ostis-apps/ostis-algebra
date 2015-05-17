@@ -1,0 +1,136 @@
+sc_node_not_relation ->concept_higherorder_equations;;
+concept_higher_order_equations=>nrel_main_idtf:[уравнение высшего порядка](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_firstorder_equations;;
+concept_first_order_equations=>nrel_main_idtf:[уравнение первого порядка](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_differential;;													
+concept_differential=>nrel_main_idtf:[дифференциал](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_positive_integer;;																		
+concept_positive_integer => nrel_main_idtf :[положительное целое число] (* <- lang_ru;; *);; 	
+
+sc_node_not_relation -> concept_infinity;;
+concept_infinity=> nrel_main_idtf :[бесконечность] (* <- lang_ru;; *);;
+ 
+sc_node_not_relation -> concept_fraction;; 
+concept_fraction => nrel_main_idtf :
+[дробь] (* <- lang_ru;; *);
+[fraction] (* <- lang_en;; *);;
+
+
+sc_node_not_relation -> concept_neutral_number;; 
+concept_neutral_number => nrel_main_idtf :
+[нейтральное число] (* <- lang_ru;; *);
+[neutral number] (* <- lang_en;; *);;
+ 
+sc_node_not_relation -> concept_negative_integer;;																		
+concept_negative_integer => nrel_main_idtf :[отрицательное целое число] (* <- lang_ru;; *);; 	
+
+sc_node_not_relation -> concept_positive_double_number;;																		
+concept_positive_double_number => nrel_main_idtf :[положительное дробное число] (* <- lang_ru;; *);; 	
+
+sc_node_not_relation -> concept_negative_double_number;;																		
+concept_negative_double_number => nrel_main_idtf :[отрицательное дробное число] (* <- lang_ru;; *);; 	
+
+sc_node_not_relation -> largest_natural_number;; 
+largest_natural_number=> nrel_main_idtf :[наибольшее натуральное число] (* <- lang_ru;; *);; 
+
+sc_node_not_relation->concept_prime_factor;; 
+concept_prime_factor=>nrel_main_idtf:[простой множитель](*<-lang_ru;;*);;
+
+sc_node_not_relation-> concept_arithmetic_operation;; 
+concept_arithmetic_operation => nrel_main_idtf :[арифметическая операция] (* <- lang_ru;; *);; 
+
+sc_node_not_relation -> concept_arithmetic_expression;;																	
+concept_arithmetic_expression => nrel_main_idtf :[арифметическое выражение] (* <- lang_ru;; *);; 
+
+sc_node_not_relation->concept_pair_of_numbers;;
+concept_pair_of_numbers=>nrel_main_idtf:[пара чисел](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_mathematical_object;; 
+concept_mathematical_object => nrel_main_idtf :[математический объект](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_trigonometric_equartion;;
+concept_trigonometric_equartion => nrel_main_idtf :[тригонометрическое уравнение](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_gap;;
+concept_gap => nrel_main_idtf :[промежуток](*<-lang_ru;;*);;
+
+sc_node_not_relation-> concept_formulas_of_abridged_multiplication;;
+ concept_formulas_of_abridged_multiplication => nrel_main_idtf:[формулы сокращенного умножения] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_degree_with_natural_indicator;;																		
+concept_degree_with_natural_indicator => nrel_main_idtf :[степень с натуральным показателем] (* <- lang_ru;; *);; 	
+
+sc_node_not_relation -> concept_arabic_numerals;;																		
+concept_arabic_numerals => nrel_main_idtf :[арабские цифры] (* <- lang_ru;; *);; 	
+
+sc_node_not_relation -> concept_roman_numerals;;																		
+concept_roman_numerals => nrel_main_idtf :[римские цифры] (* <- lang_ru;; *);; 	
+
+sc_node_not_relation -> concept_mayan_numerals;;																		
+concept_mayan_numerals => nrel_main_idtf :[цифры майя] (* <- lang_ru;; *);; 	
+
+//sc_node_not_relation -> concept_transcendental_number;; 
+//concept_transcendental_number => nrel_main_idtf :[трансцендентное число] (* <- lang_ru;; *);;
+
+//sc_node_not_relation -> concept_fibonacci_number;; 
+//concept_fibonacci_number => nrel_main_idtf :[число Фибоначчи] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_perfect_number;; 
+concept_perfect_number => nrel_main_idtf :[совершенное число] (* <- lang_ru;; *);;
+
+//sc_node_not_relation -> concept_imaginary_number;; 
+//concept_imaginary_number => nrel_main_idtf :[мнимое число] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_integer_algebraic_number;; 
+concept_integer_algebraic_number => nrel_main_idtf :[целое алгебраическое число] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_fractional_algebraic_number;; 
+concept_fractional_algebraic_number => nrel_main_idtf :[дробное алгебраическое число] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_expression;;
+concept_expression => nrel_main_idtf :[выражение] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_rational_algebraic_expression;; 
+concept_rational_algebraic_expression => nrel_main_idtf :[рациональное алгебраическое выражение] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_irrational_algebraic_expression ;; 
+concept_irrational_algebraic_expression => nrel_main_idtf :[иррациональное алгебраическое выражение] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_set_numbers;; 
+concept_set_numbers => nrel_main_idtf :[множество чисел] (* <- lang_ru;; *);; 
+
+sc_node_not_relation->concept_even_perfect_number;;
+concept_even_perfect_number=>nrel_main_idtf:[четное совершенное число](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_odd_perfect_number;;
+concept_odd_perfect_number=>nrel_main_idtf:[нечетное совершенное число](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_the_absolute_value;;
+concept_the_absolute_value=>nrel_main_idtf:[абсолютная величина](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_period;;
+concept_period=>nrel_main_idtf:[период](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_accuracy;;
+concept_accuracy=>nrel_main_idtf:[точность](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_point;;
+concept_point=>nrel_main_idtf:[точка](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_matrix;;
+concept_matrix=>nrel_main_idtf:[матрицы](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_first_order_differential_equation_with_multiple_variables;;
+concept_first_order_differential_equation_with_multiple_variables=>nrel_main_idtf:[диффенциальные уравнения первого порядка с разделяющимися переменными](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_homogeneous_differential_equation_of_first_order;;
+concept_homogeneous_differential_equation_of_first_order=>nrel_main_idtf:[однородные диффенциальные уравнения первого порядка](*<-lang_ru;;*);;
+
+sc_node_not_relation-> concept_linear_differential_equation_of_first_order;;
+concept_linear_differential_equation_of_first_order=>nrel_main_idtf:[линейные диффенциальные уравнения первого порядка](*<-lang_ru;;*);;
+
+sc_node_not_relation-> concept_coefficient;;
+concept_coefficient => nrel_main_idtf: [коэффициент];;

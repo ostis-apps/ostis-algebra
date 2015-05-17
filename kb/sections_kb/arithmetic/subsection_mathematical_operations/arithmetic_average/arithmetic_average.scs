@@ -1,0 +1,65 @@
+sc_node_norole_relation->nrel_arithmetic_average;;
+
+nrel_arithmetic_average=>nrel_main_idtf:
+[среднее арифметическое*](*<-lang_ru;;*);
+[орташа*](*<-lang_kz;;*);
+[arithmetic average*](*<-lang_en;;*);;
+
+nrel_arithmetic_average<- ternary_relation;;
+nrel_arithmetic_average => nrel_first_domain: concept_number;;
+nrel_arithmetic_average => nrel_second_domain: concept_number;;
+nrel_arithmetic_average => nrel_third_domain: concept_number;;
+
+nrel_arithmetic_average<= nrel_using_constants:concept_number;;
+
+//определение
+nrel_arithmetic_average<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(среднее арифметическое*)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Среднее арифметическое нескольких величин — это отношение суммы величин к их количеству.](* <- lang_ru;; *);;
+		*);;
+	*);;
+// конкретные задачи
+nrel_arithmetic_average<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Найти среднее арифметическое для чисел a=4, b=8] (* <- lang_ru;; *);;
+		*);;
+	*);;
+
+// классы задач и способы решения
+nrel_arithmetic_average<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+			-> rrel_example: 
+			[Задачи на нахождения среднего арифметического](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+ nrel_arithmetic_average  -> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+		    [a=5, b=4,c=3. Среднее арифметическое d=(a+b+c)/d=(5+4+3)/3=4.]         (* <- lang_ru;;*);;
+		*);;
+	*);;

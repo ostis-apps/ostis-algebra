@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="formula_muavra" shapeColor="0" id="173546552" parent="0" left="0" top="0" right="102.188" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="639" y="785" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="formula_eilera" shapeColor="0" id="173520096" parent="0" left="0" top="0" right="91.0469" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="636" y="739" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="formula_complex_numbers" shapeColor="0" id="173506096" parent="0" left="0" top="0" right="160.594" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="394.418" y="745.776" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="trigonometric_formulas_liwering_of_powers" shapeColor="0" id="173508296" parent="0" left="0" top="0" right="254.422" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="897" y="400" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="173505944" parent="0" x="688" y="216" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="trigonometric_formulas_linking_function_of_one_argument" shapeColor="0" id="173477224" parent="0" left="0" top="0" right="344.219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="890" y="345" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="trigonometric_formulas_half_angle" shapeColor="0" id="173476832" parent="0" left="0" top="0" right="205.656" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="884.97" y="287.493" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="trigonometric_formulas_half_angle_tg" shapeColor="0" id="173463208" parent="0" left="0" top="0" right="222.656" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="883" y="239" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="trigonometric_formulas_sum_and_difference" shapeColor="0" id="173448168" parent="0" left="0" top="0" right="258.891" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="877" y="191" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="distributive_law_of_multiplication_relative_difference" shapeColor="0" id="173433992" parent="0" left="0" top="0" right="306.797" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="463" y="614" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="distributive_law_of_multiplication_over_addition" shapeColor="0" id="173312976" parent="0" left="0" top="0" right="279.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="459" y="568" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="associative_law_of_multiplication" shapeColor="0" id="173406680" parent="0" left="0" top="0" right="195.234" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="461" y="523" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="associative_law_of_addition" shapeColor="0" id="173392960" parent="0" left="0" top="0" right="163.469" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="457" y="481" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="commutative_law_of_multiplication" shapeColor="0" id="173379392" parent="0" left="0" top="0" right="206.359" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="458" y="444" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="commutative_law_of_addition" shapeColor="0" id="173367800" parent="0" left="0" top="0" right="174.594" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="461" y="401" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="formula_equivalent_infinitesimal_function" shapeColor="0" id="173340304" parent="0" left="0" top="0" right="246.312" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="348" y="176.507" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="trigonometric_formulas" shapeColor="0" id="173327264" parent="0" left="0" top="0" right="139.844" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="344.776" y="222" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="formula_exponentiation" shapeColor="0" id="173313112" parent="0" left="0" top="0" right="142.094" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="379" y="674.478" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="formulas_multiplication_of_the_trigonometric_function" shapeColor="0" id="173300152" parent="0" left="0" top="0" right="318.016" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="893" y="440" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="derivative_formula" shapeColor="0" id="173286200" parent="0" left="0" top="0" right="113.203" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="392.761" y="873.522" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="general_formula_of_differentiation" shapeColor="0" id="173274680" parent="0" left="0" top="0" right="204.906" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="602" y="863" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="derivatives_of_basic_elementary_functions" shapeColor="0" id="173250712" parent="0" left="0" top="0" right="245.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="593" y="934" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="formulas_of_abridged_multiplication" shapeColor="0" id="173231864" parent="0" left="0" top="0" right="214.516" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="361.5" y="307.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="formulas" shapeColor="0" id="172947240" parent="0" left="0" top="0" right="58.5469" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="190" y="70" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173568440" parent="0" id_b="172947240" id_e="173392960" b_x="190" b_y="70" e_x="457" e_y="481" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="354" y="485"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173559344" parent="0" id_b="172947240" id_e="173406680" b_x="190" b_y="70" e_x="461" e_y="523" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="357" y="527"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173566936" parent="0" id_b="172947240" id_e="173367800" b_x="190" b_y="70" e_x="461" e_y="401" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="351" y="409"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173419952" parent="0" id_b="172947240" id_e="173433992" b_x="190" b_y="70" e_x="463" e_y="614" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="364" y="617"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173570840" parent="0" id_b="172947240" id_e="173312976" b_x="190" b_y="70" e_x="459" e_y="568" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="360" y="566"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173567688" parent="0" id_b="172947240" id_e="173379392" b_x="190" b_y="70" e_x="458" e_y="444" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="353" y="443"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173578248" parent="0" id_b="173506096" id_e="173546552" b_x="394.418" b_y="745.776" e_x="639" e_y="785" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173577512" parent="0" id_b="173506096" id_e="173520096" b_x="394.418" b_y="745.776" e_x="636" e_y="739" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173576760" parent="0" id_b="172947240" id_e="173506096" b_x="190" b_y="70" e_x="394.418" e_y="745.776" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="199" y="761"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173576024" parent="0" id_b="173578984" id_e="173508296" b_x="0" b_y="0" e_x="897" e_y="400" dotBBalance="0.771677" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173575288" parent="0" id_b="173578984" id_e="173477224" b_x="0" b_y="0" e_x="890" e_y="345" dotBBalance="0.6759" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173574552" parent="0" id_b="173578984" id_e="173476832" b_x="0" b_y="0" e_x="884.97" e_y="287.493" dotBBalance="0.421923" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173573816" parent="0" id_b="173578984" id_e="173463208" b_x="0" b_y="0" e_x="883" e_y="239" dotBBalance="0.25207" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173573080" parent="0" id_b="173578984" id_e="173448168" b_x="0" b_y="0" e_x="877" e_y="191" dotBBalance="0.114498" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173572344" parent="0" id_b="173327264" id_e="173505944" b_x="344.776" b_y="222" e_x="688" e_y="216" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173571592" parent="0" id_b="172947240" id_e="173327264" b_x="190" b_y="70" e_x="344.776" e_y="222" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="190" y="228"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173565368" parent="0" id_b="172947240" id_e="173340304" b_x="190" b_y="70" e_x="348" e_y="176.507" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="190.239" y="178"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173564616" parent="0" id_b="172947240" id_e="173313112" b_x="190" b_y="70" e_x="379" e_y="674.478" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="198" y="680"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173563880" parent="0" id_b="173578984" id_e="173300152" b_x="0" b_y="0" e_x="893" e_y="440" dotBBalance="0.872477" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173563160" parent="0" id_b="172947240" id_e="173286200" b_x="190" b_y="70" e_x="392.761" e_y="873.522" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="203" y="869"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173562216" parent="0" id_b="173286200" id_e="173274680" b_x="392.761" b_y="873.522" e_x="602" e_y="863" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173561384" parent="0" id_b="173286200" id_e="173250712" b_x="392.761" b_y="873.522" e_x="593" e_y="934" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="173560744" parent="0" id_b="172947240" id_e="173231864" b_x="190" b_y="70" e_x="361.5" e_y="307.5" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="192" y="311"/>
+            </points>
+        </arc>
+        <bus type="" idtf="" shapeColor="0" id="173578984" parent="0" owner="173505944" b_x="688.479" b_y="225.488" e_x="698" e_y="414">
+            <points/>
+        </bus>
+    </staticSector>
+</GWF>

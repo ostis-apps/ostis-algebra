@@ -1,0 +1,61 @@
+sc_node_role_relation->rrel_sum;; 
+rrel_sum=>nrel_main_idtf:
+[сумма'](*<-lang_ru;;*);
+[sum'](*<-lang_en;;*);;
+
+//определение и пояснения
+rrel_sum<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(сумма')]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: 
+			[Сумма - результат суммирования величин (чисел, функций, векторов, матриц и т. д.).](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+   
+//конкретные задачи
+rrel_sum<- rrel_key_sc_element:
+...
+
+(*
+=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+<- sc_task;;
+<= nrel_sc_text_translation:
+...
+
+(*
+-> rrel_example:
+[Найти сумму выражения 2+5.](* <- lang_ru;; *);;
+*);;
+*);;
+
+//классы задач и способы решения
+rrel_sum <- rrel_key_sc_element:
+...
+(*
+=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+<- sc_task;;
+<=
+nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Задачи на нахождение суммы.](* <- lang_ru;; *);;
+*);;
+*);;
+
+//пример
+rrel_sum-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[3+5=8. Сумма - 8.](* <- lang_ru;;*);;
+		*);;
+	*);;

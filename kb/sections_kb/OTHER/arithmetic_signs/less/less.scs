@@ -1,0 +1,31 @@
+less=>nrel_main_idtf:
+[меньше](*<-lang_ru;;*);
+[less](*<-lang_en;;*);;
+
+//определения и пояснения
+less <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(меньше)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Меньше (<) - утверждение об относительной величине или порядке двух объектов.](* <- lang_ru;; 	*);;
+		*);;
+*);;
+
+
+//пример
+less-> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+...
+		(*
+		-> rrel_example: 
+	[25<37 - 25 меньше 37](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+

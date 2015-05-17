@@ -1,0 +1,56 @@
+sc_node_not_relation->concept_elementary_fraction;; 
+
+concept_elementary_fraction=>nrel_main_idtf:
+[элементарная дробь](*<-lang_ru;;*);
+[бастауыш фракциясын](*<-lang_kz;;*);
+[elementary fraction](*<-lang_en;;*);;
+
+concept_elementary_fraction=> nrel_idtf:[простейшая дробь](*<-lang_ru;;*);;
+
+concept_double_number -> concept_elementary_fraction;;
+
+// классы задач и способы решения
+concept_elementary_fraction <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+			-> rrel_example: 
+			[Задачи на нахождение интеграла из простейшей дроби.](* <- lang_ru;; *);;
+		*);
+	...
+		(*
+			-> rrel_example: 
+			[Задачи на определение вида простейшей .](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+//пример
+concept_elementary_fraction -> rrel_example :
+	...
+	(* 
+<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+"file://elementary_fraction_3.html"(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+//определение
+concept_elementary_fraction <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(элементарная дробь)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://elementary_fraction_2.html"(* <- lang_ru;; 	*);;
+		*);;
+	*);;
+

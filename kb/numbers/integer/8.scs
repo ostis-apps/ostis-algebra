@@ -1,0 +1,5 @@
+eight=>nrel_main_idtf:
+[8](*<-lang_ru;;*);
+[8](*<-lang_en;;*);;
+
+concept_number -> eight;;

@@ -1,6 +1,6 @@
 ui_menu_na_operations <- ui_user_command_class_noatom;;
 
-ui_menu_na_operations => nrel_main_idtf: [Операции с числами] (* <- lang_ru;; *);;
+ui_menu_na_operations => nrel_main_idtf: [Математические операции] (* <- lang_ru;; *);;
 
 ui_menu_na_operations<= nrel_ui_commands_decomposition:
 {
@@ -8,7 +8,24 @@ ui_menu_na_operations<= nrel_ui_commands_decomposition:
         ui_menu_file_for_multiplication_of_two_integers;
         ui_menu_file_for_difference_of_two_integers;
         ui_menu_file_for_natural_logarithm;
-        ui_menu_file_for_division_of_two_numbers
+        ui_menu_file_for_division_of_two_numbers;
+        ui_menu_file_for_nod;
+        ui_menu_file_for_nok;
+        ui_menu_file_for_logarithm;
+        ui_menu_file_for_parity_check;
+	ui_menu_file_for_exponentiation;
+	ui_menu_file_for_factorization;
+        ui_menu_file_for_check_for_a_prime_number;
+	ui_menu_file_for_extraction_of_root;
+	ui_menu_file_for_finding_the_roots_of_a_quadratic_equation;
+	ui_menu_file_for_finding_denominator_geometric_progresi;
+	ui_menu_file_for_finding_sum_geometric_progresi;
+	ui_menu_file_for_finding_n_member_geometric_progresi;
+	ui_menu_file_for_comparing_two_numbers;
+	ui_menu_file_for_module;
+	ui_menu_file_for_coefficientAP;
+	ui_menu_file_for_memberAP;
+	ui_menu_file_for_sumAP
 };;
 
 

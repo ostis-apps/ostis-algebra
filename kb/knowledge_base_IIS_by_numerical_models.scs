@@ -1,0 +1,41 @@
+knowledge_base_ISS_by_numerical_models <- ui_start_sc_element;;
+
+knowledge_base_ISS_by_numerical_models => nrel_main_idtf:
+	[База знаний ИСС по числовым моделям](*<-lang_ru;;*);;
+
+documentation_ISS_by_numerical_models => nrel_main_idtf:
+	[Документация. ИСС по числомы моделям](*<-lang_ru;;*);;
+
+knowledge_base_ISS_by_numerical_models <= nrel_decomposition_bz:
+{
+	arithmetic;
+	elementary_algebra;
+	theory_of_elementary_functions_and_elements_of_analysis;
+	higher_mathematics;
+	documentation_ISS_by_numerical_models;
+	requests_to_the_system;
+	formulas
+};; 
+
+documentation_ISS_by_numerical_models <= nrel_section_decomposition:
+{
+	key_areas_for_further_work;
+	current_stage_of_development_of_the_project;
+	the_uniqueness_and_novelty_design;
+	description_of_the_final_product_of_the_project;
+	brief_description_of_project
+};; 
+
+nrel_decomposition_bz
+<- quasybinary_relation;
+<- decomposition_relation;
+<- sc_node_norole_relation;
+<- rrel_key_sc_element;
+
+=> nrel_main_idtf:
+	[декомпозиция базы знаний*]
+	(*	<- lang_ru;;	*);
+	[decomposition of knowledge Base*]
+	(*	<- lang_en;;	*);;
+
+//documentation_ISS_by_numerical_models -> "file://documentation2015.pdf";;

@@ -1,0 +1,61 @@
+sc_node_not_relation->concept_even_number;;
+
+concept_even_number=>nrel_main_idtf:
+[четное число](*<-lang_ru;;*);
+[жұп сан](*<-lang_kz;;*);
+[even number](*<-lang_en;;*);;
+
+// синонимы
+concept_even_number=> nrel_idtf:[Четные числа](*<-lang_ru;;*);;
+concept_even_number=> nrel_idtf:[Множество четных чисел](*<-lang_ru;;*);;
+concept_even_number=> nrel_idtf:[Понятие четного числа](*<-lang_ru;;*);;
+concept_even_number=> nrel_idtf:[Класс четных чисел](*<-lang_ru;;*);;
+
+//определение
+concept_even_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(четное число)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Четное число - натуральное число, делящаеся на 2, а также на число 0.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+//используемые константы
+concept_even_number <= nrel_using_constants: concept_natural_number;;
+
+// конкретные задачи
+concept_even_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Конкретные задачи] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Является ли число 15 четным?](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+// классы задач и способы решения
+concept_even_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Классы задач и способы решения] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+			-> rrel_example: 
+			[Задачи на определение четности (нечетности) числа.]	(* <- lang_ru;; *);;
+		*);;
+	*);;
+
+//пример
+concept_even_number -> rrel_example :2; 4; 6; 8; 10; 12; 14;;
