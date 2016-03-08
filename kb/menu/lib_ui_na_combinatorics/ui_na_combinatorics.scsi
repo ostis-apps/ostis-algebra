@@ -1,0 +1,8 @@
+ui_na_combinatorics <- ui_user_command_class_noatom;
+=> nrel_main_idtf: [Комбинаторика] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Combinatorics] (* <- lang_en;; *);
+<= nrel_ui_commands_decomposition:
+{
+	ui_menu_file_for_combination;
+	ui_menu_file_for_stationing
+};;

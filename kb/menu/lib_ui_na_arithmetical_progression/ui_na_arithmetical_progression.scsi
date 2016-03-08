@@ -1,0 +1,9 @@
+ui_na_arithmetical_progression <- ui_user_command_class_noatom;
+=> nrel_main_idtf: [Арифметической прогрессия] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Arithmetical progression] (* <- lang_en;; *);
+<= nrel_ui_commands_decomposition:
+{
+	ui_menu_file_for_coefficientAP;
+	ui_menu_file_for_memberAP;
+	ui_menu_file_for_sumAP
+};;

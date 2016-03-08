@@ -1,0 +1,54 @@
+sc_node_not_relation -> concept_vector_analysis;;
+
+concept_vector_analysis => nrel_main_idtf:
+[векторный анализ](*<-lang_ru;;*);
+[vector analysis](*<-lang_en;;*);;
+
+//надмножество
+concept_vector_calculus => nrel_inclusion: concept_vector_analysis;;
+
+//определение и пояснения
+concept_vector_analysis <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf: [Опр. (векторный анализ)] (*<-lang_ru;;*);;
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_definition:
+			[Векторный анализ — раздел векторного исчисления, в котором исследуются статические, стационарные и динамические векторные и скалярные поля.](*<-lang_ru;;*);;
+		*);;
+	*);;
+
+//используемые константы
+concept_vector_analysis <= nrel_using_constants:
+	{
+	concept_vector_calculus;
+	concept_field
+	};;	
+	
+//утверждения
+concept_vector_analysis <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(векторный анализ; поток вектора*; циркуляция вектора*)] (* <- lang_ru;; *);;
+	<- sc_statement;;	
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_definition:
+			[Векторный анализ оперирует с понятиями поток вектора, циркуляция вектора.](*<-lang_ru;;*);;
+		*);;
+	*);
+	...
+	(*
+	=> nrel_main_idtf: [Утв.(векторный анализ; теорема о дивергенции вектора; теорема о циркуляции вектора; теорема разложения Гельмгольца; теорема Умова; градиент)] (*<-lang_ru;;*);;
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+	...
+		(*
+		-> rrel_definition:
+			[Базовые теоремы векторного анализа : градиент, теорема о дивергенции вектора, теорема о циркуляции вектора, уравнение Лапласа, уравнение Пуассона, теорема разложения Гельмгольца, теорема Умова.](*<-lang_ru;;*);;
+		*);;
+	*);;

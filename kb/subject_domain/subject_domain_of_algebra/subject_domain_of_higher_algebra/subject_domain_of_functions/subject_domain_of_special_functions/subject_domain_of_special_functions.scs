@@ -1,0 +1,19 @@
+sc_node_struct -> subject_domain_of_special_functions;;
+subject_domain_of_special_functions <- subject_domain;;
+subject_domain_of_special_functions => nrel_main_idtf:
+	[Предметная область специальных функций] (* <- lang_ru;; *);
+	[Subject domain of special functions] (* <- lang_en;; *);;
+
+subject_domain_of_special_functions -> rrel_maximum_studied_object_class: 
+	concept_special_function;;
+
+subject_domain_of_special_functions -> rrel_not_maximum_studied_object_class: 
+	concept_indicator_function;;
+
+subject_domain_of_special_functions -> rrel_studied_relation: 
+	nrel_module;;
+
+subject_domain_of_special_functions => nrel_particular_subject_domain:
+	subject_domain_of_piecewise_functions;
+	subject_domain_of_arithmetic_functions;
+	subject_domain_of_antiderivatives_of_elementary_functions;;

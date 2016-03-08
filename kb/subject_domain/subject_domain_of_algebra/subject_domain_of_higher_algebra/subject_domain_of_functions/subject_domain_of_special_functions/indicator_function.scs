@@ -1,0 +1,5 @@
+sc_node_not_relation -> concept_indicator_function;; 
+
+concept_indicator_function => nrel_main_idtf:
+[индикаторная функция](*<-lang_ru;;*);
+[indicator function](*<-lang_en;;*);;

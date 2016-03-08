@@ -1,0 +1,38 @@
+sc_node_struct -> subject_domain_of_rational_numbers;;
+subject_domain_of_rational_numbers <- subject_domain;;
+subject_domain_of_rational_numbers => nrel_main_idtf:
+	[Предметная область рациональных чисел] (* <- lang_ru;; *);
+	[Subject domain of rational numbers] (* <- lang_en;; *);;
+
+subject_domain_of_rational_numbers -> rrel_maximum_studied_object_class: concept_real_number;; 
+
+subject_domain_of_rational_numbers -> rrel_not_maximum_studied_object_class:concept_common_fraction;;
+subject_domain_of_rational_numbers -> rrel_not_maximum_studied_object_class:concept_elementary_fraction;; 
+subject_domain_of_rational_numbers -> rrel_not_maximum_studied_object_class:concept_improper_fraction;;
+subject_domain_of_rational_numbers -> rrel_not_maximum_studied_object_class:concept_mixed_fraction;;
+subject_domain_of_rational_numbers -> rrel_not_maximum_studied_object_class:concept_proper_fraction;;
+subject_domain_of_rational_numbers -> rrel_not_maximum_studied_object_class:concept_non_periodic_decimal;;
+subject_domain_of_rational_numbers -> rrel_not_maximum_studied_object_class:concept_periodic_decimal;;
+subject_domain_of_rational_numbers -> rrel_not_maximum_studied_object_class:concept_decimal;;
+
+concept_common_fraction -> rrel_studied_relation: nrel_addition_of_common_fractions;;
+concept_common_fraction -> rrel_studied_relation:nrel_common_fraction_multiplication_by_a_natural_number;; 
+concept_common_fraction -> rrel_studied_relation:nrel_division_of_common_fraction_by_a_number;; 
+concept_common_fraction -> rrel_studied_relation:nrel_division_of_common_fractions;;
+concept_common_fraction -> rrel_studied_relation:nrel_multiplication_of_common_fractions;; 
+concept_common_fraction -> rrel_studied_relation:nrel_reduction_to_a_common_denominator;;
+concept_common_fraction -> rrel_studied_relation:nrel_subtraction_of_common_fractions;; 
+concept_common_fraction -> rrel_studied_relation:nrel_comparison_of_fractions;;
+concept_common_fraction -> rrel_studied_relation:nrel_expansion_of_fraction;;
+
+concept_decimal -> rrel_studied_relation:nrel_addition_of_decimal_fraction;;
+concept_decimal -> rrel_studied_relation:nrel_comparing_of_decimal_fraction;;
+concept_decimal -> rrel_studied_relation:nrel_division_of_decimal_fraction;;
+concept_decimal -> rrel_studied_relation:nrel_multiplication_of_decimal_fraction;;
+concept_decimal -> rrel_studied_relation:nrel_subtract_of_decimal_fraction;; 
+
+concept_mixed_fraction-> rrel_studied_relation: nrel_addition_of_mixed_fractions;; 
+concept_mixed_fraction-> rrel_studied_relation: nrel_division_of_mixed_fractions;; 
+concept_mixed_fraction-> rrel_studied_relation: nrel_mixed_fraction_multiplication_by_a_natural_number;; 
+concept_mixed_fraction-> rrel_studied_relation: nrel_multiplcation_of_mixed_fractions;; 
+concept_mixed_fraction-> rrel_studied_relation: nrel_subtraction_of_mixed_fractions;; 

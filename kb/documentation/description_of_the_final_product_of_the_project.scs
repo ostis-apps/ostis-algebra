@@ -1,78 +1,47 @@
-description_of_the_final_product_of_the_project
-=> nrel_main_idtf:
-	[Раздел. Описание конечного продукта данного проекта]	(*	<- lang_ru;;	*);;
-
-
-
-
+description_of_the_final_product_of_the_project => nrel_main_idtf: [Раздел. Описание конечного продукта данного проекта] (* <- lang_ru;; *);;
 
 description_of_the_final_product_of_the_project <= nrel_section_decomposition:
 {
-characteristic_of_the_technical_implementation_of_the_developed_intelligent_system;
-various_areas_of_structuring_and_systematization_of_knowledge;
-composition_and_volume_of_the_systems_knowledge_base;
-type_developed_intelligent_system
+type_developed_intelligent_system;
+composition_and_volume_of_systems_knowledge_base;
+different_areas_of_structuring_and_systematization_of_knowledge;
+structure_and_composition_of_machine_knowledge_processing_system;
+characteristic_of_technical_implementation_of_the_developed_intelligent_system
 };;
 
 
 
-type_developed_intelligent_system
-=> nrel_main_idtf:
-	[Тип разрабатываемой интеллектуальной системы]	(*	<- lang_ru;;	*);;
-composition_and_volume_of_the_systems_knowledge_base
-=> nrel_main_idtf:
-	[Состав и объем базы знаний системы]	(*	<- lang_ru;;	*);;
-various_areas_of_structuring_and_systematization_of_knowledge
-=> nrel_main_idtf:
-	[Различные направления структуризации и систематизации знаний]	(*	<- lang_ru;;	*);;
-characteristic_of_the_technical_implementation_of_the_developed_intelligent_system
-=> nrel_main_idtf:
-	[Характеристика технической реализации разрабатываемой интеллектуальной системы]	(*	<- lang_ru;;	*);;
+type_developed_intelligent_system => nrel_main_idtf: [Тип разрабатываемой интеллектуальной системы] (* <- lang_ru;; *);; 
+type_developed_intelligent_system <= nrel_sc_text_translation:	
+	...
+	(*
+	-> "file://type_developed_intelligent_system.pdf" (* <- lang_ru;; *);;
+	*);;
 
-type_developed_intelligent_system<- rrel_key_sc_element:
-	... 
+composition_and_volume_of_systems_knowledge_base => nrel_main_idtf: [Состав и объем базы знаний системы] (* <- lang_ru;; *);; 
+composition_and_volume_of_systems_knowledge_base <= nrel_sc_text_translation:	
+	...
 	(*
-	<- sc_explanation;; 
-	<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-			[Разрабатываемая интеллектуальная система относится к интеллектуальным информационным системам, т.е. к системам, основанным на знаниях.
-Кроме того, разрабатываемая система - это система поддержки принятия решений. ИСС помогает пользователю сформировать альтернативы при принятии решений.
-В настоящий момент ИСС по числовым моделям представляет собой базу знаний, которая написана на SCs коде.](* <- lang_ru;; *);;
-		*);;
+	-> "file://composition_and_volume_of_systems_knowledge_base.pdf" (* <- lang_ru;; *);;
 	*);;
-composition_and_volume_of_the_systems_knowledge_base<- rrel_key_sc_element:
-	... 
+
+different_areas_of_structuring_and_systematization_of_knowledge => nrel_main_idtf: [Различные направления структуризации и систематизации знаний] (*	<- lang_ru;; *);;
+different_areas_of_structuring_and_systematization_of_knowledge <= nrel_sc_text_translation:	
+	...
 	(*
-	<- sc_explanation;; 
-	<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-			"file://composition_and_volume_of_the_systems_knowledge_base.html"(* <- lang_ru;; *);;
-		*);;
+	-> "file://different_areas_of_structuring_and_systematization_of_knowledge.pdf" (* <- lang_ru;; *);;
 	*);;
-various_areas_of_structuring_and_systematization_of_knowledge<- rrel_key_sc_element:
-	... 
+
+structure_and_composition_of_machine_knowledge_processing_system => nrel_main_idtf: [Структура и состав машины обработки знаний системы]	(* <- lang_ru;;	*);;
+structure_and_composition_of_machine_knowledge_processing_system <= nrel_sc_text_translation:	
+	...
 	(*
-	<- sc_explanation;; 
-	<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-			"file://various_areas_of_structuring_and_systematization_of_knowledge.html"(* <- lang_ru;; *);;
-		*);;
+	-> "file://structure_and_composition_of_machine_knowledge_processing_system.pdf" (* <- lang_ru;; *);;
 	*);;
-characteristic_of_the_technical_implementation_of_the_developed_intelligent_system<- rrel_key_sc_element:
-	... 
+
+characteristic_of_technical_implementation_of_the_developed_intelligent_system => nrel_main_idtf: [Характеристика технической реализации разрабатываемой интеллектуальной системы] (* <- lang_ru;; *);;
+characteristic_of_technical_implementation_of_the_developed_intelligent_system <= nrel_sc_text_translation:	
+	...
 	(*
-	<- sc_explanation;; 
-	<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-			[Интеллектуальная справочная система по числовым моделям основана на технологии OSTIS. 
-Данная система разрабатывается с помощью специализированных языков формализации исходных текстов баз знаний SCg, SCs и языка реализации программной части – SCp. Платформой для разработки исходных текстов баз знаний является редактор исходных текстов баз знаний KBE. ](* <- lang_ru;; *);;
-		*);;
+	-> "file://characteristic_of_technical_implementation_of_the_developed_intelligent_system.pdf" (* <- lang_ru;; *);;
 	*);;

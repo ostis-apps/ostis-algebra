@@ -1,0 +1,101 @@
+sc_node_role_relation -> rrel_basis;; 
+rrel_basis => nrel_main_idtf :[основание'] (* <- lang_ru;; *);; 
+
+sc_node_role_relation -> rrel_biggest_factorion;;
+rrel_biggest_factorion => nrel_main_idtf:
+[наибольший факторион'](*<-lang_ru;;*);;
+
+sc_node_role_relation -> rrel_smallest_prime_factorial_number;;
+rrel_smallest_prime_factorial_number => nrel_main_idtf:
+[наименьшее простое факториальное число'](*<-lang_ru;;*);;
+
+sc_node_role_relation -> rrel_smallest_perfect_number;; 
+rrel_smallest_perfect_number => nrel_main_idtf:
+[минимальное совершенное число'](*<-lang_ru;;*);
+[smallest perfect number'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_smallest_prime_number;; 
+rrel_smallest_prime_number => nrel_main_idtf:
+[минимальное простое число'](*<-lang_ru;;*);
+[smallest prime number'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_smallest_odd_abundant_number;; 
+rrel_smallest_odd_abundant_number => nrel_main_idtf: [наименьшее нечетное избыточное число'](*<-lang_ru;;*); [smallest odd abundant number'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_smallest_square_number_equal_to_sum_of_two_square_numbers;; 
+rrel_smallest_square_number_equal_to_sum_of_two_square_numbers => nrel_main_idtf: [наименьшее квадратное число равное сумме двух квадратных чисел'](*<-lang_ru;;*); [smallest square number equal to sum of two square numbers'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_result;;
+rrel_result => nrel_main_idtf: [результат'](*<-lang_ru;;*); [result'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_first_member;;
+rrel_first_member => nrel_main_idtf: [первый член'](*<-lang_ru;;*); [first member'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_second_member;;
+rrel_second_member => nrel_main_idtf: [второй член'](*<-lang_ru;;*); [second element'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_third_member;;
+rrel_third_member => nrel_main_idtf: [третий член'](*<-lang_ru;;*); [third element'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_n_member;;
+rrel_n_member => nrel_main_idtf: [n-ый член'](*<-lang_ru;;*); [n element'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_space_coordinate;; 
+rrel_space_coordinate => nrel_main_idtf: [пространственная координата'](*<-lang_ru;;*); [space coordinate'](*<-lang_en;;*); [кеңістіктік үйлестіру'](*<-lang_kz;;*);;
+
+sc_node_role_relation -> rrel_ct_coordinate;; 
+rrel_ct_coordinate => nrel_main_idtf: [ct-координата'](*<-lang_ru;;*); [ct-coordinate'](*<-lang_en;;*); [ct-үйлестіру'](*<-lang_kz;;*);;
+
+sc_node_role_relation -> rrel_speed_of_light;; 
+rrel_speed_of_light => nrel_main_idtf: [скорость света'](*<-lang_ru;;*); [speed of light'](*<-lang_en;;*); [жылдамдық жеңіл'](*<-lang_kz;;*);;
+
+sc_node_role_relation -> rrel_arrival_time;; 
+rrel_arrival_time => nrel_main_idtf: [время прибытия'](*<-lang_ru;;*); [arrival time'](*<-lang_en;;*); [уақыт келу'](*<-lang_kz;;*);;
+
+sc_node_role_relation -> rrel_first_entered_element;;
+rrel_first_entered_element => nrel_main_idtf: [1'](*<-lang_ru;;*); [1'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_second_entered_element;;
+rrel_second_entered_element => nrel_main_idtf: [2'](*<-lang_ru;;*); [2'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_third_entered_element;;
+rrel_third_entered_element => nrel_main_idtf: [3'](*<-lang_ru;;*); [3'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_kolvo_members;;
+rrel_kolvo_members => nrel_main_idtf: [количество членов арифметической проегрессии'](*<-lang_ru;;*); [number of members of arithmetic progression'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_x_coordinate;;
+rrel_x_coordinate => nrel_main_idtf: [координата x'](*<-lang_ru;;*); [x coordinate'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_y_coordinate;;
+rrel_y_coordinate => nrel_main_idtf: [координата y'](*<-lang_ru;;*); [y coordinate'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_z_coordinate;;
+rrel_z_coordinate => nrel_main_idtf: [координата z'](*<-lang_ru;;*); [z coordinate'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_degree;;
+rrel_degree => nrel_main_idtf: [градусы'](*<-lang_ru;;*); [degrees'](*<-lang_en;;*); [градус'](*<-lang_kz;;*);;
+
+sc_node_role_relation -> rrel_resulting_set;;
+rrel_resulting_set => nrel_main_idtf: [результирующее множество'](*<-lang_ru;;*); [resulting set'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_original_set;;
+rrel_original_set => nrel_main_idtf: [исходное множество'](*<-lang_ru;;*); [original set'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_number_of_elements_in_the_group;;
+rrel_number_of_elements_in_the_group => nrel_main_idtf: [количество элементво в группе'](*<-lang_ru;;*); [number of elements in the group'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_multiplier_c;;
+rrel_multiplier_c => nrel_main_idtf: [коэффицент с'](*<-lang_ru;;*); [multiplier c'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_multiplier_b;;
+rrel_multiplier_b => nrel_main_idtf: [коэффицент b'](*<-lang_ru;;*); [multiplier b'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_multiplier_a;;
+rrel_multiplier_a => nrel_main_idtf: [коэффицент a'](*<-lang_ru;;*); [multiplier a'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_real_part;;
+rrel_real_part => nrel_main_idtf: [действительная чать комплексного числа'](* <- lang_ru;; *); [real part complex number'](*<-lang_en;;*);;
+
+sc_node_role_relation -> rrel_imaginary_part;;
+rrel_imaginary_part => nrel_main_idtf: [мнимая чать комплексного числа'](* <- lang_ru;; *); [imaginary part complex number'](*<-lang_en;;*);;

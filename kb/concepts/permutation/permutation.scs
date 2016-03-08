@@ -1,0 +1,51 @@
+sc_node_norole_relation->nrel_permutation;;
+
+nrel_permutation => nrel_main_idtf:
+[перестановка*](*<-lang_ru;;*);
+[permutation*](*<-lang_en;;*);
+[орнын ауыстыру*](*<-lang_kz;;*);;
+
+nrel_permutation => nrel_idtf: [расстановка*](*<-lang_ru;;*);;
+
+//определение
+nrel_permutation <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(перестановка*)]  (* <- lang_ru;; *);;
+	<- sc_definition;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+		"file://permutation.html"(* <- lang_ru;; *);;
+		*);;
+	*);;
+	
+
+nrel_permutation <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(число; перестановка*; размещение*; факториал*)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://permutation_statement.png"(* <- lang_ru;; *);;
+		*);;
+	*);
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(число; перестановка*; пустое множество)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Число перестановок пустого множества равно единице.](* <- lang_ru;; *);;
+		*);;
+	*);;
+	
+nrel_permutation <- binary_relation;;
+nrel_permutation => nrel_first_domain: set;;
+nrel_permutation => nrel_second_domain: oriented_set;;

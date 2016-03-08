@@ -1,0 +1,63 @@
+sc_node_norole_relation->nrel_transposition_of_set;;
+
+nrel_transposition_of_set => nrel_main_idtf:
+[транспозиция*](*<-lang_ru;;*);
+[transposition of set*](*<-lang_en;;*);
+[транспозиция*](*<-lang_kz;;*);;
+
+
+//определение и пояснение
+nrel_transposition_of_set <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(транспозиция*)]  (* <- lang_ru;; *);;
+	<- sc_definition;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+		"file://transposition_of_set.html"(* <- lang_ru;; *);;
+		*);;
+	*);
+	.. 
+	(*
+	=> nrel_main_idtf: [Пояснение(транспозиция*)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+		[Транспозиция множества — биекция множества в себя, переставляющая местами два элемента этого множества.](* <- lang_ru;; *);;
+		*);;
+	*);;
+	
+//надмножество
+nrel_permutation => nrel_inclusion: nrel_transposition_of_set;;
+	
+nrel_transposition_of_set <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(перестановка*; транспозиция*; произведение')] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Любая перестановка может быть представлена в виде произведения транспозиций.](* <- lang_ru;; *);;
+		*);;
+	*);
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(число; транспозиция*; сочетание*; мощность*)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://transposition_of_set_statement.html"(* <- lang_ru;; *);;
+		*);;
+	*);;
+	
+nrel_transposition_of_set <- binary_relation;;
+nrel_transposition_of_set => nrel_first_domain: set;;
+nrel_transposition_of_set => nrel_second_domain: oriented_set;;
