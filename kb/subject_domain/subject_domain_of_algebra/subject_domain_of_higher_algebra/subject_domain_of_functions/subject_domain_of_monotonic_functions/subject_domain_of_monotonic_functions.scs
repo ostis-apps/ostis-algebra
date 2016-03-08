@@ -1,0 +1,5 @@
+sc_node_struct -> subject_domain_of_monotonic_functions;;
+subject_domain_of_monotonic_functions <- subject_domain;;
+subject_domain_of_monotonic_functions => nrel_main_idtf:
+	[Предметная область монотонных функций] (* <- lang_ru;; *);
+	[Subject domain of monotonic functions] (* <- lang_en;; *);;

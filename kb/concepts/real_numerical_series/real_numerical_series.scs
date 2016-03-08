@@ -1,0 +1,41 @@
+sc_node_not_relation->concept_real_numerical_series;; 
+
+concept_real_numerical_series=>nrel_main_idtf:
+[вещественный числовой ряд](*<-lang_ru;;*);
+[real numerical series](*<-lang_en;;*);;
+
+//синонимы
+concept_real_numerical_series=> nrel_idtf:[вещественная числовая последовательность](*<-lang_ru;;*);;
+
+//определения и пояснения
+concept_real_numerical_series <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(вещественный числовой ряд)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Вещественный числовой ряд — это числовая последовательность, рассматриваемая вместе с другой последовательностью, которая называется последовательностью частичных сумм (ряда).](* <- lang_ru;; 	*);;
+		*);;
+	*);
+     ...
+    (*
+=> nrel_main_idtf: [Пояснение(вещественный числовой ряд)] (* <- lang_ru;; *);;
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+	[Элементами вещественного числового ряда являются вещественные числа.] (* <- lang_ru;; *);;
+*);;
+*);;
+
+//утверждения
+
+//используемые константы
+ concept_real_numerical_series<= nrel_using_constants: concept_sequence; concept_real_number;;
+
+//пример
+ concept_real_numerical_series -> rrel_example: "file://real_numerical_series.jpg";;

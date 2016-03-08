@@ -1,0 +1,18 @@
+sc_node_struct -> subject_domain_of_arithmetic_operations;;
+
+subject_domain_of_arithmetic_operations <- subject_domain;;
+
+subject_domain_of_arithmetic_operations => nrel_main_idtf:
+	[Предметная область арифметических операций] (* <- lang_ru;; *);
+	[Subject domain of arithmetic operations] (* <- lang_en;; *);;
+
+subject_domain_of_arithmetic_operations -> rrel_studied_relation:
+	nrel_multiplication;
+	nrel_division;
+	nrel_subtraction;
+	nrel_addition;
+	nrel_exponentiation;
+	nrel_logarithm;
+	nrel_root_extract;;
+
+subject_domain_of_arithmetic_operations -> rrel_maximum_studied_object_class: concept_arithmetic_operation;;

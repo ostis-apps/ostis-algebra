@@ -1,0 +1,7 @@
+ui_na_equations <- ui_user_command_class_noatom;
+=> nrel_main_idtf: [Уравнения] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Equation] (* <- lang_en;; *);
+<= nrel_ui_commands_decomposition:
+{
+	ui_menu_file_for_finding_the_roots_of_a_quadratic_equation
+};;

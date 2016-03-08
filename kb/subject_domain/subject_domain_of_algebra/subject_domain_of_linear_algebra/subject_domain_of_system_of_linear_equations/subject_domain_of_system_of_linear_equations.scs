@@ -1,0 +1,7 @@
+sc_node_struct -> subject_domain_of_system_of_linear_equations;;
+subject_domain_of_system_of_linear_equations <- subject_domain;;
+subject_domain_of_system_of_linear_equations => nrel_main_idtf:
+	[Предметная область системы линейных уравнений] (* <- lang_ru;; *);
+	[Subject domain of system of linear equations] (* <- lang_en;; *);;
+
+subject_domain_of_system_of_linear_equations -> rrel_maximum_studied_object_class: concept_system_of_linear_equations;;

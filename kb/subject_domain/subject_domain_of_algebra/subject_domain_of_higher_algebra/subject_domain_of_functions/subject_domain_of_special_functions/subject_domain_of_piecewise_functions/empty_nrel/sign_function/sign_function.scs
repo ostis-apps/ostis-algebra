@@ -1,0 +1,4 @@
+sc_node_norole_relation -> nrel_sign_function;; 
+nrel_sign_function => nrel_main_idtf:
+[сигнум*](*<-lang_ru;;*);
+[sign function*](*<-lang_en;;*);;

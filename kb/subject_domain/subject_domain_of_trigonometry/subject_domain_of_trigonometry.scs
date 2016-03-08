@@ -1,0 +1,48 @@
+sc_node_struct -> subject_domain_of_trigonometry;;
+subject_domain_of_trigonometry <- subject_domain;;
+subject_domain_of_trigonometry => nrel_main_idtf:
+	[Предметная область Тригонометрии] (* <- lang_ru;; *);
+	[Subject domain of Trigonometry] (* <- lang_en;; *);;
+
+subject_domain_of_trigonometry -> rrel_studied_relation: 
+	nrel_sinus_verzus;
+	nrel_arccos;
+	nrel_arcctg;
+	nrel_arcsin;;
+	
+subject_domain_of_trigonometry => nrel_particular_subject_domain:
+	subject_domain_of_plane_trigonometry;
+	subject_domain_of_rectilinear_trigonometry;
+	subject_domain_of_spherical_trigonometry;;
+	
+
+sc_node_struct -> subject_domain_of_plane_trigonometry;;
+subject_domain_of_plane_trigonometry <- subject_domain;;
+subject_domain_of_plane_trigonometry => nrel_main_idtf:
+	[Предметная область плоской тригонометрии] (* <- lang_ru;; *);
+	[Subject domain of plane trigonometry] (* <- lang_en;; *);;
+	
+subject_domain_of_plane_trigonometry -> rrel_studied_relation: 
+	nrel_sine;
+	nrel_cosine;
+	nrel_cotangent;
+	nrel_tangent;;
+	
+sc_node_struct -> subject_domain_of_spherical_trigonometry;;
+subject_domain_of_spherical_trigonometry <- subject_domain;;
+subject_domain_of_spherical_trigonometry => nrel_main_idtf:
+	[Предметная область сферической тригонометрии] (* <- lang_ru;; *);
+	[Subject domain of spherical trigonometry] (* <- lang_en;; *);;
+	
+	
+sc_node_struct -> subject_domain_of_rectilinear_trigonometry;;
+subject_domain_of_rectilinear_trigonometry <- subject_domain;;
+subject_domain_of_rectilinear_trigonometry => nrel_main_idtf:
+	[Предметная область прямолинейной тригонометрии] (* <- lang_ru;; *);
+	[Subject domain of rectilinear trigonometry] (* <- lang_en;; *);;
+	
+subject_domain_of_rectilinear_trigonometry -> rrel_studied_relation: 
+	nrel_ch;
+	nrel_cth;
+	nrel_sh;
+	nrel_th;;

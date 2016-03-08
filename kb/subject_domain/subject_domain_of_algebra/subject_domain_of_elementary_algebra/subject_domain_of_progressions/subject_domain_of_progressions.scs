@@ -1,0 +1,11 @@
+sc_node_struct -> subject_domain_of_progressions;;
+subject_domain_of_progressions <- subject_domain;;
+subject_domain_of_progressions => nrel_main_idtf:
+	[Предметная область прогрессий] (* <- lang_ru;; *);
+	[Subject domain of progressions] (* <- lang_en;; *);;
+
+subject_domain_of_progressions -> rrel_maximum_studied_object_class: concept_progression;;
+
+subject_domain_of_progressions -> rrel_not_maximum_studied_object_class: 
+							concept_geometric_progression;
+							concept_arithmetical_progression;;

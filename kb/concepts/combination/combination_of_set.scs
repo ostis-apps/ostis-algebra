@@ -1,0 +1,49 @@
+sc_node_norole_relation->nrel_combination_of_set;;
+
+nrel_combination_of_set => nrel_main_idtf:
+[сочетание*](*<-lang_ru;;*);
+[combination*](*<-lang_en;;*);
+[тіркесім*](*<-lang_kz;;*);;
+
+//определение
+nrel_combination_of_set <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(сочетание*)]  (* <- lang_ru;; *);;
+	<- sc_definition;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+		[Сочетанием (из n по k) называется множество из k различных элементов, выбранных из данного множества, содержащего n различных элементов.](* <- lang_ru;; *);;
+		*);;
+	*);;
+	
+nrel_combination_of_set <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(число; сочетание*; биномиальный коэффициент)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://combination_statement.png"(* <- lang_ru;; *);;
+		*);;
+	*);
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(число; сочетание*; размещение*)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[При равных n и k число сочетаний никогда не превосходит числа размещений.](* <- lang_ru;; *);;
+		*);;
+	*);;
+	
+nrel_combination_of_set <- ternary_relation;;
+nrel_combination_of_set => nrel_first_domain: set;;
+nrel_combination_of_set => nrel_second_domain: concept_number;;
+nrel_combination_of_set => nrel_third_domain: set;;

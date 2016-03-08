@@ -1,0 +1,9 @@
+ui_na_percents <- ui_user_command_class_noatom;
+=> nrel_main_idtf: [Проценты] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Percents] (* <- lang_en;; *);
+<= nrel_ui_commands_decomposition:
+{
+ui_menu_file_for_finding_X_knowing_Y_percents;
+ui_menu_file_for_find_percents_of_number;
+ui_menu_file_for_percentage_X_on_Y
+};;

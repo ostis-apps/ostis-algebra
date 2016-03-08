@@ -1,0 +1,44 @@
+sc_node_not_relation -> rrel_radian;;
+
+rrel_radian=>nrel_main_idtf:
+[radian'](*<-lang_en;;*);
+[радиан'](*<-lang_ru;;*);;
+
+//определения и пояснения
+rrel_radian<-rrel_key_sc_element:
+...
+(*
+   =>nrel_main_idtf:[Опр.(радиан')](*<-lang_ru;;*);;
+   <-sc_definition;;
+   <=nrel_sc_text_translation:
+...
+(* 
+->rrel_example:
+      [Радиан  — угол, соответствующий дуге, длина которой равна её радиусу.](*<-lang_ru;;*);;
+*);;
+*);;
+
+//утверждения
+rrel_radian<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Утв.(радиан')](*<-lang_ru;;*);;
+<-sc_statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+     [Радианная мера угла, выражается отношением двух длин, совершенно не зависит от выбора единицы длины.](*<-lang_ru;;*);;
+*);;
+*);
+...
+(*
+=>nrel_main_idtf:[Утв.(радиан')](*<-lang_ru;;*);;
+<-sc_statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+     "file://radian.html"(*<-lang_ru;;*);;
+*);;
+*);;

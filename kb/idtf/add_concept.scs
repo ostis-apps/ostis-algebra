@@ -1,0 +1,340 @@
+set_of_number => nrel_main_idtf: [Множество чисел](*<-lang_ru;;*);;
+set_of_vectors => nrel_main_idtf: [Множество векторов](*<-lang_ru;;*);;
+set_of_complex_numbers => nrel_main_idtf: [Множество комплексных чисел](*<-lang_ru;;*);;
+set_of_dots => nrel_main_idtf: [Множество точек](*<-lang_ru;;*);;
+
+//*******************************************************************************************************************************************************************
+sc_node_not_relation -> concept_polynomial_function;; 
+concept_polynomial_function => nrel_main_idtf:
+[полиномиальная функция](*<-lang_ru;;*);
+[polynomial function](*<-lang_en;;*);;
+
+
+concept_irrational_equation => nrel_main_idtf:
+	[иррациональное уравнение] (* <- lang_ru;; *);
+	[irrational equality] (* <- lang_en;; *);;
+
+concept_homogeneous_linear_equation => nrel_main_idtf:
+	[однородное линейное уравнение] (* <- lang_ru;; *);
+	[homogeneous linear equation] (* <- lang_en;; *);;
+	
+conept_inhomogeneous_linear_equation => nrel_main_idtf:
+	[неоднородное линейное уравнение] (* <- lang_ru;; *);
+	[inhomogeneous linear equation] (* <- lang_en;; *);;
+	
+concept_linear_equation_with_one_variable => nrel_main_idtf:
+	[линейное уравнение с одной переменной] (* <- lang_ru;; *);
+	[linear equation with one variable] (* <- lang_en;; *);;
+	
+concept_linear_equation_with_two_variables => nrel_main_idtf:
+	[линейное уравнение с двумя переменными] (* <- lang_ru;; *);
+	[linear equation with two variables] (* <- lang_en;; *);;
+
+concept_nonlinear_equation => nrel_main_idtf:
+	[нелинейное уравнение] (* <- lang_ru;; *);
+	[nonlinear equation] (* <- lang_en;; *);;
+
+concept_equation_with_higher_degree => nrel_main_idtf:
+	[уравнение высшей степени] (* <- lang_ru;; *);
+	[equation with higher degree] (* <- lang_en;; *);;
+	
+concept_biquadratic_equation => nrel_main_idtf:
+	[биквадратное уравнение] (* <- lang_ru;; *);
+	[biquadratic equation] (* <- lang_en;; *);;
+
+concept_nonalgbraic_equation => nrel_main_idtf:
+	[неалгебраическое уравнение] (* <- lang_ru;; *);
+	[nonalgebraic equation] (* <- lang_en;; *);;
+
+
+sc_node_role_relation -> concept_calculus;; 
+concept_calculus => nrel_main_idtf:
+[исчисление](*<-lang_ru;;*);
+[calculus](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_repunit;; 
+concept_repunit => nrel_main_idtf:
+[репьюнит](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_prime_repunit;; 
+concept_prime_repunit => nrel_main_idtf:
+[простой репьюнит](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_octal_repunit;; 
+concept_octal_repunit => nrel_main_idtf:
+[восьмеричный репьюнит](*<-lang_ru;;*);;
+
+
+sc_node_not_relation -> concept_subfactorion;; 
+concept_subfactorion => nrel_main_idtf:
+[субфакторион](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_factorion;; 
+concept_factorion => nrel_main_idtf:
+[факторион](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_factorial_number;; 
+concept_factorial_number => nrel_main_idtf:
+[факториальное число](*<-lang_ru;;*);;
+
+
+sc_node_not_relation -> concept_higherorder_equations;;
+concept_higher_order_equations => nrel_main_idtf: [уравнение высшего порядка](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_firstorder_equations;;
+concept_first_order_equations => nrel_main_idtf: [уравнение первого порядка](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_differential;;													
+concept_differential => nrel_main_idtf: [дифференциал](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_infinity;;
+concept_infinity => nrel_main_idtf :[бесконечность](*<-lang_ru;;*);;
+ 
+sc_node_not_relation -> concept_fraction;; 
+concept_fraction => nrel_main_idtf: [дробь](* <- lang_ru;; *); [fraction](* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_neutral_number;; 
+concept_neutral_number => nrel_main_idtf: [нейтральное число](*<-lang_ru;;*); [neutral number](* <- lang_en;; *);;
+ 
+sc_node_not_relation -> largest_natural_number;; 
+largest_natural_number => nrel_main_idtf :[наибольшее натуральное число](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_prime_factor;; 
+concept_prime_factor => nrel_main_idtf: [простой множитель](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_pair_of_numbers;;
+concept_pair_of_numbers => nrel_main_idtf: [пара чисел](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_gap;;
+concept_gap => nrel_main_idtf :[промежуток](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_degree_with_natural_indicator;;																		
+concept_degree_with_natural_indicator => nrel_main_idtf :[степень с натуральным показателем](*<-lang_ru;;*);;	
+
+sc_node_not_relation -> concept_arabic_numerals;;																		
+concept_arabic_numerals => nrel_main_idtf: [арабские цифры](*<-lang_ru;;*);;	
+
+sc_node_not_relation -> concept_roman_numerals;;																		
+concept_roman_numerals => nrel_main_idtf: [римские цифры](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_mayan_numerals;;																		
+concept_mayan_numerals => nrel_main_idtf: [цифры майя](*<-lang_ru;;*);;	
+
+//sc_node_not_relation -> concept_fibonacci_number;; 
+//concept_fibonacci_number => nrel_main_idtf :[число Фибоначчи](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_expression;;
+concept_expression => nrel_main_idtf :[выражение](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_set_numbers;; 
+concept_set_numbers => nrel_main_idtf :[множество чисел] (* <- lang_ru;; *);; 
+
+sc_node_not_relation->concept_the_absolute_value;;
+concept_the_absolute_value=>nrel_main_idtf:[абсолютная величина](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_accuracy;;
+concept_accuracy=>nrel_main_idtf:[точность](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_point;;
+concept_point=>nrel_main_idtf:[точка](*<-lang_ru;;*);;
+
+sc_node_not_relation -> concept_functional;;
+concept_functional => nrel_main_idtf: [функционал](*<-lang_ru;;*); [functional](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_field;;
+concept_field => nrel_main_idtf: [поле](*<-lang_ru;;*); [field](*<-lang_en;;*);;
+
+sc_node_not_relation->concept_first_order_differential_equation_with_multiple_variables;;
+concept_first_order_differential_equation_with_multiple_variables=>nrel_main_idtf:[диффенциальные уравнения первого порядка с разделяющимися переменными](*<-lang_ru;;*);;
+
+sc_node_not_relation->concept_homogeneous_differential_equation_of_first_order;;
+concept_homogeneous_differential_equation_of_first_order=>nrel_main_idtf:[однородные диффенциальные уравнения первого порядка](*<-lang_ru;;*);;
+
+sc_node_not_relation-> concept_linear_differential_equation_of_first_order;;
+concept_linear_differential_equation_of_first_order=>nrel_main_idtf:[линейные диффенциальные уравнения первого порядка](*<-lang_ru;;*);;
+
+sc_node_not_relation-> concept_coefficient;;
+concept_coefficient => nrel_main_idtf: [коэффициент];;
+
+sc_node_not_relation -> concept_practical_arithmetic;; 
+concept_practical_arithmetic => nrel_main_idtf: [практическая арифметика](*<-lang_ru;;*); [practical arithmetic](*<-lang_en;;*); [практикалық Арифметикалық](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_theoretical_arithmetic;; 
+concept_theoretical_arithmetic => nrel_main_idtf: [теоретическая арифметика](*<-lang_ru;;*); [theoretical arithmetic](*<-lang_en;;*); [теориялық Арифметикалық](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_group_theory;; 
+concept_group_theory => nrel_main_idtf: [теория групп](*<-lang_ru;;*); [group theory](*<-lang_en;;*); [топтар теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_theory_of_rings;; 
+concept_theory_of_rings => nrel_main_idtf: [теория колец](*<-lang_ru;;*); [theory of rings](*<-lang_en;;*); [сақина теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_field_theory;; 
+concept_field_theory => nrel_main_idtf: [теория полей](*<-lang_ru;;*); [field theory](*<-lang_en;;*); [өріс теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_category_theory;; 
+concept_category_theory => nrel_main_idtf: [теория категорий](*<-lang_ru;;*); [category theory](*<-lang_en;;*); [санаты теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_theory_of_lattices;; 
+concept_theory_of_lattices => nrel_main_idtf: [теория решёток](*<-lang_ru;;*); [theory of lattices](*<-lang_en;;*); [торлар теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_invariant_theory;; 
+concept_invariant_theory => nrel_main_idtf: [инвариантная теория](*<-lang_ru;;*); [invariant theory](*<-lang_en;;*); [инвариант теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_eigenvalue;; 
+concept_eigenvalue => nrel_main_idtf: [собственное значение](*<-lang_ru;;*); [eigenvalue](*<-lang_en;;*); [меншікті](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_linear_mapping;; 
+concept_linear_mapping => nrel_main_idtf: [линейное отображение](*<-lang_ru;;*); [linear mapping](*<-lang_en;;*); [сызықтық картаға](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_model_theory;; 
+concept_model_theory => nrel_main_idtf: [теория модель](*<-lang_ru;;*); [model theory](*<-lang_en;;*); [Модель теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_free_algebra;; 
+concept_free_algebra => nrel_main_idtf: [свободная алгебра](*<-lang_ru;;*); [free algebra](*<-lang_en;;*); [тегін алгебра](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_tensor_algebra;;
+concept_tensor_algebra => nrel_main_idtf: [тензорная алгебра](*<-lang_ru;;*); [tensor algebra](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_tensor_analysis;;
+concept_tensor_analysis => nrel_main_idtf: [тензорный анализ](*<-lang_ru;;*); [tensor analysis](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_tensor;;
+concept_tensor => nrel_main_idtf: [тензор](*<-lang_ru;;*); [tensor](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_tensor_field;;
+concept_tensor_field => nrel_main_idtf: [тензорное поле](*<-lang_ru;;*); [tensor field](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_math;;
+concept_math => nrel_main_idtf: [математика](*<-lang_ru;;*); [math](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_indeterminate_form;; 
+concept_indeterminate_form => nrel_main_idtf: [неопределенность](*<-lang_ru;;*); [indeterminate form](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_theory_quasivarieties;; 
+concept_theory_quasivarieties => nrel_main_idtf: [теория квазимногообразия](*<-lang_ru;;*); [theory quasivarieties](*<-lang_en;;*); [квази әртүрлілікті теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation-> concept_coefficient;;
+concept_coefficient => nrel_main_idtf: [коэффициент](* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_initial_point_of_vector;; 
+concept_initial_point_of_vector => nrel_main_idtf: [начальная точка] (* <- lang_ru;; *); [initial point] (* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_end_point_of_vector;;
+concept_end_point_of_vector => nrel_main_idtf: [конечная точка] (* <- lang_ru;; *); [end point] (* <- lang_en;; *);;
+
+sc_node_not_relation -> concept_fractional_rational_function;;
+concept_fractional_rational_function => nrel_main_idtf: [дробная рациональная функция](*<-lang_ru;;*); [fractional rational function](*<-lang_en;;*); [бөлшек ұтымды функциясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_game_theory;; 
+concept_game_theory => nrel_main_idtf: [теория игр](*<-lang_ru;;*); [game theory](*<-lang_en;;*); [ойын теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_set_of_differential_equations;; 
+concept_set_of_differential_equations => nrel_main_idtf :[система дифференциальных уравнений] (* <- lang_ru;; *);;
+
+sc_node_not_relation -> concept_coordinate_system;; 
+concept_coordinate_system => nrel_main_idtf: [системы координат](*<-lang_ru;;*); [coordinate system](*<-lang_en;;*); [координаттар жүйесі](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_math_programming;; 
+concept_math_programming => nrel_main_idtf: [математическое программирование](*<-lang_ru;;*); [math programming](*<-lang_en;;*); [математикалық бағдарламалау](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_chain_complex;; 
+concept_chain_complex => nrel_main_idtf: [цепной комплекс](*<-lang_ru;;*); [chain complex](*<-lang_en;;*); [тізбек кешені](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_resolvent;; 
+concept_resolvent => nrel_main_idtf: [резольвента](*<-lang_ru;;*); [resolvent](*<-lang_en;;*); [ажыратымдылығы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_derived_functors;; 
+concept_derived_functors => nrel_main_idtf: [производные функторы](*<-lang_ru;;*); [derived functors](*<-lang_en;;*); [туынды функторы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_fractional_algebraic_number;; 
+concept_fractional_algebraic_number => nrel_main_idtf: [дробное алгебраическое число](*<-lang_ru;;*); [fractional algebraic number](*<-lang_en;;*); [фракциялық алгебралық сандар](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_plane;;
+concept_plane => nrel_main_idtf: [плоскость](*<-lang_ru;;*); [plane](*<-lang_en;;*); [ұшақ](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_domain;; 
+concept_domain => nrel_main_idtf: [область](*<-lang_ru;;*); [domain](*<-lang_en;;*); [домен](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_real_transcendental_number;;
+concept_real_transcendental_number => nrel_main_idtf: [трансцендентное вещественное число](*<-lang_ru;;*); [real transcendental number](*<-lang_en;;*); [трансцендент заттық саны](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_complex_transcendental_number;;
+concept_complex_transcendental_number => nrel_main_idtf: [трансцендентное комплексное число](*<-lang_ru;;*); [complex transcendental number](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_angle;; 
+concept_angle => nrel_main_idtf: [угол](*<-lang_ru;;*); [angle](*<-lang_en;;*); [бұрыш](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_inverse_trigonometric_function;; 
+concept_inverse_trigonometric_function => nrel_main_idtf: [обратная тригонометрическая функция](*<-lang_ru;;*); [inverse trigonometric function](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_character;;
+concept_character => nrel_main_idtf: [символ](* <- lang_ru;; *); [character](* <- lang_en;; *); [кейіпкер](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_set_of_functions;;
+concept_set_of_functions => nrel_main_idtf: [множество функций](*<-lang_ru;;*); [set of functions](*<-lang_en;;*); [функцияларын жиын](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_guassian_integer;;
+concept_guassian_integer => nrel_main_idtf: [Гауссовы целые числа](*<-lang_ru;;*); [guassian integer](*<-lang_en;;*); [Гаусс бүтін](*<-lang_kz;;*);; 
+
+sc_node_not_relation -> concept_roots_of_unity;;
+concept_roots_of_unity => nrel_main_idtf: [корни из единицы](*<-lang_ru;;*); [roots of unity](*<-lang_en;;*); [бірлігі тамыры](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_complex_homogeneous_function;; 
+concept_complex_homogeneous_function => nrel_main_idtf: [комплексно однородная функция](*<-lang_ru;;*); [complex homogeneous function](*<-lang_en;;*); [кешенді біртекті функция](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_limited_homogeneous_function;; 
+concept_limited_homogeneous_function => nrel_main_idtf: [ограниченно однородная функция](*<-lang_ru;;*); [limited homogeneous function](*<-lang_en;;*); [шектеулі біртекті функция](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_countable_set;; 
+concept_countable_set => nrel_main_idtf: [счётное множество](*<-lang_ru;;*); [countable set](*<-lang_en;;*); [есеп артық жиынтығы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_continuous_random_quantity;; 
+concept_continuous_random_quantity => nrel_main_idtf: [непрерывная случайная величина](*<-lang_ru;;*); [continuous random quantity](*<-lang_en;;*); [үздіксіз кездейсоқ шамалар](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_quantity;; 
+concept_quantity => nrel_main_idtf: [величина](*<-lang_ru;;*); [quantity](*<-lang_en;;*); [магнитудасы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> consept_set;;
+consept_set => nrel_main_idtf: [множество](*<-lang_ru;;*); [set](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_discrete_elementary_events_space;;
+concept_discrete_elementary_events_space => nrel_main_idtf: [дискретное пространство элементарных событий](*<-lang_ru;;*); [discrete elementary events space](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_nondiscrete_elementary_events_space;;
+concept_nondiscrete_elementary_events_space => nrel_main_idtf: [недискретное пространство элементарных событий](*<-lang_ru;;*); [nondiscrete elementary events space](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_continuous_elementary_events_space;;
+concept_continuous_elementary_events_space => nrel_main_idtf: [непрерывное пространство элементарных событий](*<-lang_ru;;*); [continuous elementary events space](*<-lang_en;;*);;
+
+sc_node_norole_relation -> concept_number_of_dividers;;
+concept_number_of_dividers => nrel_main_idtf: [число делителей](*<-lang_ru;;*); [number of dividers](*<-lang_en;;*);;
+
+sc_node_norole_relation -> concept_Euler_function;;
+concept_Euler_function => nrel_main_idtf: [функция Эйлера](*<-lang_ru;;*); [Euler function](*<-lang_en;;*);;
+
+sc_node_norole_relation -> concept_sum_of_divisors;;
+concept_sum_of_divisors => nrel_main_idtf: [сумма делителей](*<-lang_ru;;*); [sum of divisors](*<-lang_en;;*);;
+
+sc_node_norole_relation -> concept_Mobius_function;;
+concept_Mobius_function => nrel_main_idtf: [функция Мёбиуcа](*<-lang_ru;;*); [Mobius function](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_algebraic_geometry;; 
+concept_algebraic_geometry => nrel_main_idtf: [алгебраическая геометрия](*<-lang_ru;;*); [algebraic geometry](*<-lang_en;;*); [алгебралық геометрия](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_complexvalued_function;;
+concept_complexvalued_function => nrel_main_idtf: [комплексозначная функция](*<-lang_ru;;*); [complexvalued function](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_function_of_complex_variable;;
+concept_function_of_complex_variable => nrel_main_idtf: [функция комплексного переменного](*<-lang_ru;;*); [function of complex variable](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_algebraic_number_theory;; 
+concept_algebraic_number_theory => nrel_main_idtf: [алгебраическая теория чисел](*<-lang_ru;;*); [algebraic number theory](*<-lang_en;;*); [алгебралық сандар теориясы](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_complex_plane;;
+concept_complex_plane => nrel_main_idtf: [комплексная плоскость](*<-lang_ru;;*); [complex plane](*<-lang_en;;*); [кешенді ұшақ](*<-lang_kz;;*);;
+
+sc_node_not_relation -> concept_function_series;; 
+concept_function_series => nrel_main_idtf: [функция-ряд](*<-lang_ru;;*); [fucntion-series](*<-lang_en;;*);;
+
+sc_node_not_relation -> concept_unusual_function;; 
+concept_unusual_function => nrel_main_idtf: [необычная функция](*<-lang_ru;;*); [unusual function](*<-lang_en;;*);;

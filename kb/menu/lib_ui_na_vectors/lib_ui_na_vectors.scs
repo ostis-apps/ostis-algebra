@@ -1,0 +1,17 @@
+lib_ui_na_vectors
+=> nrel_main_idtf:
+	[Компонент библиотеки. Векторы]
+	(* <- lang_ru;; *);
+	[Library component. Vectors]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+<- library_of_non_atomic_reusable_components;
+
+<= nrel_library_component_decomposition:
+	{		
+		lib_ui_menu_file_for_finding_definitional_domain
+	};;
+
+
+lib_ui_na_vectors = [*^"file://ui_na_vectors.scsi"*];;

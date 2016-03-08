@@ -1,15 +1,7 @@
-current_stage_of_development_of_the_project
-=> nrel_main_idtf:
-	[Раздел. Текущая стадия развития проекта]	(*	<- lang_ru;;	*);;
+current_stage_of_development_of_the_project => nrel_main_idtf: [Раздел. Текущая стадия развития проекта] (* <- lang_ru;; *);;
 
-
-current_stage_of_development_of_the_project -> rrel_example :
+current_stage_of_development_of_the_project <= nrel_sc_text_translation:	
 	...
-	(* 
-<= nrel_sc_text_translation: 
-		...
-		(*
-		-> rrel_example: 
-	[Проект находится в состоянии пополнения базы знаний и разработке агентов.](* <- lang_ru;; 	*);;
-		*);;
+	(*
+	-> "file://current_stage_of_development_of_the_project.pdf" (* <- lang_ru;; *);;
 	*);;
