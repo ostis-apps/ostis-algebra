@@ -1,9 +1,6 @@
-kb.bin
-sc-machine
-scp-machine
-sc-web
+#OSTIS folders
 ims.ostis.kb
 ims.ostis.kb_copy
-geometry.drawings
-
-*.*~
+kb.bin
+sc-machine
+sc-web
