@@ -1,8 +1,0 @@
-sc_node_struct -> subject_domain_of_rational_fractional_equations;;
-subject_domain_of_rational_fractional_equations <- subject_domain;;
-subject_domain_of_rational_fractional_equations => nrel_main_idtf:
-	[Предметная область дробных рациональных уравнений] (* <- lang_ru;; *);
-	[Subject domain of rational fractional equations] (* <- lang_en;; *);;
-
-subject_domain_of_rational_fractional_equations -> rrel_maximum_studied_object_class: concept_rational_fractional_equation;;
-

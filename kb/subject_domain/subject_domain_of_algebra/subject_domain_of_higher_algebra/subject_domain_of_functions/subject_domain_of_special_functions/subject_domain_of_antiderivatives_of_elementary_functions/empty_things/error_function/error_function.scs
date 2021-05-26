@@ -1,5 +1,0 @@
-sc_node_norole_relation -> nrel_error_function;; 
-
-nrel_error_function => nrel_main_idtf:
-[функция ошибок*](*<-lang_ru;;*);
-[error function*](*<-lang_en;;*);;
