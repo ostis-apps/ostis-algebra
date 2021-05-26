@@ -1,4 +1,0 @@
-sc_node_norole_relation -> nrel_floor;; 
-nrel_floor => nrel_main_idtf:
-[пол*](*<-lang_ru;;*);
-[floor function*](*<-lang_en;;*);;

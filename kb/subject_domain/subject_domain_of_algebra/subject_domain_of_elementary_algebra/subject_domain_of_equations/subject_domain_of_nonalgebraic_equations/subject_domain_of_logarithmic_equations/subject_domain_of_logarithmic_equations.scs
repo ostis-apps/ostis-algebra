@@ -1,9 +1,0 @@
-sc_node_struct -> subject_domain_of_logarithmic_equations;;
-subject_domain_of_logarithmic_equations <- subject_domain;;
-subject_domain_of_logarithmic_equations => nrel_main_idtf:
-	[Предметная область логарифмических уравнений] (* <- lang_ru;; *);
-	[Subject domain of logarithmic equations] (* <- lang_en;; *);;
-
-subject_domain_of_logarithmic_equations -> rrel_maximum_studied_object_class: concept_logarithmic_equartion;;
-
-

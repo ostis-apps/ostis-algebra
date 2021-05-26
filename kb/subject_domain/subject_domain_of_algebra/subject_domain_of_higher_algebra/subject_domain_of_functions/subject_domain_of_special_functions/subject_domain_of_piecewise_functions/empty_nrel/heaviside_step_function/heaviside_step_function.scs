@@ -1,4 +1,0 @@
-sc_node_norole_relation -> nrel_heaviside_step_function;; 
-nrel_heaviside_step_function => nrel_main_idtf:
-[функция Хевисайда*](*<-lang_ru;;*);
-[Heaviside step function*](*<-lang_en;;*);;

@@ -1,9 +1,0 @@
-sc_node_struct -> subject_domain_of_trigonometrical_equations;;
-subject_domain_of_trigonometrical_equations <- subject_domain;;
-subject_domain_of_trigonometrical_equations => nrel_main_idtf:
-	[Предметная область тригонометрических уравнений] (* <- lang_ru;; *);
-	[Subject domain of trigonometrical equations] (* <- lang_en;; *);;
-
-subject_domain_of_trigonometrical_equations -> rrel_maximum_studied_object_class: concept_trigonometrical_equation;;
-
-

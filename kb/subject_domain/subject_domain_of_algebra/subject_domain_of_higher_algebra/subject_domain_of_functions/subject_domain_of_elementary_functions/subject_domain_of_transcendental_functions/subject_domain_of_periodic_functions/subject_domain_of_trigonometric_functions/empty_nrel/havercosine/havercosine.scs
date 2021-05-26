@@ -1,5 +1,0 @@
-sc_node_norole_relation -> nrel_havercosine;; 
-
-nrel_havercosine => nrel_main_idtf:
-[гаверкосинус*](*<-lang_ru;;*);
-[haversed cosine*](*<-lang_en;;*);;

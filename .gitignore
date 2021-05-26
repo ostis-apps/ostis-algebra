@@ -1,6 +1,4 @@
-#OSTIS folders
-ims.ostis.kb
-ims.ostis.kb_copy
-kb.bin
-sc-machine
-sc-web
+.idea
+.vscode
+*.scs~
+ostis-web-platform

@@ -1,4 +1,0 @@
-sc_node_norole_relation -> nrel_ceiling;; 
-nrel_ceiling => nrel_main_idtf:
-[потолок*](*<-lang_ru;;*);
-[ceiling function*](*<-lang_en;;*);;
