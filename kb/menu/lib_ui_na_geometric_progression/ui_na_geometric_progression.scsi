@@ -1,9 +1,0 @@
-ui_na_geometric_progression <- ui_user_command_class_noatom;
-=> nrel_main_idtf: [Геометрическая прогрессия] (* <- lang_ru;; *);
-=> nrel_main_idtf: [Geometric progression] (* <- lang_en;; *);
-<= nrel_ui_commands_decomposition:
-{
-	ui_menu_file_for_finding_denominator_geometric_progresi;
-	ui_menu_file_for_finding_sum_geometric_progresi;
-	ui_menu_file_for_finding_n_member_geometric_progresi
-};;

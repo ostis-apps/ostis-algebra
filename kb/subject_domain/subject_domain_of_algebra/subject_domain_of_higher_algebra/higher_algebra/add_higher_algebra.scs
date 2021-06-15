@@ -1,4 +1,0 @@
-sc_node_not_relation -> concept_eucidian_space;;
-concept_eucidian_space => nrel_main_idtf:
-[евклидово пространство](*<-lang_ru;;*);
-[eucidian space](*<-lang_en;;*);;

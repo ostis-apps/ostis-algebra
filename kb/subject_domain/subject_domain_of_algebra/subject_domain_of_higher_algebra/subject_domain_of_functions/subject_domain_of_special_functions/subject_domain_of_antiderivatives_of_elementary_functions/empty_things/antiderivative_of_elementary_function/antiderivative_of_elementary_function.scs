@@ -1,5 +1,0 @@
-sc_node_not_relation -> concept_antiderivative_of_elementary_function;; 
-
-concept_antiderivative_of_elementary_function => nrel_main_idtf:
-[первообразная элементарной функции](*<-lang_ru;;*);
-[antiderivative of elementary function](*<-lang_en;;*);;

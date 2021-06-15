@@ -1,5 +1,0 @@
-sc_node_struct -> subject_domain_of_meromorphic_functions;;
-subject_domain_of_meromorphic_functions <- subject_domain;;
-subject_domain_of_meromorphic_functions => nrel_main_idtf:
-	[Предметная область мероморфных функций] (* <- lang_ru;; *);
-	[Subject domain of meromorphic functions] (* <- lang_en;; *);;

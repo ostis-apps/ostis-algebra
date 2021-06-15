@@ -1,5 +1,0 @@
-sc_node_struct -> subject_domain_of_combinatorics;;
-subject_domain_of_combinatorics <- subject_domain;;
-subject_domain_of_combinatorics => nrel_main_idtf:
-	[Предметная область Комбинаторики] (* <- lang_ru;; *);
-	[Subject domain of Combinatorics] (* <- lang_en;; *);;

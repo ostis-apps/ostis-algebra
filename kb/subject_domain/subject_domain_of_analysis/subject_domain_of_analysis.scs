@@ -1,5 +1,0 @@
-sc_node_struct -> subject_domain_of_analysis;;
-subject_domain_of_analysis <- subject_domain;;
-subject_domain_of_analysis => nrel_main_idtf:
-	[Предметная область Анализа] (* <- lang_ru;; *);
-	[Subject domain of Analysis] (* <- lang_en;; *);;

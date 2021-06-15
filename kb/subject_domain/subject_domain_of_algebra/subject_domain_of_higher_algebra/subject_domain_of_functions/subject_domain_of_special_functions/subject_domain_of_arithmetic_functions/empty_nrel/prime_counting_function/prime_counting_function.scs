@@ -1,4 +1,0 @@
-sc_node_norole_relation -> nrel_prime_counting_function;; 
-nrel_prime_counting_function => nrel_main_idtf:
-[пи-функция*](*<-lang_ru;;*);
-[prime-counting function*](*<-lang_en;;*);;
