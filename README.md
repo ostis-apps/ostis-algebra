@@ -114,6 +114,7 @@ Then open localhost:8000 in your browser.
     - [math constants](./kb/knowledge_base_of_numeric_models/sections/section_number_theory/sections/section_math_constants)
     - [special numbers](./kb/knowledge_base_of_numeric_models/sections/section_number_theory/sections/section_special_numbers)
   - [probability theory](./kb/knowledge_base_of_numeric_models/sections/section_probability_theory)
+  - [mathematical statistics](./kb/knowledge_base_of_numeric_models/sections/section_mathematical_statistics)
   - [terminology](./kb/knowledge_base_of_numeric_models/sections/section_terminology)
   - [topology](./kb/knowledge_base_of_numeric_models/sections/section_topology)
     - [algebraic topology](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_algebraic_topology)
