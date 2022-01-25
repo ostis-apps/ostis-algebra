@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_derivative;;
 
 nrel_derivative=>nrel_main_idtf:
-[производная* ](*<-lang_ru;;*);
-[derivative* ](*<-lang_en;;*);
-[туынды* ](*<-lang_kz;;*);;
+[производная*](*<-lang_ru;;*);
+[derivative*](*<-lang_en;;*);
+[туынды*](*<-lang_kz;;*);;
 
 
-nrel_derivative=> nrel_idtf:[fluxion* ](*<-lang_en;;*);;
+nrel_derivative=> nrel_idtf:[fluxion*](*<-lang_en;;*);;
 
 nrel_derivative <- rrel_key_sc_element:
 	... 

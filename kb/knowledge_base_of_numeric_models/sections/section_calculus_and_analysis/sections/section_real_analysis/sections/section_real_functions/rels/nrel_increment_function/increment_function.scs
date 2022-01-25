@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_increment_function;;
 
 nrel_increment_function => nrel_main_idtf:
-[приращение функции* ](* <- lang_ru;; *);  
-[increment function* ](* <- lang_en;; *);
-[өсімі функциясы* ](* <- lang_kz;;*);;
+[приращение функции*](* <- lang_ru;; *);  
+[increment function*](* <- lang_en;; *);
+[өсімі функциясы*](* <- lang_kz;;*);;
 
 //определение
 nrel_increment_function <- rrel_key_sc_element:

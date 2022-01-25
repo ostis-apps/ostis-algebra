@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_complex_logarithm;;
 
 nrel_complex_logarithm=>nrel_main_idtf:
-[комплексный логарифм* ](*<-lang_ru;;*);
-[complex logarithm* ](*<-lang_en;;*);;
+[комплексный логарифм*](*<-lang_ru;;*);
+[complex logarithm*](*<-lang_en;;*);;
 
 //определение
 nrel_complex_logarithm <- rrel_key_sc_element:

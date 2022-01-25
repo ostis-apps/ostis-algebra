@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_orthogonality;;
 
 nrel_orthogonality=>nrel_main_idtf:
-[ортогональность* ](*<-lang_ru;;*);
-[orthogonality* ](*<-lang_en;;*);
-[ортогоналды* ](*<-lang_kz;;*);;
+[ортогональность*](*<-lang_ru;;*);
+[orthogonality*](*<-lang_en;;*);
+[ортогоналды*](*<-lang_kz;;*);;
 
 //определение
 nrel_orthogonality <- rrel_key_sc_element:

@@ -1,11 +1,11 @@
 sc_node_norole_relation -> nrel_construction_of_a_polynomial_degree;; 
 
 nrel_construction_of_a_polynomial_degree =>nrel_main_idtf:
-[возведение многочлена в натуральную степень* ] (* <- lang_ru;; *);
-[өмір-дәрежесі полином құрылыс* ] (* <- lang_kz;; *);
-[exponentiation of polynomial* ] (* <- lang_en;; *);;
+[возведение многочлена в натуральную степень*] (* <- lang_ru;; *);
+[өмір-дәрежесі полином құрылыс*] (* <- lang_kz;; *);
+[exponentiation of polynomial*] (* <- lang_en;; *);;
 
-nrel_construction_of_a_polynomial_degree => nrel_idtf:[возведение многочлена в степень* ](*<-lang_ru;;*);;
+nrel_construction_of_a_polynomial_degree => nrel_idtf:[возведение многочлена в степень*](*<-lang_ru;;*);;
 
 //Домены
 nrel_construction_of_a_polynomial_degree => nrel_first_domain:concept_polynomial;;

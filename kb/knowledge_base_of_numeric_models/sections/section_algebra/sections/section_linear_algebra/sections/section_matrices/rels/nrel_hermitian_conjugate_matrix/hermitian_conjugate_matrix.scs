@@ -1,12 +1,12 @@
 sc_node_norole_relation -> nrel_hermitian_conjugate_matrix;;
 
 nrel_hermitian_conjugate_matrix => nrel_main_idtf:
-[эрмитово-сопряжённая матрица* ](*<-lang_ru;;*);
-[hermitian conjugate matrix* ](*<-lang_en;;*);
-[эрмитовой конъюгат матрица* ](*<-lang_kz;;*);;
+[эрмитово-сопряжённая матрица*](*<-lang_ru;;*);
+[hermitian conjugate matrix*](*<-lang_en;;*);
+[эрмитовой конъюгат матрица*](*<-lang_kz;;*);;
 
-nrel_hermitian_conjugate_matrix => nrel_idtf:[сопряжённо-транспонированная матрица* ](*<-lang_ru;;*);;
-nrel_hermitian_conjugate_matrix => nrel_idtf:[conjugately-transposed matrix* ](*<-lang_en;;*);;
+nrel_hermitian_conjugate_matrix => nrel_idtf:[сопряжённо-транспонированная матрица*](*<-lang_ru;;*);;
+nrel_hermitian_conjugate_matrix => nrel_idtf:[conjugately-transposed matrix*](*<-lang_en;;*);;
 
 
 nrel_hermitian_conjugate_matrix <- rrel_key_sc_element:

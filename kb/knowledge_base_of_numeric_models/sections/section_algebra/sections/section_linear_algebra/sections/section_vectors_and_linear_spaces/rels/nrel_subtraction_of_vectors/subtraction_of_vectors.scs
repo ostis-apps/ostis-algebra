@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_subtraction_of_vectors;;
 
 nrel_subtraction_of_vectors=>nrel_main_idtf:
-[вычитание векторов* ](*<-lang_ru;;*);
-[subtraction of vectors* ](*<-lang_en;;*);
-[алу векторлары* ](*<-lang_kz;;*);;
+[вычитание векторов*](*<-lang_ru;;*);
+[subtraction of vectors*](*<-lang_en;;*);
+[алу векторлары*](*<-lang_kz;;*);;
 
 //определение
 nrel_subtraction_of_vectors <- rrel_key_sc_element:

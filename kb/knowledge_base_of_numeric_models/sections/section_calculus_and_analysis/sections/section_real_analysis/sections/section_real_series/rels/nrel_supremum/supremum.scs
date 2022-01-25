@@ -1,10 +1,10 @@
 sc_node_norole_relation->nrel_supremum;;
 nrel_supremum => nrel_main_idtf :
-[супремум* ] (* <- lang_ru;; *);
+[супремум*] (* <- lang_ru;; *);
 [supremum](*<-lang_en;;*);;
 
-nrel_supremum=> nrel_idtf:[точная верхняя грань* ](*<-lang_ru;;*);;
-nrel_supremum=> nrel_idtf:[мажоранта* ](*<-lang_ru;;*);;
+nrel_supremum=> nrel_idtf:[точная верхняя грань*](*<-lang_ru;;*);;
+nrel_supremum=> nrel_idtf:[мажоранта*](*<-lang_ru;;*);;
 
 nrel_supremum <- rrel_key_sc_element:
 	... 

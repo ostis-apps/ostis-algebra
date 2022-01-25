@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_addition_of_matrices;;
 
 nrel_addition_of_matrices=>nrel_main_idtf:
-[сложение матриц* ](*<-lang_ru;;*);
-[addition of matrices* ](*<-lang_en;;*);
-[матрица қосу* ](*<-lang_kz;;*);;
+[сложение матриц*](*<-lang_ru;;*);
+[addition of matrices*](*<-lang_en;;*);
+[матрица қосу*](*<-lang_kz;;*);;
 
 //определение
 nrel_addition_of_matrices <- rrel_key_sc_element:

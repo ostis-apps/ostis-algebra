@@ -1,6 +1,6 @@
 sc_node_norole_relation->nrel_greatest_common_divisor;; 
-nrel_greatest_common_divisor=>nrel_main_idtf:	[наибольший общий делитель* ] (*<-lang_ru;;*);	[ең үлкен ортақ бөлгіш* ] (*<-lang_kz;;*);	[greatest common divisor* ] (*<-lang_en;;*);;
-nrel_greatest_common_divisor=> nrel_idtf:	[НОД* ](*<-lang_ru;;*);	[ЕҮОБ* ](*<-lang_kz;;*);		[сандарды қарапайым жіктеу* ](*<-lang_kz;;*);	[каноническое разложение чисел* ](*<-lang_ru;;*);;
+nrel_greatest_common_divisor=>nrel_main_idtf:	[наибольший общий делитель*] (*<-lang_ru;;*);	[ең үлкен ортақ бөлгіш*] (*<-lang_kz;;*);	[greatest common divisor*] (*<-lang_en;;*);;
+nrel_greatest_common_divisor=> nrel_idtf:	[НОД*](*<-lang_ru;;*);	[ЕҮОБ*](*<-lang_kz;;*);		[сандарды қарапайым жіктеу*](*<-lang_kz;;*);	[каноническое разложение чисел*](*<-lang_ru;;*);;
 
 nrel_greatest_common_divisor<- rrel_key_sc_element:
 	... 

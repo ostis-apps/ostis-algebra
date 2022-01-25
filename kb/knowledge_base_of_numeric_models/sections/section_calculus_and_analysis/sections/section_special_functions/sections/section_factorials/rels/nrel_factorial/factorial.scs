@@ -1,6 +1,6 @@
 sc_node_norole_relation-> nrel_factorial;; 
-nrel_factorial=>nrel_main_idtf:	[факториал* ] (*<-lang_ru;;*);	[факторлық* ] (*<-lang_kz;;*);	[factorial* ] (*<-lang_en;;*);;
-nrel_factorial=>nrel_idtf:[антилогарифм* ](*<-lang_ru;;*);;
+nrel_factorial=>nrel_main_idtf:	[факториал*] (*<-lang_ru;;*);	[факторлық*] (*<-lang_kz;;*);	[factorial*] (*<-lang_en;;*);;
+nrel_factorial=>nrel_idtf:[антилогарифм*](*<-lang_ru;;*);;
 nrel_factorial=>nrel_mathem_idtf: [!] (*<-lang_en;;*);;
 
 nrel_factorial<- rrel_key_sc_element:

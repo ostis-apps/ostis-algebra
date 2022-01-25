@@ -1,5 +1,5 @@
 sc_node_norole_relation -> nrel_integrated_sine;;
-nrel_integrated_sine => nrel_main_idtf:	[интегральный синус* ](*<-lang_ru;;*);	[integrated sine* ](*<-lang_en;;*);;
+nrel_integrated_sine => nrel_main_idtf:	[интегральный синус*](*<-lang_ru;;*);	[integrated sine*](*<-lang_en;;*);;
 
 nrel_integrated_sine <- rrel_key_sc_element:
 	... 

@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_division_of_the_matrix_by_the_number;;
 
 nrel_division_of_the_matrix_by_the_number=>nrel_main_idtf:
-[деление матрицы на число* ](*<-lang_ru;;*);
-[division of the matrix by the number* ](*<-lang_en;;*);
-[нөмірі бойынша матрицаның бөлу* ](*<-lang_kz;;*);;
+[деление матрицы на число*](*<-lang_ru;;*);
+[division of the matrix by the number*](*<-lang_en;;*);
+[нөмірі бойынша матрицаның бөлу*](*<-lang_kz;;*);;
 
 
 //надмножество 

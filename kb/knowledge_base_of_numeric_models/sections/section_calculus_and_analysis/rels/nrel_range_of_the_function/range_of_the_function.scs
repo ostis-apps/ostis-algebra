@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_range_of_the_function;;
 nrel_range_of_the_function => nrel_main_idtf :
-[область значений функции* ] (* <- lang_ru;; *);
-[range of the function* ] (* <- lang_en;; *);;
+[область значений функции*] (* <- lang_ru;; *);
+[range of the function*] (* <- lang_en;; *);;
 
-nrel_range_of_the_function => nrel_idtf : [множество значений функции* ] (* <- lang_ru;; *);;
+nrel_range_of_the_function => nrel_idtf : [множество значений функции*] (* <- lang_ru;; *);;
 
 nrel_range_of_the_function => nrel_first_domain:
 concept_function;;

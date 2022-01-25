@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_digital_root;; 
 
 nrel_digital_root=>nrel_main_idtf:
-[цифровой корень* ] (*<-lang_ru;;*);
-[digital root* ] (*<-lang_en;;*);;
+[цифровой корень*] (*<-lang_ru;;*);
+[digital root*] (*<-lang_en;;*);;
 
 //синонимы
-nrel_digital_root=> nrel_idtf:[повторяющаяся сумма цифр* ](*<-lang_ru;;*);;
-nrel_digital_root=> nrel_idtf:[repeated digital sum* ](*<-lang_en;;*);;
+nrel_digital_root=> nrel_idtf:[повторяющаяся сумма цифр*](*<-lang_ru;;*);;
+nrel_digital_root=> nrel_idtf:[repeated digital sum*](*<-lang_en;;*);;
 
 //определение 
 nrel_digital_root<- rrel_key_sc_element:

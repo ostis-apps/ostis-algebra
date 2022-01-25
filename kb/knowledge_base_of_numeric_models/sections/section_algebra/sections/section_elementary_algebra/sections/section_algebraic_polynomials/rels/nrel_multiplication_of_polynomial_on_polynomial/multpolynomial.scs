@@ -1,13 +1,13 @@
 sc_node_norole_relation->nrel_multiplication_of_polynomial_on_polynomial;;
 
 nrel_multiplication_of_polynomial_on_polynomial=>nrel_main_idtf:
-[умножение многочлена на многчлен* ](*<-lang_ru;;*);
-[көбейту полинома бойынша полином* ](*<-lang_kz;;*);
-[multiplication of polynomial on polynomial* ](*<-lang_en;;*);;
+[умножение многочлена на многчлен*](*<-lang_ru;;*);
+[көбейту полинома бойынша полином*](*<-lang_kz;;*);
+[multiplication of polynomial on polynomial*](*<-lang_en;;*);;
 
 // синонимы
-nrel_multiplication_of_polynomial_on_polynomial=> nrel_idtf:[произведение многочлена на многочлен* ](*<-lang_ru;;*);;
-nrel_multiplication_of_polynomial_on_polynomial=> nrel_idtf:[multiplication of polynomial on polynomial* ](*<-lang_ru;;*);;
+nrel_multiplication_of_polynomial_on_polynomial=> nrel_idtf:[произведение многочлена на многочлен*](*<-lang_ru;;*);;
+nrel_multiplication_of_polynomial_on_polynomial=> nrel_idtf:[multiplication of polynomial on polynomial*](*<-lang_ru;;*);;
 
 nrel_multiplication_of_polynomial_on_polynomial  <- ternary_relation;;
 nrel_multiplication_of_polynomial_on_polynomial => nrel_first_domain: concept_polynomial;;

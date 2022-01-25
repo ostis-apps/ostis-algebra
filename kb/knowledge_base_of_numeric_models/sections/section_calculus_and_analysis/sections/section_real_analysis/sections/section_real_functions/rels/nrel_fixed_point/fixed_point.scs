@@ -1,13 +1,13 @@
 sc_node_not_relation -> nrel_fixed_point;; 
 
 nrel_fixed_point => nrel_main_idtf:
-[неподвижная точка* ](*<-lang_ru;;*);
-[fixed point* ](*<-lang_en;;*);
-[қозғалмайтын нүктесі* ](*<-lang_kz;;*);;
+[неподвижная точка*](*<-lang_ru;;*);
+[fixed point*](*<-lang_en;;*);
+[қозғалмайтын нүктесі*](*<-lang_kz;;*);;
 
 nrel_fixed_point => nrel_idtf:
-[fixpoint* ](*<-lang_en;;*);
-[invariant point* ](*<-lang_en;;*);;
+[fixpoint*](*<-lang_en;;*);
+[invariant point*](*<-lang_en;;*);;
 	
 //надмножество
 concept_point => nrel_inclusion: nrel_fixed_point;;

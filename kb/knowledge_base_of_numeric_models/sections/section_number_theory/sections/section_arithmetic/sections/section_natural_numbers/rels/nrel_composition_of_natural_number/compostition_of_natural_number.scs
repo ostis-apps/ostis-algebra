@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_composition_of_natural_number;;
 
 nrel_composition_of_natural_number => nrel_main_idtf:
-[композиция натурального числа* ](*<-lang_ru;;*);
-[composition of positive integer* ](*<-lang_en;;*);
-[бүтін құрамы* ](*<-lang_kz;;*);;
+[композиция натурального числа*](*<-lang_ru;;*);
+[composition of positive integer*](*<-lang_en;;*);
+[бүтін құрамы*](*<-lang_kz;;*);;
 
 //определение
 nrel_composition_of_natural_number <- rrel_key_sc_element:

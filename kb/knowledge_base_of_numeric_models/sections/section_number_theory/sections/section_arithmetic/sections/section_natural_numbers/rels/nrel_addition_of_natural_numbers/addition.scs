@@ -1,13 +1,13 @@
 sc_node_norole_relation->nrel_addition_of_natural_numbers;; 
 
 nrel_addition_of_natural_numbers=>nrel_main_idtf:
-[сложение натуральных чисел* ] (*<-lang_ru;;*);
-[табиғи сандар толықтыру* ] (*<-lang_kz;;*);
-[addition of natural numbers* ] (*<-lang_en;;*);;
+[сложение натуральных чисел*] (*<-lang_ru;;*);
+[табиғи сандар толықтыру*] (*<-lang_kz;;*);
+[addition of natural numbers*] (*<-lang_en;;*);;
 
 
-nrel_addition_of_natural_numbers=> nrel_idtf:[суммирование* ](*<-lang_ru;;*);;
-nrel_addition_of_natural_numbers=> nrel_idtf:[addition* ](*<-lang_en;;*);;
+nrel_addition_of_natural_numbers=> nrel_idtf:[суммирование*](*<-lang_ru;;*);;
+nrel_addition_of_natural_numbers=> nrel_idtf:[addition*](*<-lang_en;;*);;
 
 //определение и пояснения
 nrel_addition_of_natural_numbers <- rrel_key_sc_element:

@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_multiplying_fractions;; 
 nrel_multiplying_fractions=>nrel_main_idtf:
-[умножение дробей* ] (*<-lang_ru;;*);
-[көбейту фракциялары* ] (*<-lang_ru;;*);
-[multiplying fractions* ] (*<-lang_en;;*);;
+[умножение дробей*] (*<-lang_ru;;*);
+[көбейту фракциялары*] (*<-lang_ru;;*);
+[multiplying fractions*] (*<-lang_en;;*);;
 
 //разбиение
 nrel_multiplying_fractions<= nrel_subdividing:

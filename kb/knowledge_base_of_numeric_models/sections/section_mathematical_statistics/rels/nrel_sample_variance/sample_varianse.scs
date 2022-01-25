@@ -48,9 +48,9 @@ nrel_sample_variance => nrel_second_domain: concept_number;;
 
 
 nrel_biased_sample_variance => nrel_main_idtf:
-[смещенная выборочная дисперсия* ](*<-lang_ru;;*);
-[biased sample variance* ](*<-lang_en;;*);;
+[смещенная выборочная дисперсия*](*<-lang_ru;;*);
+[biased sample variance*](*<-lang_en;;*);;
 
 nrel_not_biased_sample_variance => nrel_main_idtf:
-[несмещенная выборочная дисперсия* ](*<-lang_ru;;*);
-[not biased sample variance* ](*<-lang_en;;*);;
+[несмещенная выборочная дисперсия*](*<-lang_ru;;*);
+[not biased sample variance*](*<-lang_en;;*);;

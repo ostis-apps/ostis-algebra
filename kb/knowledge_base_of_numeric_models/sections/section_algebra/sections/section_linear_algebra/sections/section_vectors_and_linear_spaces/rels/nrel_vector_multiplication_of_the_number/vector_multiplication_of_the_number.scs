@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_vector_multiplication_of_the_number;;
 
 nrel_vector_multiplication_of_the_number=>nrel_main_idtf:
-[умножение вектора на число* ] (*<-lang_ru;;*);
-[vector multiplication of the number* ] (*<-lang_en;;*);;
+[умножение вектора на число*] (*<-lang_ru;;*);
+[vector multiplication of the number*] (*<-lang_en;;*);;
 
 nrel_vector_multiplication_of_the_number  <- ternary_relation;;
 

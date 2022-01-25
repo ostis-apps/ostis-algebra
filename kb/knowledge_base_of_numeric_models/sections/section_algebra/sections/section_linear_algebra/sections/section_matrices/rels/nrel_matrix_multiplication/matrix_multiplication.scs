@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_matrix_multiplication;;
 
 nrel_matrix_multiplication=>nrel_main_idtf:
-[умножение матриц* ](*<-lang_ru;;*);
-[matrix multiplication* ](*<-lang_en;;*);
-[матрицалық көбейту* ](*<-lang_kz;;*);;
+[умножение матриц*](*<-lang_ru;;*);
+[matrix multiplication*](*<-lang_en;;*);
+[матрицалық көбейту*](*<-lang_kz;;*);;
 
 
 //надмножество 

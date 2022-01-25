@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_tangent;;
 
 nrel_tangent=>nrel_main_idtf:
-[тангенс* ](*<-lang_ru;;*);
-[tangent* ](*<-lang_en;;*);
-[тангенс* ](*<-lang_kz;;*);;
+[тангенс*](*<-lang_ru;;*);
+[tangent*](*<-lang_en;;*);
+[тангенс*](*<-lang_kz;;*);;
 
-nrel_tangent=> nrel_idtf:[tan* ](*<-lang_en;;*);;
-nrel_tangent=> nrel_idtf:[tg* ](*<-lang_en;;*);;
+nrel_tangent=> nrel_idtf:[tan*](*<-lang_en;;*);;
+nrel_tangent=> nrel_idtf:[tg*](*<-lang_en;;*);;
 
 //определение
 nrel_tangent <- rrel_key_sc_element:

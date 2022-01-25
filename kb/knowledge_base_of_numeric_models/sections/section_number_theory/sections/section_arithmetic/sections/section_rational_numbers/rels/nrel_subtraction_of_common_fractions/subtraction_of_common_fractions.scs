@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_subtraction_of_common_fractions;; 
 
 nrel_subtraction_of_common_fractions=>nrel_main_idtf:
-[разность обыкновенных дробей* ] (*<-lang_ru;;*);
-[фракцияларын айырмашылық* ] (*<-lang_kz;;*);
-[subtraction of common fractions* ] (*<-lang_en;;*);;
+[разность обыкновенных дробей*] (*<-lang_ru;;*);
+[фракцияларын айырмашылық*] (*<-lang_kz;;*);
+[subtraction of common fractions*] (*<-lang_en;;*);;
 
 //синонимы
-nrel_subtraction_of_common_fractions=> nrel_idtf:[вычитание обыкновенных  дробей* ](*<-lang_ru;;*);;
+nrel_subtraction_of_common_fractions=> nrel_idtf:[вычитание обыкновенных  дробей*](*<-lang_ru;;*);;
 
 
 //определение и пояснения

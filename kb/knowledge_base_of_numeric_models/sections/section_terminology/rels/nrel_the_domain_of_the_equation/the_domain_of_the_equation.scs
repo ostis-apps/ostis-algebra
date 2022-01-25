@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_the_domain_of_the_equation;; 
 
 nrel_the_domain_of_the_equation=>nrel_main_idtf:
-[область определения уравнения* ](*<-lang_ru;;*);
-[the domain of the equation* ](*<-lang_en;;*);;
+[область определения уравнения*](*<-lang_ru;;*);
+[the domain of the equation*](*<-lang_en;;*);;
 
 nrel_the_domain_of_the_equation => nrel_idtf:
-[ОДЗ* ](*<-lang_ru;;*);
-[области допустимых значений переменной в уравнении* ](*<-lang_ru;;*);;
+[ОДЗ*](*<-lang_ru;;*);
+[области допустимых значений переменной в уравнении*](*<-lang_ru;;*);;
 
 nrel_the_domain_of_the_equation => nrel_using_constants: concept_number;concept_equation;concept_variable;;
 

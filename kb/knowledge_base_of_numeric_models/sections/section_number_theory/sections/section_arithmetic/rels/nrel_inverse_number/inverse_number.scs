@@ -1,6 +1,6 @@
 sc_node_norole_relation->nrel_inverse_number;;
-nrel_inverse_number=>nrel_main_idtf:	[обратное число* ] (*<-lang_ru;;*);	[кері нөмірі* ] (*<-lang_kz;;*);		[inverse number* ] (*<-lang_en;;*);;
-nrel_inverse_number=>nrel_idtf:	[обратная величина* ] (*<-lang_ru;;*);	[обратное значение* ] (*<-lang_ru;;*);;
+nrel_inverse_number=>nrel_main_idtf:	[обратное число*] (*<-lang_ru;;*);	[кері нөмірі*] (*<-lang_kz;;*);		[inverse number*] (*<-lang_en;;*);;
+nrel_inverse_number=>nrel_idtf:	[обратная величина*] (*<-lang_ru;;*);	[обратное значение*] (*<-lang_ru;;*);;
 
 nrel_inverse_number <- binary_relation;;
 nrel_inverse_number => nrel_first_domain: concept_number;;

@@ -1,7 +1,7 @@
 sc_node_norole_relation -> nrel_inverse_function;;
 nrel_inverse_function => nrel_main_idtf :
-[обратная функция* ] (* <- lang_ru;; *);
-[inverse function* ] (* <- lang_en;; *);; 
+[обратная функция*] (* <- lang_ru;; *);
+[inverse function*] (* <- lang_en;; *);; 
 
 //определение
 nrel_inverse_function <- rrel_key_sc_element:

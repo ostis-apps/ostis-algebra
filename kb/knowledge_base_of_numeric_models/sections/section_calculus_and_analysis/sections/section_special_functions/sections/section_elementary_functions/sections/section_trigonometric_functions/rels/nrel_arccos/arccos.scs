@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_arccos;;
 
 nrel_arccos => nrel_main_idtf:
-[арккосинус* ](*<-lang_ru;;*);
-[arccos* ](*<-lang_en;;*);
-[арккосинус* ](*<-lang_kz;;*);;
+[арккосинус*](*<-lang_ru;;*);
+[arccos*](*<-lang_en;;*);
+[арккосинус*](*<-lang_kz;;*);;
 
 //определение
 nrel_arccos <- rrel_key_sc_element:

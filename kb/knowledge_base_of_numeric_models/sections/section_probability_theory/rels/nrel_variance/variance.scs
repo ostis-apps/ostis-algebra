@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_variance;;
 
 nrel_variance => nrel_main_idtf:
-[дисперсия случайной величины* ](*<-lang_ru;;*);
-[variance* ](*<-lang_en;;*);
-[кездейсоқ шаманың дисперсиясы* ](*<-lang_kz;;*);;
+[дисперсия случайной величины*](*<-lang_ru;;*);
+[variance*](*<-lang_en;;*);
+[кездейсоқ шаманың дисперсиясы*](*<-lang_kz;;*);;
 
 //определение
 nrel_variance <- rrel_key_sc_element:

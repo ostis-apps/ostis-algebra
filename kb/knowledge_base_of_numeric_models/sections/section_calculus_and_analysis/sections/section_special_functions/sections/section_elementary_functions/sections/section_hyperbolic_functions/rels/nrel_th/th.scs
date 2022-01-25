@@ -1,6 +1,6 @@
 sc_node_norole_relation -> nrel_th;;
 
-nrel_th => nrel_main_idtf:[гиперболический тангенс* ](* <- lang_ru;; *);  [th* ](* <- lang_en;; *);;
+nrel_th => nrel_main_idtf:[гиперболический тангенс*](* <- lang_ru;; *);  [th*](* <- lang_en;; *);;
 
 nrel_th => nrel_idtf:[tanh](*<-lang_en;;*);;
 

@@ -1,6 +1,6 @@
 sc_node_norole_relation->nrel_primorial;; 
-nrel_primorial=>nrel_main_idtf:	[праймориал* ] (*<-lang_ru;;*);	[primorial* ] (*<-lang_en;;*);	[прайморлық* ] (*<-lang_kz;;*);;
-nrel_primorial=> nrel_idtf:[примориал* ](*<-lang_ru;;*);;
+nrel_primorial=>nrel_main_idtf:	[праймориал*] (*<-lang_ru;;*);	[primorial*] (*<-lang_en;;*);	[прайморлық*] (*<-lang_kz;;*);;
+nrel_primorial=> nrel_idtf:[примориал*](*<-lang_ru;;*);;
 
 nrel_primorial<- rrel_key_sc_element:
 	... 

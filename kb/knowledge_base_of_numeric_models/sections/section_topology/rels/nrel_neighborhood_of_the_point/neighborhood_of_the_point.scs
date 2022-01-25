@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_neighborhood_of_the_point;;
 
 nrel_neighborhood_of_the_point => nrel_main_idtf:
-[окрестность точки* ](* <- lang_ru;; *);  
-[neighborhood of the point* ](* <- lang_en;; *);;
+[окрестность точки*](* <- lang_ru;; *);  
+[neighborhood of the point*](* <- lang_en;; *);;
 
 nrel_neighborhood_of_the_point <- rrel_key_sc_element:
 	...

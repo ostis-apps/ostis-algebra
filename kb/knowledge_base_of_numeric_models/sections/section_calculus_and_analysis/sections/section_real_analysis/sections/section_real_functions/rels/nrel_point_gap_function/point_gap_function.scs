@@ -1,7 +1,7 @@
 sc_node_norole_relation->nrel_point_gap_function;;
 nrel_point_gap_function=> nrel_main_idtf :
-[точка разрыва функции* ] (* <- lang_ru;; *);
-[point gap function* ] (* <- lang_en;; *);; 
+[точка разрыва функции*] (* <- lang_ru;; *);
+[point gap function*] (* <- lang_en;; *);; 
 
 nrel_point_gap_function <= nrel_subdividing:
     ... 

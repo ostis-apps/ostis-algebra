@@ -1,6 +1,6 @@
 sc_node_norole_relation-> nrel_root_extract;;
-nrel_root_extract => nrel_main_idtf:	[извлечение корня* ](*<-lang_ru;;*);	[root extract* ](*<-lang_en;;*);;
-nrel_root_extract => nrel_idtf:	[возвести в дробную степень* ](*<-lang_ru;;*);;
+nrel_root_extract => nrel_main_idtf:	[извлечение корня*](*<-lang_ru;;*);	[root extract*](*<-lang_en;;*);;
+nrel_root_extract => nrel_idtf:	[возвести в дробную степень*](*<-lang_ru;;*);;
 
 nrel_root_extract <- ternary_relation;;
 nrel_root_extract <= nrel_first_domain: concept_number;;

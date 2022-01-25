@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_arcsin;;
 
 nrel_arcsin=>nrel_main_idtf:
-[арксинус* ](*<-lang_ru;;*);
-[arcsine* ](*<-lang_en;;*);
-[арксинус* ](*<-lang_kz;;*);;
+[арксинус*](*<-lang_ru;;*);
+[arcsine*](*<-lang_en;;*);
+[арксинус*](*<-lang_kz;;*);;
 
-nrel_arcsin=> nrel_idtf:[arcsin* ](*<-lang_en;;*);;
-nrel_arcsin=> nrel_idtf:[asin* ](*<-lang_en;;*);;
+nrel_arcsin=> nrel_idtf:[arcsin*](*<-lang_en;;*);;
+nrel_arcsin=> nrel_idtf:[asin*](*<-lang_en;;*);;
 
 //определение
 nrel_arcsin <- rrel_key_sc_element:

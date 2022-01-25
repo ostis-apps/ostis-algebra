@@ -1,13 +1,13 @@
 sc_node_norole_relation->nrel_addition_of_integers;;
 
 nrel_addition_of_integers=>nrel_main_idtf:
-[сложение целых чисел* ](*<-lang_ru;;*);
-[addition of integers* ](*<-lang_en;;*);;
+[сложение целых чисел*](*<-lang_ru;;*);
+[addition of integers*](*<-lang_en;;*);;
 
-nrel_addition_of_integers=> nrel_idtf:[addition of whole number* ](*<-lang_en;;*);;
-nrel_addition_of_integers=> nrel_idtf:[сложение противоположных чисел* ](*<-lang_ru;;*);;
-nrel_addition_of_integers=> nrel_idtf:[сложение чисел с разными знаками* ](*<-lang_ru;;*);;
-nrel_addition_of_integers=> nrel_idtf:[сложение отрицательных чисел* ](*<-lang_ru;;*);;
+nrel_addition_of_integers=> nrel_idtf:[addition of whole number*](*<-lang_en;;*);;
+nrel_addition_of_integers=> nrel_idtf:[сложение противоположных чисел*](*<-lang_ru;;*);;
+nrel_addition_of_integers=> nrel_idtf:[сложение чисел с разными знаками*](*<-lang_ru;;*);;
+nrel_addition_of_integers=> nrel_idtf:[сложение отрицательных чисел*](*<-lang_ru;;*);;
 
 //определение
 nrel_addition_of_integers <- rrel_key_sc_element:

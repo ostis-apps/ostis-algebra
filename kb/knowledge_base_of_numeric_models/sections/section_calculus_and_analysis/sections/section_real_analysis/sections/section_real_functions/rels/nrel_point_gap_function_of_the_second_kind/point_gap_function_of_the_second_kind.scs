@@ -1,7 +1,7 @@
 sc_node_norole_relation->nrel_point_gap_function_of_the_second_kind;;
 nrel_point_gap_function_of_the_second_kind=> nrel_main_idtf :
-[точка разрыва функции второго рода* ] (* <- lang_ru;; *);
-[point gap function of the second kind* ] (* <- lang_en;; *);; 
+[точка разрыва функции второго рода*] (* <- lang_ru;; *);
+[point gap function of the second kind*] (* <- lang_en;; *);; 
 
 nrel_point_gap_function_of_the_second_kind<- rrel_key_sc_element:
 	... 

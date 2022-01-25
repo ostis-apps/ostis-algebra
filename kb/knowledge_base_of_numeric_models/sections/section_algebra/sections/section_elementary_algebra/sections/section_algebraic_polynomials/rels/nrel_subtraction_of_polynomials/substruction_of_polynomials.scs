@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_subtraction_of_polynomials ;; 
 nrel_subtraction_of_polynomials => nrel_main_idtf :
-[вычитание многочленов* ] (* <- lang_ru;; *);
-[субтракцион полиномов* ] (* <- lang_kz;; *);
-[substraction of polynomials* ] (*<-lang_en;;*);;
+[вычитание многочленов*] (* <- lang_ru;; *);
+[субтракцион полиномов*] (* <- lang_kz;; *);
+[substraction of polynomials*] (*<-lang_en;;*);;
 
 //определение и пояснения
 nrel_subtraction_of_polynomials <- rrel_key_sc_element:

@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_expansion_of_fraction;;
 nrel_expansion_of_fraction=>nrel_main_idtf:
-[расширение дроби* ] (*<-lang_ru;;*);
-[фракциясы кеңейту* ] (*<-lang_kz;;*);
-[expansion of fraction* ] (*<-lang_en;;*);;
+[расширение дроби*] (*<-lang_ru;;*);
+[фракциясы кеңейту*] (*<-lang_kz;;*);
+[expansion of fraction*] (*<-lang_en;;*);;
 
 nrel_expansion_of_fraction <- binary_relation;;
 nrel_expansion_of_fraction => nrel_first_domain: concept_fraction;;

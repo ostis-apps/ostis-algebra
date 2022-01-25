@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_natural_logarithm;;
 
 nrel_natural_logarithm=>nrel_main_idtf:
-[натуральный логарифм* ](*<-lang_ru;;*);
-[табиғи логарифмін* ](*<-lang_kz;;*);
-[natural logarithm* ](*<-lang_en;;*);;
+[натуральный логарифм*](*<-lang_ru;;*);
+[табиғи логарифмін*](*<-lang_kz;;*);
+[natural logarithm*](*<-lang_en;;*);;
 
 nrel_natural_logarithm  <= nrel_inclusion: nrel_logarithm ;;
 

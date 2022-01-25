@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_cth;;
 
 nrel_cth => nrel_main_idtf:
-[гиперболический котангенс* ](* <- lang_ru;; *);  
-[th* ](* <- lang_en;; *);;
+[гиперболический котангенс*](* <- lang_ru;; *);  
+[th*](* <- lang_en;; *);;
 
 //определение
 nrel_cth <- rrel_key_sc_element:

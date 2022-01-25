@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_comparison_of_fractions;;
 nrel_comparison_of_fractions=>nrel_main_idtf:
-[сравнение дробей* ] (*<-lang_ru;;*);
-[салыстыру фракциялары* ] (*<-lang_kz;;*);
-[comparison of fractions* ] (*<-lang_en;;*);;
+[сравнение дробей*] (*<-lang_ru;;*);
+[салыстыру фракциялары*] (*<-lang_kz;;*);
+[comparison of fractions*] (*<-lang_en;;*);;
 
 
 nrel_comparison_of_fractions <- ternary_relation;;

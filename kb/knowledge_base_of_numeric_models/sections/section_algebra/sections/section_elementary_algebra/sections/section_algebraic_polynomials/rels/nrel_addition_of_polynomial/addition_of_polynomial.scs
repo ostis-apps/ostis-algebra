@@ -2,13 +2,13 @@ sc_node_norole_relation->nrel_addition_of_polynomial;;
 
 //понятие на русском и английском
 nrel_addition_of_polynomial=>nrel_main_idtf:
-[сложение многочленов* ] (*<-lang_ru;;*);
-[полином толықтыру* ] (*<-lang_kz;;*);
-[addition of polynomial* ] (*<-lang_en;;*);;
+[сложение многочленов*] (*<-lang_ru;;*);
+[полином толықтыру*] (*<-lang_kz;;*);
+[addition of polynomial*] (*<-lang_en;;*);;
 
 //синонимы
-nrel_addition_of_polynomial=> nrel_idtf:[сумма многочленов* ](*<-lang_ru;;*);;
-nrel_addition_of_polynomial=> nrel_idtf:[алгебраическая сумма многочленов* ](*<-lang_ru;;*);;
+nrel_addition_of_polynomial=> nrel_idtf:[сумма многочленов*](*<-lang_ru;;*);;
+nrel_addition_of_polynomial=> nrel_idtf:[алгебраическая сумма многочленов*](*<-lang_ru;;*);;
 
 //определение и пояснения
 nrel_addition_of_polynomial <- rrel_key_sc_element:

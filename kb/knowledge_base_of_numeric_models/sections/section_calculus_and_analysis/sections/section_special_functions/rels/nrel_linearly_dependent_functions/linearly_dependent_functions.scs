@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_linearly_dependent_function;;
 
 nrel_linearly_dependent_function => nrel_main_idtf:
-[линейно зависимая функция* ](* <- lang_ru;; *);  
-[linearly dependent function* ](* <- lang_en;; *);;
+[линейно зависимая функция*](* <- lang_ru;; *);  
+[linearly dependent function*](* <- lang_en;; *);;
 
 //определение
 nrel_linearly_dependent_function <- rrel_key_sc_element:

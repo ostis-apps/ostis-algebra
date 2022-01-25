@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_equality_vectors;;
 
 nrel_equality_vectors =>nrel_main_idtf:
-[равенство векторов* ](*<-lang_ru;;*);
-[equality vectors* ](*<-lang_en;;*);;
+[равенство векторов*](*<-lang_ru;;*);
+[equality vectors*](*<-lang_en;;*);;
 
 nrel_equality_vectors <- binary_relation;;
 nrel_equality_vectors => nrel_first_domain: concept_vector;;

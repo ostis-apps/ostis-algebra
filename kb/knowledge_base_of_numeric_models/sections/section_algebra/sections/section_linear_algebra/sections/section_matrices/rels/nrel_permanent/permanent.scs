@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_permanent;;
 
 nrel_permanent=>nrel_main_idtf:
-[перманент* ](*<-lang_ru;;*);
-[permanent* ](*<-lang_en;;*);;
+[перманент*](*<-lang_ru;;*);
+[permanent*](*<-lang_en;;*);;
 
 //надмножество
 concept_function => nrel_inclusion: nrel_permanent;;

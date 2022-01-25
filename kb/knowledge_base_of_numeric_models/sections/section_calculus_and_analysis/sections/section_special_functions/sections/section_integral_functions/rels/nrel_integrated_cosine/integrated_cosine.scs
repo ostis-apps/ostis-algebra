@@ -1,5 +1,5 @@
 sc_node_norole_relation -> nrel_integrated_cosine;;
-nrel_integrated_cosine => nrel_main_idtf:	[интегральный косинус* ](*<-lang_ru;;*);	[integrated cosine* ](*<-lang_en;;*);;
+nrel_integrated_cosine => nrel_main_idtf:	[интегральный косинус*](*<-lang_ru;;*);	[integrated cosine*](*<-lang_en;;*);;
 
 concept_function => nrel_inclusion: nrel_integrated_cosine;;
 

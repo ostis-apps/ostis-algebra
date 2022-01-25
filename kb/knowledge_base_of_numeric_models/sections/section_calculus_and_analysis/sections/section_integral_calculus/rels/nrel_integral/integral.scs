@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_integral;;
 
 nrel_integral=>nrel_main_idtf:
-[интеграл* ](*<-lang_ru;;*);
-[integral* ](*<-lang_en;;*);;
-nrel_integral=>nrel_idtf:[первообразная* ](*<-lang_ru;;*);;
+[интеграл*](*<-lang_ru;;*);
+[integral*](*<-lang_en;;*);;
+nrel_integral=>nrel_idtf:[первообразная*](*<-lang_ru;;*);;
 
 nrel_integral => nrel_first_domain:concept_function;;
 nrel_integral => nrel_second_domain: concept_expression;;

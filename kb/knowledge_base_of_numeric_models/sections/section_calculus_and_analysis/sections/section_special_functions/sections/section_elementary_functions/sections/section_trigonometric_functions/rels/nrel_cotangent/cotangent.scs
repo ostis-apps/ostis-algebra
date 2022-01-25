@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_cotangent;;
 
 nrel_cotangent=>nrel_main_idtf:
-[котангенс* ](*<-lang_ru;;*);
-[cotangent* ](*<-lang_en;;*);
-[кокасательного* ](*<-lang_kz;;*);;
+[котангенс*](*<-lang_ru;;*);
+[cotangent*](*<-lang_en;;*);
+[кокасательного*](*<-lang_kz;;*);;
 
-nrel_cotangent=> nrel_idtf:[cotangent* ](*<-lang_en;;*);;
-nrel_cotangent=> nrel_idtf:[ctg* ](*<-lang_en;;*);;
+nrel_cotangent=> nrel_idtf:[cotangent*](*<-lang_en;;*);;
+nrel_cotangent=> nrel_idtf:[ctg*](*<-lang_en;;*);;
 
 //определение
 nrel_cotangent <- rrel_key_sc_element:

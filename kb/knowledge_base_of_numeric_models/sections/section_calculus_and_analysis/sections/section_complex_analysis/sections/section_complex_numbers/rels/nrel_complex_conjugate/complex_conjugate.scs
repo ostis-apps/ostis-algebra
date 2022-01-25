@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_complex_conjugate;;
 
 nrel_complex_conjugate => nrel_main_idtf:
-[комплексное сопряжение* ](*<-lang_ru;;*);
-[complex conjugate* ](*<-lang_en;;*);
-[кешенді ұштасатын* ](*<-lang_kz;;*);;
+[комплексное сопряжение*](*<-lang_ru;;*);
+[complex conjugate*](*<-lang_en;;*);
+[кешенді ұштасатын*](*<-lang_kz;;*);;
 
 //определение
 nrel_complex_conjugate <- rrel_key_sc_element:

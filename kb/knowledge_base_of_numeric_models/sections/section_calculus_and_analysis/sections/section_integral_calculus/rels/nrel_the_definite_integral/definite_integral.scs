@@ -1,7 +1,7 @@
 sc_node_norole_relation-> nrel_the_definite_integral;;
 nrel_the_definite_integral=>nrel_main_idtf:
-[определённый интеграл* ](*<-lang_ru;;*);
-[definite integral* ](*<-lang_en;;*);;
+[определённый интеграл*](*<-lang_ru;;*);
+[definite integral*](*<-lang_en;;*);;
  
 nrel_the_definite_integral => nrel_first_domain:concept_function;;
 nrel_the_definite_integral => nrel_second_domain: concept_number;;

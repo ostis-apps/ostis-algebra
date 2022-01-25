@@ -1,7 +1,7 @@
 sc_node_norole_relation->  nrel_indefinite_integral;;
  nrel_indefinite_integral=>nrel_main_idtf:
-[неопределённый интеграл* ](*<-lang_ru;;*);
-[indefinite integral* ](*<-lang_en;;*);;
+[неопределённый интеграл*](*<-lang_ru;;*);
+[indefinite integral*](*<-lang_en;;*);;
  
 nrel_indefinite_integral=> nrel_first_domain:concept_function;;
 nrel_indefinite_integral=> nrel_second_domain: concept_function;;

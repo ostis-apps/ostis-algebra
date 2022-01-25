@@ -1,7 +1,7 @@
 sc_node_norole_relation -> nrel_limit_of_the_sequence;;
 nrel_limit_of_the_sequence => nrel_main_idtf :
-[предел последовательности* ] (* <- lang_ru;; *);
-[limit of the sequence* ] (* <- lang_en;; *);;
+[предел последовательности*] (* <- lang_ru;; *);
+[limit of the sequence*] (* <- lang_en;; *);;
 
 //используемые константы
 nrel_limit_of_the_sequence <= nrel_using_constants: concept_number;concept_interval;;
