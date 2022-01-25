@@ -1,8 +1,8 @@
-# OSTIS-numeric-models <a name = "header"></a>
+# OSTIS-numeric-models  <a name = "header"></a> 
 
 Ostis-numeric-models is an open-source knowledge base for Numeric models system for Open Semantic Technology for Intelligent Systems. OSTIS is aimed at creating a mass semantic technology for component design of intelligent systems for various purposes.
 
-## Table of Contents <a name = "table"></a>
+## Table of Contents  <a name = "table"></a> 
 
 - [OSTIS-numeric-models](#header)
 - [Table of Content](#table)
@@ -12,7 +12,7 @@ Ostis-numeric-models is an open-source knowledge base for Numeric models system 
 - [Structure](#struct)
 - [Contributing](#contribute)
 
-## Installation <a name = "install"></a>
+## Installation  <a name = "install"></a> 
 
 Linux:
 
@@ -22,7 +22,7 @@ cd {project-name}/scripts
 ./install_ostis.sh
 ```
 
-## Build knowledge base <a name = "build"></a>
+## Build knowledge base  <a name = "build"></a> 
 
 Linux:
 
@@ -31,7 +31,7 @@ cd {project-name}/ostis-web-platform/scripts
 ./build_kb.sh
 ```
 
-## Run <a name = "run"></a>
+## Run  <a name = "run"></a> 
 
 Run on Linux:
 
@@ -47,7 +47,7 @@ cd {project-name}/ostis-web-platform/scripts
 
 Then open localhost:8000 in your browser.
 
-## Structure <a name = "struct"></a>
+## Structure  <a name = "struct"></a> 
 
 - [knowledge base of numeric models](./kb/knowledge_base_of_numeric_models)
   - [algebra](./kb/knowledge_base_of_numeric_models/sections/section_algebra)
@@ -114,10 +114,21 @@ Then open localhost:8000 in your browser.
     - [math constants](./kb/knowledge_base_of_numeric_models/sections/section_number_theory/sections/section_math_constants)
     - [special numbers](./kb/knowledge_base_of_numeric_models/sections/section_number_theory/sections/section_special_numbers)
   - [probability theory](./kb/knowledge_base_of_numeric_models/sections/section_probability_theory)
+  - [mathematical statistics](./kb/knowledge_base_of_numeric_models/sections/section_mathematical_statistics)
   - [terminology](./kb/knowledge_base_of_numeric_models/sections/section_terminology)
   - [topology](./kb/knowledge_base_of_numeric_models/sections/section_topology)
+    - [algebraic topology](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_algebraic_topology)
+      - [cohomology](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_algebraic_topology/sections/section_of_cohomology)
+      - [complexes](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_algebraic_topology/sections/section_of_complexes)
+      - [homology](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_algebraic_topology/sections/section_of_homology)
+      - [homotopy groups](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_algebraic_topology/sections/section_of_homotopy_groups)
+      - [knot theory](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_algebraic_topology/sections/section_of_knot_theory)
+      - [manifolds](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_algebraic_topology/sections/section_of_manifolds)
+    - [computational topology](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_computational_topology)
+    - [differential topology](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_differential_topology)
+    - [general topology](./kb/knowledge_base_of_numeric_models/sections/section_topology/sections/section_general_topology)
 
-## Contributing <a name = "contribute"></a>
+## Contributing  <a name = "contribute"></a> 
 
 ### Help to development
 
