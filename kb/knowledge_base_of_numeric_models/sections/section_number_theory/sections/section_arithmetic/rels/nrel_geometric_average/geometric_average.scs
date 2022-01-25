@@ -1,6 +1,6 @@
 sc_node_norole_relation -> nrel_geometric_average;;
-nrel_geometric_average => nrel_main_idtf:	[среднее геометрическое* ](*<-lang_ru;;*);	[geometric average* ](*<-lang_en;;*);;
-nrel_geometric_average => nrel_idtf:	[средняя геометрическая величина* ](*<-lang_ru;;*);;
+nrel_geometric_average => nrel_main_idtf:	[среднее геометрическое*](*<-lang_ru;;*);	[geometric average*](*<-lang_en;;*);;
+nrel_geometric_average => nrel_idtf:	[средняя геометрическая величина*](*<-lang_ru;;*);;
 
 nrel_geometric_average <- rrel_key_sc_element:
 	... 

@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_expected_value;;
 
 nrel_expected_value => nrel_main_idtf:
-[математическое ожидание* ](*<-lang_ru;;*);
-[expected value* ](*<-lang_en;;*);
-[математикалық болжам* ](*<-lang_kz;;*);;
+[математическое ожидание*](*<-lang_ru;;*);
+[expected value*](*<-lang_en;;*);
+[математикалық болжам*](*<-lang_kz;;*);;
 
 nrel_expected_value <- rrel_key_sc_element:
 	... 

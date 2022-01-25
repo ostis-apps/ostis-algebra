@@ -1,11 +1,11 @@
 sc_node_norole_relation -> nrel_scalar_composition;;
 
 nrel_scalar_composition=>nrel_main_idtf:
-[скалярное произведение* ] (*<-lang_ru;;*);
-[scalar composition* ] (*<-lang_en;;*);;
+[скалярное произведение*] (*<-lang_ru;;*);
+[scalar composition*] (*<-lang_en;;*);;
 
 nrel_scalar_composition=>nrel_idtf:
-[внутреннее произведение* ] (*<-lang_ru;;*);;
+[внутреннее произведение*] (*<-lang_ru;;*);;
 
 nrel_scalar_composition <- rrel_key_sc_element:
 	... 

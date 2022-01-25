@@ -1,6 +1,6 @@
 sc_node_norole_relation->nrel_least_common_multiple;; 
-nrel_least_common_multiple=>nrel_main_idtf:	[наименьшее общее кратное* ] (*<-lang_ru;;*);	[ең кіші ортақ еселік* ] (*<-lang_kz;;*);	[least common multiple* ] (*<-lang_en;;*);;
-nrel_least_common_multiple=> nrel_idtf:	[НОК* ](*<-lang_ru;;*);	[ЕКОЕ* ](*<-lang_kz;;*); 	[каноническое разложение чисел* ](*<-lang_ru;;*);;
+nrel_least_common_multiple=>nrel_main_idtf:	[наименьшее общее кратное*] (*<-lang_ru;;*);	[ең кіші ортақ еселік*] (*<-lang_kz;;*);	[least common multiple*] (*<-lang_en;;*);;
+nrel_least_common_multiple=> nrel_idtf:	[НОК*](*<-lang_ru;;*);	[ЕКОЕ*](*<-lang_kz;;*); 	[каноническое разложение чисел*](*<-lang_ru;;*);;
 
 nrel_least_common_multiple<- rrel_key_sc_element:
 	... 

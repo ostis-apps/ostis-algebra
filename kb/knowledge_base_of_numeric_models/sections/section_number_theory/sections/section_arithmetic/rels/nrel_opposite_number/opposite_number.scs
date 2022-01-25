@@ -1,5 +1,5 @@
 sc_node_norole_relation -> nrel_opposite_number;; 
-nrel_opposite_number => nrel_main_idtf :	[противоположное число* ] (* <- lang_ru;; *);	[қарама-қарсы сан* ] (* <- lang_kz;; *);		[opposite number* ](* <-lang_en;; *);;
+nrel_opposite_number => nrel_main_idtf :	[противоположное число*] (* <- lang_ru;; *);	[қарама-қарсы сан*] (* <- lang_kz;; *);		[opposite number*](* <-lang_en;; *);;
 
 nrel_opposite_number <- rrel_key_sc_element:
 	... 

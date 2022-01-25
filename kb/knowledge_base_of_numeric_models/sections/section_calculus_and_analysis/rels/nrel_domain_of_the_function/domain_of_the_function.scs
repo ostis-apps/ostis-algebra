@@ -1,7 +1,7 @@
 sc_node_norole_relation -> nrel_domain_of_the_function;;
 nrel_domain_of_the_function=> nrel_main_idtf :
-[область определения функции* ] (* <- lang_ru;; *);
-[the domain of the function* ] (* <- lang_en;; *);;
+[область определения функции*] (* <- lang_ru;; *);
+[the domain of the function*] (* <- lang_en;; *);;
 
 nrel_domain_of_the_function => nrel_first_domain:
 concept_function;;

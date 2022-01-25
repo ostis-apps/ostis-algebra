@@ -1,6 +1,6 @@
 sc_node_norole_relation -> nrel_logarithm;;
-nrel_logarithm => nrel_main_idtf:	[логарифм* ](*<-lang_ru;;*);	[логарифмін* ](*<-lang_kz;;*);	[logarithm* ](*<-lang_en;;*);;
-nrel_logarithm => nrel_idtf: [логарифмирование* ] (*<-lang_ru;;*);;
+nrel_logarithm => nrel_main_idtf:	[логарифм*](*<-lang_ru;;*);	[логарифмін*](*<-lang_kz;;*);	[logarithm*](*<-lang_en;;*);;
+nrel_logarithm => nrel_idtf: [логарифмирование*] (*<-lang_ru;;*);;
 
 nrel_logarithm<- rrel_key_sc_element:
 	... 

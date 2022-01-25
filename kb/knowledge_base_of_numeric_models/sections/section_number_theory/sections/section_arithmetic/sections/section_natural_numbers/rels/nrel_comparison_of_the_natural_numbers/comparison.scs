@@ -1,11 +1,11 @@
 sc_node_norole_relation->nrel_comparison_of_the_natural_numbers;;
 
 nrel_comparison_of_the_natural_numbers=>nrel_main_idtf:
-[сравнение натуральных чисел* ] (*<-lang_ru;;*);
-[табиғи сандар салыстыру* ] (*<-lang_kz;;*);
-[comparison of the natural numbers* ] (*<-lang_en;;*);;
+[сравнение натуральных чисел*] (*<-lang_ru;;*);
+[табиғи сандар салыстыру*] (*<-lang_kz;;*);
+[comparison of the natural numbers*] (*<-lang_en;;*);;
 
-nrel_comparison_of_the_natural_numbers=> nrel_idtf:[comparison* ](*<-lang_en;;*);;
+nrel_comparison_of_the_natural_numbers=> nrel_idtf:[comparison*](*<-lang_en;;*);;
 
 //определение и пояснения
 nrel_comparison_of_the_natural_numbers <- rrel_key_sc_element:

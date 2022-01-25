@@ -1,7 +1,7 @@
 sc_node_norole_relation->nrel_division_of_fractions;; 
-nrel_division_of_fractions=>nrel_main_idtf:[деление дробей* ] (*<-lang_ru;;*);;
-nrel_division_of_fractions=>nrel_main_idtf:[фракцияларын бөлімшесі* ] (*<-lang_kz;;*);;
-nrel_division_of_fractions=>nrel_main_idtf:[division of fractions* ] (*<-lang_en;;*);;
+nrel_division_of_fractions=>nrel_main_idtf:[деление дробей*] (*<-lang_ru;;*);;
+nrel_division_of_fractions=>nrel_main_idtf:[фракцияларын бөлімшесі*] (*<-lang_kz;;*);;
+nrel_division_of_fractions=>nrel_main_idtf:[division of fractions*] (*<-lang_en;;*);;
 
 //разбиение
 nrel_division_of_fractions<= nrel_subdividing:

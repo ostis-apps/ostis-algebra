@@ -1,12 +1,12 @@
 sc_node_norole_relation -> nrel_determinant;;
 
 nrel_determinant => nrel_main_idtf:
-[определитель* ](*<-lang_ru;;*);
-[determinant* ](*<-lang_en;;*);
-[айқындаушы* ](*<-lang_kz;;*);;
+[определитель*](*<-lang_ru;;*);
+[determinant*](*<-lang_en;;*);
+[айқындаушы*](*<-lang_kz;;*);;
 
-nrel_determinant => nrel_main_idtf:[детерминант* ](*<-lang_ru;;*);;
-nrel_determinant => nrel_main_idtf:[определитель матрицы* ](*<-lang_ru;;*);;
+nrel_determinant => nrel_main_idtf:[детерминант*](*<-lang_ru;;*);;
+nrel_determinant => nrel_main_idtf:[определитель матрицы*](*<-lang_ru;;*);;
 
 nrel_determinant <- rrel_key_sc_element:
 	...

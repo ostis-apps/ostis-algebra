@@ -1,13 +1,13 @@
 sc_node_norole_relation->nrel_polynomial_multiplication_by_a_monomial;;
 
 nrel_polynomial_multiplication_by_a_monomial=>nrel_main_idtf:
-[умножение многочлена на одночлен* ](*<-lang_ru;;*);
-[көбейту бойынша арқылы мүшелерінің* ](*<-lang_kz;;*);
-[polynomial multiplication by a monomial* ](*<-lang_en;;*);;
+[умножение многочлена на одночлен*](*<-lang_ru;;*);
+[көбейту бойынша арқылы мүшелерінің*](*<-lang_kz;;*);
+[polynomial multiplication by a monomial*](*<-lang_en;;*);;
 
 // синонимы
-nrel_polynomial_multiplication_by_a_monomial=> nrel_idtf:[произведение многочлена на одночлен* ](*<-lang_ru;;*);;
-nrel_polynomial_multiplication_by_a_monomial=> nrel_idtf:[polynomial multiplication by a monomial* ](*<-lang_ru;;*);;
+nrel_polynomial_multiplication_by_a_monomial=> nrel_idtf:[произведение многочлена на одночлен*](*<-lang_ru;;*);;
+nrel_polynomial_multiplication_by_a_monomial=> nrel_idtf:[polynomial multiplication by a monomial*](*<-lang_ru;;*);;
 
 nrel_polynomial_multiplication_by_a_monomial <- ternary_relation;;
 nrel_polynomial_multiplication_by_a_monomial => nrel_first_domain:concept_polynomial;;

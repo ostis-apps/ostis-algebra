@@ -1,11 +1,11 @@
 sc_node_norole_relation->nrel_multiplcation_of_mixed_fractions;; 
 
 nrel_multiplcation_of_mixed_fractions=>nrel_main_idtf:
-[умножение смешанных дробей* ] (*<-lang_ru;;*);
-[аралас фракциялардың көбейту* ] (*<-lang_kz;;*);
-[multiplcation of mixed fractions* ] (*<-lang_en;;*);;
+[умножение смешанных дробей*] (*<-lang_ru;;*);
+[аралас фракциялардың көбейту*] (*<-lang_kz;;*);
+[multiplcation of mixed fractions*] (*<-lang_en;;*);;
 // синонимы
-nrel_multiplcation_of_mixed_fractions=>nrel_idtf:[произведение смешанных дробей* ] (*<-lang_ru;;*);;
+nrel_multiplcation_of_mixed_fractions=>nrel_idtf:[произведение смешанных дробей*] (*<-lang_ru;;*);;
 
 //определение и пояснения
 nrel_multiplcation_of_mixed_fractions<- rrel_key_sc_element:

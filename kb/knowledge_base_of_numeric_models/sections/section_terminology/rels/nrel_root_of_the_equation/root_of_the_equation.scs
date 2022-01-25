@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_root_of_the_equation;; 
 
 nrel_root_of_the_equation=>nrel_main_idtf:
-[корень уравнения* ](*<-lang_ru;;*);
-[root of the equation* ](*<-lang_en;;*);;
+[корень уравнения*](*<-lang_ru;;*);
+[root of the equation*](*<-lang_en;;*);;
 
 nrel_root_of_the_equation =>nrel_first_domain:concept_equation;;
 nrel_root_of_the_equation => nrel_second_domain: concept_number;;

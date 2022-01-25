@@ -1,17 +1,17 @@
 sc_node_norole_relation->nrel_multiplication_of_integers;;
 
 nrel_multiplication_of_integers=>nrel_main_idtf:
-[умножение целых чисел* ](*<-lang_ru;;*);
-[бүтін көбейту* ](*<-lang_kz;;*);
-[multiplication of integers* ](*<-lang_en;;*);;
+[умножение целых чисел*](*<-lang_ru;;*);
+[бүтін көбейту*](*<-lang_kz;;*);
+[multiplication of integers*](*<-lang_en;;*);;
 
 // синонимы
-nrel_multiplication_of_integers=> nrel_idtf:[умножение отрицательных чисел* ](*<-lang_ru;;*);;
-nrel_multiplication_of_integers=> nrel_idtf:[умножение чисел с разными знаками* ](*<-lang_ru;;*);;
-nrel_multiplication_of_integers=> nrel_idtf:[умножение противоположных чисел* ](*<-lang_ru;;*);;
-nrel_multiplication_of_integers=> nrel_idtf:[умножение числа на 1 (единицу)* ](*<-lang_ru;;*);;
-nrel_multiplication_of_integers=> nrel_idtf:[умножение числа на 0 (нуль)* ](*<-lang_ru;;*);;
-nrel_multiplication_of_integers=> nrel_idtf:[multiplication of whole number* ](*<-lang_en;;*);;
+nrel_multiplication_of_integers=> nrel_idtf:[умножение отрицательных чисел*](*<-lang_ru;;*);;
+nrel_multiplication_of_integers=> nrel_idtf:[умножение чисел с разными знаками*](*<-lang_ru;;*);;
+nrel_multiplication_of_integers=> nrel_idtf:[умножение противоположных чисел*](*<-lang_ru;;*);;
+nrel_multiplication_of_integers=> nrel_idtf:[умножение числа на 1 (единицу)*](*<-lang_ru;;*);;
+nrel_multiplication_of_integers=> nrel_idtf:[умножение числа на 0 (нуль)*](*<-lang_ru;;*);;
+nrel_multiplication_of_integers=> nrel_idtf:[multiplication of whole number*](*<-lang_en;;*);;
 
 //определение
 nrel_multiplication_of_integers <- rrel_key_sc_element:

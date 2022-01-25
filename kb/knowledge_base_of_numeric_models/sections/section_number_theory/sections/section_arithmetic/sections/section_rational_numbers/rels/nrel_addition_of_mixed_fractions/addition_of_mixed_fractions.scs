@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_addition_of_mixed_fractions;; 
 
 nrel_addition_of_mixed_fractions=>nrel_main_idtf:
-[сложение смешанных дробей* ] (*<-lang_ru;;*);
-[аралас фракцияларын толықтыру* ] (*<-lang_kz;;*);
-[addition of mixed fractions* ] (*<-lang_en;;*);;
+[сложение смешанных дробей*] (*<-lang_ru;;*);
+[аралас фракцияларын толықтыру*] (*<-lang_kz;;*);
+[addition of mixed fractions*] (*<-lang_en;;*);;
 
 //синонимы
-nrel_addition_of_mixed_fractions=> nrel_idtf:[сумма смешанных дробей* ](*<-lang_ru;;*);;
+nrel_addition_of_mixed_fractions=> nrel_idtf:[сумма смешанных дробей*](*<-lang_ru;;*);;
 
 
 //определение и пояснения

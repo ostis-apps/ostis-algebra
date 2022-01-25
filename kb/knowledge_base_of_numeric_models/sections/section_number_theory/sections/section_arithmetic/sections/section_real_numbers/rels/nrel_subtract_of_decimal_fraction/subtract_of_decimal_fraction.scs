@@ -1,13 +1,13 @@
 sc_node_norole_relation->nrel_subtract_of_decimal_fraction;; 
 
 nrel_subtract_of_decimal_fraction=>nrel_main_idtf:
-[разность десятичных дробей* ](*<-lang_ru;;*);
-[онды арасындағы айырмашылық* ](*<-lang_kz;;*);
-[subtract of decimal fraction* ](*<-lang_en;;*);;
+[разность десятичных дробей*](*<-lang_ru;;*);
+[онды арасындағы айырмашылық*](*<-lang_kz;;*);
+[subtract of decimal fraction*](*<-lang_en;;*);;
 
 //синонимы
 
-nrel_subtract_of_decimal_fraction=> nrel_idtf:[вычитание десятичных дробей* ](*<-lang_ru;;*);;
+nrel_subtract_of_decimal_fraction=> nrel_idtf:[вычитание десятичных дробей*](*<-lang_ru;;*);;
 
 
 //определение и пояснения

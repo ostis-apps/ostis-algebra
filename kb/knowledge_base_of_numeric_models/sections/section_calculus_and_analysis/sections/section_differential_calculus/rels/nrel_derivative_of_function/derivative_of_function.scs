@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_derivative_of_function;;
 
 nrel_derivative_of_function=>nrel_main_idtf:
-[производная функции* ] (*<-lang_ru;;*);
-[derivative of function* ] (*<-lang_en;;*);;
+[производная функции*] (*<-lang_ru;;*);
+[derivative of function*] (*<-lang_en;;*);;
 
 
 nrel_derivative_of_function<- rrel_key_sc_element:

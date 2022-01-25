@@ -1,13 +1,13 @@
 sc_node_norole_relation -> nrel_wronskian;; 
 
 nrel_wronskian => nrel_main_idtf:
-[вронскиан* ](*<-lang_ru;;*);
-[the Wronskian* ](*<-lang_en;;*);
-[Вронскийдің анықтауыш* ](*<-lang_kz;;*);;
+[вронскиан*](*<-lang_ru;;*);
+[the Wronskian*](*<-lang_en;;*);
+[Вронскийдің анықтауыш*](*<-lang_kz;;*);;
 
 //синонимы
 nrel_wronskian => nrel_idtf:
-[определитель Вронского* ](*<-lang_ru;;*);;
+[определитель Вронского*](*<-lang_ru;;*);;
 
 //надмножество
 nrel_determinant => nrel_inclusion: nrel_wronskian;;

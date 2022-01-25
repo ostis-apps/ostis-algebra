@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_vector_length;;
 nrel_vector_length=>nrel_main_idtf:
-[длина вектора* ] (*<-lang_ru;;*);
-[vector length* ] (*<-lang_en;;*);;
+[длина вектора*] (*<-lang_ru;;*);
+[vector length*] (*<-lang_en;;*);;
 
-nrel_vector_length=>nrel_main_idtf:[модуль вектора* ] (*<-lang_ru;;*);;
+nrel_vector_length=>nrel_main_idtf:[модуль вектора*] (*<-lang_ru;;*);;
 
 nrel_vector_length <- rrel_key_sc_element:
 	... 

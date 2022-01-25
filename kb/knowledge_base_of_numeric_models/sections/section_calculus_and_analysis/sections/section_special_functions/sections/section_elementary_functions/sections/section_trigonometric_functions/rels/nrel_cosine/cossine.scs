@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_cosine;;
 
 nrel_cosine=>nrel_main_idtf:
-[косинус* ](*<-lang_ru;;*);
-[cosine* ](*<-lang_en;;*);
-[косинус* ](*<-lang_kz;;*);;
+[косинус*](*<-lang_ru;;*);
+[cosine*](*<-lang_en;;*);
+[косинус*](*<-lang_kz;;*);;
 
 //синонимы
-nrel_cosine=> nrel_idtf:[cos* ](*<-lang_en;;*);;
+nrel_cosine=> nrel_idtf:[cos*](*<-lang_en;;*);;
 
 //определение
 nrel_cosine<-rrel_key_sc_element:

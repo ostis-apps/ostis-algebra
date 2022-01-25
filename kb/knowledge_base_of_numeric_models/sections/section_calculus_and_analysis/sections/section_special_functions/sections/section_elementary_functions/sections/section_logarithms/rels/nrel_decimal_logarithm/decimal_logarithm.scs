@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_decimal_logarithm;; 
 
 nrel_decimal_logarithm=>nrel_main_idtf:
-[десятичный логарифм* ](*<-lang_ru;;*);
-[үтірден кейін логарифмін* ](*<-lang_kz;;*);
-[decimal logarithm* ](*<-lang_en;;*);;
+[десятичный логарифм*](*<-lang_ru;;*);
+[үтірден кейін логарифмін*](*<-lang_kz;;*);
+[decimal logarithm*](*<-lang_en;;*);;
 
 nrel_decimal_logarithm<- rrel_key_sc_element:
 	... 

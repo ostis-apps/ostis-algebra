@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_the_construction_of_a_natural_power_monomials;; 
 
 nrel_the_construction_of_a_natural_power_monomials=>nrel_main_idtf:
-[возведение одночленов в натуральную степень* ] (*<-lang_ru;;*);
-[табиғи қуат мономиален құрылысы* ] (*<-lang_kz;;*);
-[exponentiation of monomial* ] (*<-lang_en;;*);;
+[возведение одночленов в натуральную степень*] (*<-lang_ru;;*);
+[табиғи қуат мономиален құрылысы*] (*<-lang_kz;;*);
+[exponentiation of monomial*] (*<-lang_en;;*);;
 
 //определение и пояснения
 nrel_the_construction_of_a_natural_power_monomials <- rrel_key_sc_element:

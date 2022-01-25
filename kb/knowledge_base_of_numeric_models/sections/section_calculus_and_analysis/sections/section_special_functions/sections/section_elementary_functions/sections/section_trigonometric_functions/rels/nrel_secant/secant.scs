@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_secant;;
 
 nrel_secant => nrel_main_idtf:
-[секанс* ](* <- lang_ru;; *);  
-[secant* ](* <- lang_en;; *);;
+[секанс*](* <- lang_ru;; *);  
+[secant*](* <- lang_en;; *);;
 
 nrel_secant <- rrel_key_sc_element:
 	...

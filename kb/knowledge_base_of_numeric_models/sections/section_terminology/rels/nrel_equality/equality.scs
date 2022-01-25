@@ -1,11 +1,11 @@
 sc_node_norole_relation->nrel_equality;;
 
 nrel_equality=>nrel_main_idtf:
-[равенство* ](*<-lang_ru;;*);
-[equality* ](*<-lang_en;;*);
-[теңдік* ](*<-lang_kz;;*);;
+[равенство*](*<-lang_ru;;*);
+[equality*](*<-lang_en;;*);
+[теңдік*](*<-lang_kz;;*);;
 
-nrel_equality => nrel_idtf:[равно* ](*<-lang_ru;;*);;
+nrel_equality => nrel_idtf:[равно*](*<-lang_ru;;*);;
 
 nrel_equality => nrel_mathem_idtf: [=](*<-lang_en;;*);;
 

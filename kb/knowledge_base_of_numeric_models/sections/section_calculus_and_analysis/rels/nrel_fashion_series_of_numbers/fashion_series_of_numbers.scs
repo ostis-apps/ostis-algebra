@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_fashion_series_of_numbers;; 
 
 nrel_fashion_series_of_numbers=>nrel_main_idtf:
-[мода ряда чисел* ](*<-lang_ru;;*);
-[fashion series of numbers * ](*<-lang_en;;*);;
+[мода ряда чисел*](*<-lang_ru;;*);
+[fashion series of numbers *](*<-lang_en;;*);;
 
 nrel_fashion_series_of_numbers<= nrel_using_constants: concept_number;concept_numerical_series;;
 

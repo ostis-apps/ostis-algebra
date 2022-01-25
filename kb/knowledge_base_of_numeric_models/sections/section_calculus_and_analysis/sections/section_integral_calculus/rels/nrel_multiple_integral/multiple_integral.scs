@@ -1,7 +1,7 @@
 sc_node_norole_relation-> nrel_multiple_integral;;
  nrel_multiple_integral=>nrel_main_idtf:
-[кратный интеграл* ](*<-lang_ru;;*);
-[multiple integral* ](*<-lang_en;;*);;
+[кратный интеграл*](*<-lang_ru;;*);
+[multiple integral*](*<-lang_en;;*);;
 nrel_multiple_integral<= nrel_first_domain:
 concept_function;;
 

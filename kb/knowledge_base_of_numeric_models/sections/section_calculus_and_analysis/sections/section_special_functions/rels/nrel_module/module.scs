@@ -1,6 +1,6 @@
 sc_node_norole_relation -> nrel_module;;
-nrel_module => nrel_main_idtf:	[модуль* ](* <- lang_ru;; *);  [module* ](* <- lang_en;; *);	[модуль* ](* <- lang_kz;;*);;
-nrel_module=> nrel_idtf:	[абсолютная величина* ](* <- lang_ru;; *);	[модуль числа* ](* <- lang_ru;; *);	[absolute value* ](* <- lang_en;; *);;
+nrel_module => nrel_main_idtf:	[модуль*](* <- lang_ru;; *);  [module*](* <- lang_en;; *);	[модуль*](* <- lang_kz;;*);;
+nrel_module=> nrel_idtf:	[абсолютная величина*](* <- lang_ru;; *);	[модуль числа*](* <- lang_ru;; *);	[absolute value*](* <- lang_en;; *);;
 
 nrel_module <- rrel_key_sc_element:
 	...

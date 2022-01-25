@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_multiplication;;
 
 nrel_multiplication => nrel_main_idtf:
-[умножение* ](* <- lang_ru;; *);  
-[multiplication* ](* <- lang_en;; *);
-[көбейту* ](* <- lang_kz;;*);;
+[умножение*](* <- lang_ru;; *);  
+[multiplication*](* <- lang_en;; *);
+[көбейту*](* <- lang_kz;;*);;
 
 nrel_multiplication=>nrel_mathem_idtf: [⋅] (*<-lang_en;;*);;
 nrel_multiplication=>nrel_mathem_idtf: [×] (*<-lang_en;;*);;

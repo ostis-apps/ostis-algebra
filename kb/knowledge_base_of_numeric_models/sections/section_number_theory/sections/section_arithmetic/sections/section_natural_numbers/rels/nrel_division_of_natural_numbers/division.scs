@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_division_of_natural_numbers;;
 
 nrel_division_of_natural_numbers=> nrel_main_idtf:
-[деление натуральных чисел* ](*<-lang_ru;;*);
-[табиғи сандар бөлімшесі* ](*<-lang_kz;;*);
-[division of natural numbers* ](*<-lang_en;;*);;
+[деление натуральных чисел*](*<-lang_ru;;*);
+[табиғи сандар бөлімшесі*](*<-lang_kz;;*);
+[division of natural numbers*](*<-lang_en;;*);;
 
 nrel_division_of_natural_numbers<- ternary_relation;;
 

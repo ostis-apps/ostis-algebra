@@ -1,12 +1,12 @@
 sc_node_norole_relation -> nrel_sine;;
 
 nrel_sine => nrel_main_idtf:
-[синус* ](* <- lang_ru;; *);  
-[sine* ](* <- lang_en;; *);
-[синус* ](*<-lang_kz;;*);;
+[синус*](* <- lang_ru;; *);  
+[sine*](* <- lang_en;; *);
+[синус*](*<-lang_kz;;*);;
 
 //синонимы
-nrel_sine => nrel_idtf: [sin* ](*<-lang_en;; *);;
+nrel_sine => nrel_idtf: [sin*](*<-lang_en;; *);;
 
 //определение
 nrel_sine <- rrel_key_sc_element:

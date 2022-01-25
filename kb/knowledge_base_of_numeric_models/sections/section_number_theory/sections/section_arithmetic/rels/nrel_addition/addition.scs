@@ -1,7 +1,7 @@
 sc_node_norole_relation -> nrel_addition;;
-nrel_addition => nrel_main_idtf:	[сложение* ](* <- lang_ru;; *);  [addition* ](* <- lang_en;; *);	[к,осу* ](* <- lang_kz;;*);;
+nrel_addition => nrel_main_idtf:	[сложение*](* <- lang_ru;; *);  [addition*](* <- lang_en;; *);	[к,осу*](* <- lang_kz;;*);;
 nrel_addition => nrel_mathem_idtf: [+] (*<-lang_en;;*);;
-nrel_addition => nrel_idtf:	[суммирование* ](* <- lang_ru;; *);	[прибавление* ](* <- lang_ru;; *);;
+nrel_addition => nrel_idtf:	[суммирование*](* <- lang_ru;; *);	[прибавление*](* <- lang_ru;; *);;
 
 nrel_addition <- rrel_key_sc_element:
 	...

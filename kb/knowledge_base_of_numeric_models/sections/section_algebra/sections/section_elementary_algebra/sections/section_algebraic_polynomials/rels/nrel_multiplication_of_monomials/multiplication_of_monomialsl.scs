@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_multiplication_of_monomials;; 
 
 nrel_multiplication_of_monomials=>nrel_main_idtf:
-[умножение одночленов* ] (*<-lang_ru;;*);
-[оның көбейту* ] (*<-lang_kz;;*);
-[multiplication of monomialsl* ] (*<-lang_en;;*);;
+[умножение одночленов*] (*<-lang_ru;;*);
+[оның көбейту*] (*<-lang_kz;;*);
+[multiplication of monomialsl*] (*<-lang_en;;*);;
 
 //синонимы
-nrel_multiplication_of_monomials=> nrel_idtf:[произведение одночленов* ](*<-lang_ru;;*);;
+nrel_multiplication_of_monomials=> nrel_idtf:[произведение одночленов*](*<-lang_ru;;*);;
 
 //определение и пояснения
 nrel_multiplication_of_monomials<- rrel_key_sc_element:

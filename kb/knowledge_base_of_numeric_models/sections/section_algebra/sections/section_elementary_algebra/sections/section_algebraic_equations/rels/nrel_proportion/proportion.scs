@@ -1,10 +1,10 @@
 sc_node_norole_relation->nrel_proportion;; 
 
 nrel_proportion =>nrel_main_idtf:
-[пропорция* ](*<-lang_ru;;*);
-[proportion* ](*<-lang_en;;*);;
+[пропорция*](*<-lang_ru;;*);
+[proportion*](*<-lang_en;;*);;
 
-nrel_proportion=> nrel_idtf:[два равных отношения* ](*<-lang_ru;;*);;
+nrel_proportion=> nrel_idtf:[два равных отношения*](*<-lang_ru;;*);;
 
 //используемые константы
 nrel_proportion<= nrel_using_constants: nrel_division;;

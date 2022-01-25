@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_substruction_of_monomials;;
 
 nrel_substruction_of_monomials=>nrel_main_idtf:
-[вычитание одночленов* ] (*<-lang_ru;;*);
-[субтракцион оның* ] (*<-lang_kz;;*);
-[substruction of monomials* ] (*<-lang_en;;*);;
+[вычитание одночленов*] (*<-lang_ru;;*);
+[субтракцион оның*] (*<-lang_kz;;*);
+[substruction of monomials*] (*<-lang_en;;*);;
 
 //определение и пояснения
 nrel_substruction_of_monomials<- rrel_key_sc_element:

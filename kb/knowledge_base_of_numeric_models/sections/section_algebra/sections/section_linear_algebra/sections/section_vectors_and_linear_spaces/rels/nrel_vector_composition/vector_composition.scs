@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_vector_composition;;
 
 nrel_vector_composition=>nrel_main_idtf:
-[векторное произведение* ] (*<-lang_ru;;*);
-[vector composition* ] (*<-lang_en;;*);;
+[векторное произведение*] (*<-lang_ru;;*);
+[vector composition*] (*<-lang_en;;*);;
 
 nrel_vector_composition <- ternary_relation;;
 

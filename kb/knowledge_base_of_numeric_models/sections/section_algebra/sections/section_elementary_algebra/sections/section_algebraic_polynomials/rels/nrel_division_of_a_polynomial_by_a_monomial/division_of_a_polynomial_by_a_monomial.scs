@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_division_of_a_polynomial_by_a_monomial;; 
 
 nrel_division_of_a_polynomial_by_a_monomial=>nrel_main_idtf:
-[деление многочлена на одночлен* ] (*<-lang_ru;;*);
-[бөлімшесі бойынша мономиален* ] (*<-lang_kz;;*);
-[division of a polynomial by a monomial* ] (*<-lang_en;;*);;
+[деление многочлена на одночлен*] (*<-lang_ru;;*);
+[бөлімшесі бойынша мономиален*] (*<-lang_kz;;*);
+[division of a polynomial by a monomial*] (*<-lang_en;;*);;
 
 //синонимы
-nrel_division_of_a_polynomial_by_a_monomial=> nrel_idtf:[деление многочлена* ](*<-lang_ru;;*);;
+nrel_division_of_a_polynomial_by_a_monomial=> nrel_idtf:[деление многочлена*](*<-lang_ru;;*);;
 
 //определение и пояснения
 nrel_division_of_a_polynomial_by_a_monomial<- rrel_key_sc_element:

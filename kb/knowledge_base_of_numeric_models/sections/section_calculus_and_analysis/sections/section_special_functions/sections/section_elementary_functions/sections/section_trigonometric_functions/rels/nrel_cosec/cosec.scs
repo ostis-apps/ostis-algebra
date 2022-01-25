@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_cosec;;
 
 nrel_cosec => nrel_main_idtf:
-[косеканс* ](* <- lang_ru;; *);  
-[cosecant* ](* <- lang_en;; *);;
+[косеканс*](* <- lang_ru;; *);  
+[cosecant*](* <- lang_en;; *);;
 
 nrel_cosec <- rrel_key_sc_element:
 	...

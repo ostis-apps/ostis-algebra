@@ -1,5 +1,5 @@
 sc_node_norole_relation -> nrel_integral_exponential_function;;
-nrel_integral_exponential_function => nrel_main_idtf:	[интегральная показательная функция* ](*<-lang_ru;;*);	[integral exponential function* ](*<-lang_en;;*);;
+nrel_integral_exponential_function => nrel_main_idtf:	[интегральная показательная функция*](*<-lang_ru;;*);	[integral exponential function*](*<-lang_en;;*);;
 
 concept_function => nrel_inclusion: nrel_integral_exponential_function;;
 

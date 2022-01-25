@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_subtraction_of_complex_numbers;; 
 
 nrel_subtraction_of_complex_numbers=>nrel_main_idtf:
-[разность комплексных чисел* ](*<-lang_ru;;*);
-[кешенді сандар арасындағы айырмашылық* ](*<-lang_kz;;*);
-[subtractionof complex numbers* ](*<-lang_en;;*);;
+[разность комплексных чисел*](*<-lang_ru;;*);
+[кешенді сандар арасындағы айырмашылық*](*<-lang_kz;;*);
+[subtractionof complex numbers*](*<-lang_en;;*);;
 
 //иерархия
 nrel_subtraction_of_complex_numbers<= nrel_inclusion: nrel_subtraction;;

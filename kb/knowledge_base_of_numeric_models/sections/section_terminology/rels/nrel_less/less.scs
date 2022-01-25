@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_less;;
 
 nrel_less=>nrel_main_idtf:
-[меньше* ](*<-lang_ru;;*);
-[less* ](*<-lang_en;;*);;
+[меньше*](*<-lang_ru;;*);
+[less*](*<-lang_en;;*);;
 nrel_less => nrel_mathem_idtf: [<] (*<-lang_en;;*);;
 
 //определение

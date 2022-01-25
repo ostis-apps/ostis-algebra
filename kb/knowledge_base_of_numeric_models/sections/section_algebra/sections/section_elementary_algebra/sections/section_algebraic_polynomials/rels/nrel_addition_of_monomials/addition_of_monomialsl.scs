@@ -1,15 +1,15 @@
 sc_node_norole_relation->nrel_addition_of_monomials;; 
 
 nrel_addition_of_monomials=>nrel_main_idtf:
-[сложение одночленов* ] (*<-lang_ru;;*);
-[қосу мономиален* ] (*<-lang_kz;;*);
-[addition of monomials* ] (*<-lang_en;;*);;
+[сложение одночленов*] (*<-lang_ru;;*);
+[қосу мономиален*] (*<-lang_kz;;*);
+[addition of monomials*] (*<-lang_en;;*);;
 
 //синонимы
-nrel_addition_of_monomials=> nrel_idtf:[сумма одночленов* ](*<-lang_ru;;*);;
-nrel_addition_of_monomials=> nrel_idtf:[сложение подобных одночленов* ](*<-lang_ru;;*);;
-nrel_addition_of_monomials=> nrel_idtf:[subtraction of monomial* ](*<-lang_en;;*);;
-nrel_addition_of_monomials=> nrel_idtf:[sum of monomial* ](*<-lang_en;;*);;
+nrel_addition_of_monomials=> nrel_idtf:[сумма одночленов*](*<-lang_ru;;*);;
+nrel_addition_of_monomials=> nrel_idtf:[сложение подобных одночленов*](*<-lang_ru;;*);;
+nrel_addition_of_monomials=> nrel_idtf:[subtraction of monomial*](*<-lang_en;;*);;
+nrel_addition_of_monomials=> nrel_idtf:[sum of monomial*](*<-lang_en;;*);;
 
 //определение и пояснения
 nrel_addition_of_monomials<- rrel_key_sc_element:

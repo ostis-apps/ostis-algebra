@@ -1,12 +1,12 @@
 sc_node_norole_relation-> nrel_arccotangent;;
 
 nrel_arccotangent=>nrel_main_idtf:
-[арккотангенс* ](*<-lang_ru;;*);
-[arccotangent* ](*<-lang_en;;*);
-[арктангенс* ](*<-lang_kz;;*);;
+[арккотангенс*](*<-lang_ru;;*);
+[arccotangent*](*<-lang_en;;*);
+[арктангенс*](*<-lang_kz;;*);;
 
 //синонимы
-nrel_arccotangent => nrel_idtf:[arcctg* ](*<-lang_en;;*);;
+nrel_arccotangent => nrel_idtf:[arcctg*](*<-lang_en;;*);;
 
 //определение
 nrel_arccotangent<-rrel_key_sc_element:

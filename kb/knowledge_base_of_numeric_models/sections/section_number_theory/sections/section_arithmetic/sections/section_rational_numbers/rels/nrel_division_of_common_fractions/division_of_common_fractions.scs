@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_division_of_common_fractions;; 
 
 nrel_division_of_common_fractions=>nrel_main_idtf:
-[деление обыкновенных дробей* ] (*<-lang_ru;;*);
-[фракцияларын бөлімшесі* ] (*<-lang_kz;;*);
-[division of common fractions* ] (*<-lang_en;;*);;
+[деление обыкновенных дробей*] (*<-lang_ru;;*);
+[фракцияларын бөлімшесі*] (*<-lang_kz;;*);
+[division of common fractions*] (*<-lang_en;;*);;
 
 //определение и пояснения
 nrel_division_of_common_fractions<- rrel_key_sc_element:

@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_reducing_fractions;;
 nrel_reducing_fractions=>nrel_main_idtf:
-[сокращение дробей* ] (*<-lang_ru;;*);
-[фракциялардың азайту* ] (*<-lang_kz;;*);
-[reducing fractions* ] (*<-lang_en;;*);;
+[сокращение дробей*] (*<-lang_ru;;*);
+[фракциялардың азайту*] (*<-lang_kz;;*);
+[reducing fractions*] (*<-lang_en;;*);;
 
 nrel_comparison_of_fractions <- binary_relation;;
 nrel_reducing_fractions => nrel_first_domain: concept_fraction;;

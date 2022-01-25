@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_addition_of_fractions;; 
 nrel_addition_of_fractions=>nrel_main_idtf:
-[сложение дробей* ] (*<-lang_ru;;*);
-[фракциялардың қосу* ] (*<-lang_kz;;*);
-[addition of fractions* ] (*<-lang_en;;*);;
+[сложение дробей*] (*<-lang_ru;;*);
+[фракциялардың қосу*] (*<-lang_kz;;*);
+[addition of fractions*] (*<-lang_en;;*);;
 
 //разбиение
 nrel_addition_of_fractions<= nrel_subdividing:

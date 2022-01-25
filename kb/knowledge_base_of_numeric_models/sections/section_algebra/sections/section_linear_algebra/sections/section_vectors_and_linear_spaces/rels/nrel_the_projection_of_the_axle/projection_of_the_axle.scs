@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_the_projection_of_the_axle;;
 
 nrel_the_projection_of_the_axle => nrel_main_idtf:
-[проекция вектора на ось* ](* <- lang_ru;; *);  
-[the projection of the axle* ](* <- lang_en;; *);;
+[проекция вектора на ось*](* <- lang_ru;; *);  
+[the projection of the axle*](* <- lang_en;; *);;
 
 
 //определение

@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_complanarity;;
 
 nrel_complanarity=>nrel_main_idtf:
-[компланарность* ](*<-lang_ru;;*);
-[coplanarity* ](*<-lang_en;;*);
-[компланарность* ](*<-lang_kz;;*);;
+[компланарность*](*<-lang_ru;;*);
+[coplanarity*](*<-lang_en;;*);
+[компланарность*](*<-lang_kz;;*);;
 
 //определение
 nrel_complanarity <- rrel_key_sc_element:

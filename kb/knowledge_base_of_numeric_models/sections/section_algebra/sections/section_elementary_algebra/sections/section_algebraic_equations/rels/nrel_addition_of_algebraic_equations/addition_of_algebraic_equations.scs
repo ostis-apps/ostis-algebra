@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_addition_of_algebraic_equations;;
 
 nrel_addition_of_algebraic_equations => nrel_main_idtf:
-[сложение алгебраических уравнений* ](* <- lang_ru;; *);  
-[addition of algebraic equations* ](* <- lang_en;; *);  
-[алгебралык, тен,деулер толын,тыру* ](* <- lang_kz;; *);;
+[сложение алгебраических уравнений*](* <- lang_ru;; *);  
+[addition of algebraic equations*](* <- lang_en;; *);  
+[алгебралык, тен,деулер толын,тыру*](* <- lang_kz;; *);;
 
 
 //определение

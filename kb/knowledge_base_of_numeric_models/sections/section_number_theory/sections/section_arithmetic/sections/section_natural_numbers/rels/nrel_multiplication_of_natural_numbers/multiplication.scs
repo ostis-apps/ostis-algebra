@@ -1,9 +1,9 @@
 sc_node_norole_relation -> nrel_multiplication_of_natural_numbers;;
 
 nrel_multiplication_of_natural_numbers=> nrel_main_idtf:
-[умножение натуральных чисел* ](*<-lang_ru;;*);
-[табиғи сандар көбейту* ](*<-lang_kz;;*);
-[multiplication of natural numbers* ](*<-lang_en;;*);;
+[умножение натуральных чисел*](*<-lang_ru;;*);
+[табиғи сандар көбейту*](*<-lang_kz;;*);
+[multiplication of natural numbers*](*<-lang_en;;*);;
 
 nrel_multiplication_of_natural_numbers<- ternary_relation;;
 

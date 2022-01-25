@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_trace_of_the_matrix;;
 
 nrel_trace_of_the_matrix=>nrel_main_idtf:
-[след матрицы* ] (*<-lang_ru;;*);
-[trace of the matrix* ] (*<-lang_en;;*);;
+[след матрицы*] (*<-lang_ru;;*);
+[trace of the matrix*] (*<-lang_en;;*);;
 
 nrel_trace_of_the_matrix <- binary_relation;;
 

@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_hyperfactorial;;
 
 nrel_hyperfactorial=>nrel_main_idtf:
-[гиперфакториал* ](*<-lang_ru;;*);
-[hyperfactorial* ](*<-lang_en;;*);;
+[гиперфакториал*](*<-lang_ru;;*);
+[hyperfactorial*](*<-lang_en;;*);;
 
 
 //определение

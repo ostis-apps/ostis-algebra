@@ -1,6 +1,6 @@
 sc_node_norole_relation -> nrel_sine_verzus;;
-nrel_sine_verzus => nrel_main_idtf:	[синус-верзус* ](*<-lang_ru;;*);	[sine-verzus* ](*<-lang_en;;*);;
-nrel_sine_verzus => nrel_idtf:	[версинус* ](*<-lang_ru;;*); [обращённый синус* ](*<-lang_ru;;*); [синус версус* ](*<-lang_ru;;*); [стрелка дуги* ](*<-lang_ru;;*);;
+nrel_sine_verzus => nrel_main_idtf:	[синус-верзус*](*<-lang_ru;;*);	[sine-verzus*](*<-lang_en;;*);;
+nrel_sine_verzus => nrel_idtf:	[версинус*](*<-lang_ru;;*); [обращённый синус*](*<-lang_ru;;*); [синус версус*](*<-lang_ru;;*); [стрелка дуги*](*<-lang_ru;;*);;
 
 nrel_sine_verzus <- rrel_key_sc_element:
 	... 

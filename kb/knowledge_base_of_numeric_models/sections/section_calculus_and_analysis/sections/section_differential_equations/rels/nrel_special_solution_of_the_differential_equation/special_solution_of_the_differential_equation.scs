@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_special_solution_of_the_differential_equation;; 
 
 nrel_special_solution_of_the_differential_equation => nrel_main_idtf:
-[особое решение дифференциального уравнения* ] (*<-lang_ru;;*);
-[special solution of the differential equation* ] (*<-lang_en;;*);;
+[особое решение дифференциального уравнения*] (*<-lang_ru;;*);
+[special solution of the differential equation*] (*<-lang_en;;*);;
 
 nrel_special_solution_of_the_differential_equation<- rrel_key_sc_element:
 	... 

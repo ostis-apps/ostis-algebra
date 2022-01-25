@@ -1,9 +1,9 @@
 sc_node_norole_relation ->  nrel_order_of_homogeneity;;
 
 nrel_order_of_homogeneity => nrel_main_idtf:
-[порядок однородности* ](*<-lang_ru;;*);
-[order of homogeneity* ](*<-lang_en;;*);
-[біркелкілік тәртібі* ](*<-lang_kz;;*);;
+[порядок однородности*](*<-lang_ru;;*);
+[order of homogeneity*](*<-lang_en;;*);
+[біркелкілік тәртібі*](*<-lang_kz;;*);;
 
 nrel_order_of_homogeneity <- rrel_key_sc_element:
 	...

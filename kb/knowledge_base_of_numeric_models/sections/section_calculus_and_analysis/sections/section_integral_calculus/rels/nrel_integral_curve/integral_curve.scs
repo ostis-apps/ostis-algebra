@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_integral_curve;;
 
 nrel_integral_curve=>nrel_main_idtf:
-[интегральная кривая* ](*<-lang_ru;;*);
-[ажырамас қисық* ](*<-lang_kz;;*);
-[integral curve* ](*<-lang_en;;*);;
+[интегральная кривая*](*<-lang_ru;;*);
+[ажырамас қисық*](*<-lang_kz;;*);
+[integral curve*](*<-lang_en;;*);;
 
 nrel_integral_curve => nrel_first_domain:nrel_indefinite_integral;;
 nrel_integral_curve => nrel_second_domain: concept_graph_of_the_function;;

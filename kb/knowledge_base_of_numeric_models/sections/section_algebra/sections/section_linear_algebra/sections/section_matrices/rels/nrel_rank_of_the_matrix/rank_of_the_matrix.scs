@@ -1,9 +1,9 @@
 sc_node_norole_relation->nrel_rank_of_the_matrix;;
 
 nrel_rank_of_the_matrix=>nrel_main_idtf:
-[ранг матрицы* ](*<-lang_ru;;*);
-[rank of the matrix* ](*<-lang_en;;*);
-[матрицаның рангі* ](*<-lang_kz;;*);;
+[ранг матрицы*](*<-lang_ru;;*);
+[rank of the matrix*](*<-lang_en;;*);
+[матрицаның рангі*](*<-lang_kz;;*);;
 
 
 //определение

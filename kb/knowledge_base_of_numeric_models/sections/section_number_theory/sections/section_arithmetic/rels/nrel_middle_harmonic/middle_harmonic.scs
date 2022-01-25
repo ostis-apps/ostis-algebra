@@ -1,8 +1,8 @@
 sc_node_norole_relation->nrel_middle_harmonic;;
 
 nrel_middle_harmonic=>nrel_main_idtf:
-[среднее гармоническое* ](*<-lang_ru;;*);
-[middle harmonic* ](*<-lang_en;;*);;
+[среднее гармоническое*](*<-lang_ru;;*);
+[middle harmonic*](*<-lang_en;;*);;
 
 
 //определение

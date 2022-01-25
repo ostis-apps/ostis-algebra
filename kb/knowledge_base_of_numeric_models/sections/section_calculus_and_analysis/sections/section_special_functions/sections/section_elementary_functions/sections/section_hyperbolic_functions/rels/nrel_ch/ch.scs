@@ -1,8 +1,8 @@
 sc_node_norole_relation -> nrel_ch;;
 
 nrel_ch => nrel_main_idtf:
-[гиперболический косинус* ](* <- lang_ru;; *);  
-[sh* ](* <- lang_en;; *);;
+[гиперболический косинус*](* <- lang_ru;; *);  
+[sh*](* <- lang_en;; *);;
 
 //синонимы
 nrel_ch => nrel_idtf:

@@ -1,12 +1,12 @@
 sc_node_norole_relation->nrel_subtraction_of_matrices;;
 
 nrel_subtraction_of_matrices=>nrel_main_idtf:
-[вычитание матриц* ](*<-lang_ru;;*);
-[subtraction of matrices* ](*<-lang_en;;*);
-[алу Матрица* ](*<-lang_kz;;*);;
+[вычитание матриц*](*<-lang_ru;;*);
+[subtraction of matrices*](*<-lang_en;;*);
+[алу Матрица*](*<-lang_kz;;*);;
 
 //синонимы
-nrel_subtraction_of_matrices=> nrel_idtf:[deduction of matrices* ](*<-lang_ru;;*);;
+nrel_subtraction_of_matrices=> nrel_idtf:[deduction of matrices*](*<-lang_ru;;*);;
 
 //надмножество 
 concept_arithmetic_operation => nrel_inclusion: nrel_subtraction_of_matrices;;
